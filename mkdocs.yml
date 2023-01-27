@@ -1,0 +1,65 @@
+site_name: AIPR
+use_directory_urls: false
+nav:
+- 'Artificial Intelligence':
+  - 'Sensors, typology and applications':
+    - 'Sensors': 'contents/ia/sensors.md'
+    - 'Types of sensors': 'contents/ia/types-of-sensors.md'
+    - 'Applications': 'contents/ia/sensors-applications.md'
+  - 'Initial techniques of AI: expert systems, neural networks and machine learning':
+    - 'Topic'
+  - 'Automatic information processing':
+    - 'Topic'
+  - 'Equity and inclusion in AI systems. Biases in AI': 'contents/ia/equity-inclusion.md'
+  - 'Social and ethical implications of artificial intelligence':
+    - 'Topic'
+  - 'Virtual reality techniques':
+    - 'Topic'
+- 'Programming':
+  - 'Interpretation of reality through problem modeling': 'contents/programming/problem-modeling.md'
+  - 'Abstraction, sequencing, algorithmic and its representation with natural language and flow diagrams':
+    - 'Item'
+  - 'Pattern detection and reuse. Generalization':
+    - 'Item'
+  - 'Sustainability and inclusion as software design requirements':
+    - 'Item'
+  - 'Program flow control structures':
+    - 'Item'
+  - 'Variables, constants, conditions and operators':
+    - 'Item'
+  - 'Introduction to programming in high-level languages. Types of languages. Syntax and semantics':
+    - 'Item'
+  - 'Mobile device application programming':
+    - 'Item'
+  - 'Software evaluation and maintenance':
+    - 'Item'
+  - 'Software licenses. Free software and proprietary software':
+    - 'Item'
+  - 'Controller card simulators':
+    - 'Item'
+  - 'Initiative, self-confidence and metacognition in the software development learning process':
+    - 'Item'
+- 'Robótica':
+  - 'Robot assembly':
+    - 'Item'
+  - 'Control of robotic systems':
+    - 'Item'
+  - 'Sensors, actuators and controllers':
+    - 'Item'
+  - 'Loading and execution of algorithms in robots':
+    - 'Item'
+  - 'Robotic systems in experimentation with designed prototypes':
+    - 'Item'
+theme:
+    language: es
+    name: 'readthedocs'
+    palette:
+        primary: 'Teal'
+        accent: 'Teal'
+    font:
+        text: Roboto
+        code: Roboto Mono
+    logo: 'imagenes/logo.png'
+
+#plugins:
+#    - with-pdf
