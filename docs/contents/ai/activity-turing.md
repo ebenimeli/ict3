@@ -2,7 +2,9 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3wLqsRLvV-c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-What is consciousness? Can an ____________________ (1) really think? Does the mind just consist of __________ (2) in the brain, or is there some intangible spark at its core? For many, these have been vital considerations for the future of artificial intelligence.
+# 
+
+What is consciousness? Can an &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (1) really think? Does the mind just consist of __________ (2) in the brain, or is there some intangible spark at its core? For many, these have been vital considerations for the future of artificial intelligence.
 
 But British computer scientist Alan Turing decided to disregard all these questions in favor of a much simpler one: can a computer talk like a human?
 This question led to an idea for measuring artificial intelligence that would famously come to be known as the _____________ (3).
