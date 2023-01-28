@@ -2,10 +2,13 @@ site_name: Artificial Intelligence, Programming and Robotics
 use_directory_urls: false
 nav:
 - 'Artificial Intelligence':
+  - 'Introduction to AI':
+    - 'The Turing Test': 'contents/ai/turingtest.md'
+    - 'Activity 1. The Turing Test': 'contents/ai/activity-turing.md'  
   - 'Sensors, typology and applications':
-    - 'Sensors': 'contents/ia/sensors.md'
-    - 'Types of sensors': 'contents/ia/types-of-sensors.md'
-    - 'Applications': 'contents/ia/sensors-applications.md'
+    - 'Sensors': 'contents/ai/sensors.md'
+    - 'Types of sensors': 'contents/ai/types-of-sensors.md'
+    - 'Applications': 'contents/ai/sensors-applications.md'
   - 'Initial techniques of AI: expert systems, neural networks and machine learning':
     - 'Topic'
   - 'Automatic information processing':
@@ -59,7 +62,10 @@ theme:
     font:
         text: Roboto
         code: Roboto Mono
-    #logo: 'imagenes/logo.png'
+    logo: 'images/logo_brain.png'
 
-#plugins:
-#    - with-pdf
+plugins:
+  - glightbox
+
+markdown_extensions:
+  - attr_list
