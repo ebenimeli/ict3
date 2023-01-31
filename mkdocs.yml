@@ -3,10 +3,10 @@ use_directory_urls: false
 nav:
 - 'Artificial Intelligence':
   - 'Introduction to AI':
-    - 'The Turing Test': 'contents/ai/turingtest.md'
+    - 'The Turing Test': 'contents/ai/the-turing-test.md'
     - 'Activity 1. The Turing Test': 'contents/ai/activity-turing.md'  
   - 'Sensors, typology and applications':
-    - 'Sensors': 'contents/ai/sensors.md'
+    - 'Sensors': 'contents/ai/Sensors.md'
     - 'Types of sensors': 'contents/ai/types-of-sensors.md'
     - 'Applications': 'contents/ai/sensors-applications.md'
   - 'Initial techniques of AI: expert systems, neural networks and machine learning':
@@ -62,7 +62,7 @@ theme:
     font:
         text: Roboto
         code: Roboto Mono
-    logo: 'images/logo_brain.png'
+    logo: 'images/floppy-ict3.png'
 
 plugins:
   - glightbox
