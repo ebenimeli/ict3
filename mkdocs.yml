@@ -53,7 +53,8 @@ nav:
 #    - 'Item'
 #  - 'Robotic systems in experimentation with designed prototypes':
 #    - 'Item'
-
+- 'Programación Didáctica':
+    - 'Elementos curriculares': 'pd/curriculo/curriculo.md'
 theme:
     language: es
     name: 'readthedocs'
