@@ -1,3 +1,5 @@
+![Artificial Intelligence](images/ai-brain.jpg)
+
 # Artificial Intelligence (AI) terms
 
 - **AI-Powered Assistant**: An AI-powered assistant is a virtual assistant that uses artificial intelligence (AI) technology to understand and respond to user requests. AI-powered assistants can be used to perform tasks such as scheduling appointments, setting reminders, providing information, and answering questions.
