@@ -4,34 +4,35 @@ nav:
 - 'Artificial Intelligence':
   - 'Introduction to AI':
     - 'The Turing Test': 'contents/ai/the-turing-test.md'
-    - 'Activity 1. The Turing Test': 'contents/ai/activity-turing.md'  
-  - 'Sensors, typology and applications':
-    - 'Sensors': 'contents/ai/Sensors.md'
-    - 'Types of sensors': 'contents/ai/types-of-sensors.md'
-    - 'Applications': 'contents/ai/sensors-applications.md'
-  - 'Initial techniques of AI: expert systems, neural networks and machine learning':
-    - 'Topic'
-  - 'Automatic information processing':
-    - 'Topic'
-  - 'Equity and inclusion in AI systems. Biases in AI': 'contents/ia/equity-inclusion.md'
-  - 'Social and ethical implications of artificial intelligence':
-    - 'Topic'
-  - 'Virtual reality techniques':
-    - 'Topic'
-- 'Programming':
-  - 'Interpretation of reality through problem modeling': 'contents/programming/problem-modeling.md'
-  - 'Abstraction, sequencing, algorithmic and its representation with natural language and flow diagrams':
-    - 'Item'
-  - 'Pattern detection and reuse. Generalization':
-    - 'Item'
-  - 'Sustainability and inclusion as software design requirements':
-    - 'Item'
-  - 'Program flow control structures':
-    - 'Item'
-  - 'Variables, constants, conditions and operators':
-    - 'Item'
-  - 'Introduction to programming in high-level languages. Types of languages. Syntax and semantics':
-    - 'Item'
+    - 'AI terms' : 'contents/ai/terms.md'
+  #  - 'Activity 1. The Turing Test': 'contents/ai/activity-turing.md'  
+  #- 'Sensors, typology and applications':
+  #  - 'Sensors': 'contents/ai/Sensors.md'
+  #  - 'Types of sensors': 'contents/ai/types-of-sensors.md'
+  #  - 'Applications': 'contents/ai/sensors-applications.md'
+  #- 'Initial techniques of AI: expert systems, neural networks and machine learning':
+  #  - 'Topic'
+  #- 'Automatic information processing':
+  #  - 'Topic'
+  #- 'Equity and inclusion in AI systems. Biases in AI': 'contents/ia/equity-inclusion.md'
+  #- 'Social and ethical implications of artificial intelligence':
+  #  - 'Topic'
+  #- 'Virtual reality techniques':
+  #  - 'Topic'
+#- 'Programming':
+#  - 'Interpretation of reality through problem modeling': 'contents/programming/problem-modeling.md'
+#  - 'Abstraction, sequencing, algorithmic and its representation with natural language and flow diagrams':
+#    - 'Item'
+#  - 'Pattern detection and reuse. Generalization':
+#    - 'Item'
+#  - 'Sustainability and inclusion as software design requirements':
+#    - 'Item'
+#  - 'Program flow control structures':
+#    - 'Item'
+#  - 'Variables, constants, conditions and operators':
+#    - 'Item'
+#  - 'Introduction to programming in high-level languages. Types of languages. Syntax and semantics':
+#    - 'Item'
 #  - 'Mobile device application programming':
 #    - 'Item'
 #  - 'Software evaluation and maintenance':
@@ -53,8 +54,8 @@ nav:
 #    - 'Item'
 #  - 'Robotic systems in experimentation with designed prototypes':
 #    - 'Item'
-- 'Programación Didáctica':
-    - 'Elementos curriculares': 'pd/curriculo/curriculo.md'
+#- 'Programación Didáctica':
+#    - 'Elementos curriculares': 'pd/curriculo/curriculo.md'
 theme:
     language: es
     name: 'readthedocs'
