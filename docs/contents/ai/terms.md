@@ -10,6 +10,10 @@ An AI-powered assistant is a virtual assistant that uses artificial intelligence
 
 Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to perform tasks that would typically require human intelligence, such as reasoning, learning, perception, and problem-solving.
 
+> Artificial intelligence is everywhere and it's already making a huge impact on our lives. It's autocompleting texts on our cellphones, telling us which videos to watch on YouTube, beating us at video games, recognizing us in photos, ordering products in stores, driving cars, scheduling appointments, you get the idea. Today we're going to explain what AI can (and can't) do right now and explain how we got to where we are today. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/a0_lo_GDcFw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Chatbot
 
 A chatbot is an AI-powered computer program designed to simulate conversation with human users, typically through text messages or voice interactions. Chatbots can be used for customer service, sales, marketing, and other applications.
@@ -68,13 +72,17 @@ Natural Language Generation is a field of artificial intelligence that focuses o
 
 Natural Language Processing is a field of artificial intelligence that focuses on enabling computers to understand, interpret, and generate human language.
 
->Today we’re going to talk about how computers understand speech and speak themselves. As computers play an increasing role in our daily lives there has been an growing demand for voice user interfaces, but speech is also terribly complicated. Vocabularies are diverse, sentence structures can often dictate the meaning of certain words, and computers also have to deal with accents, mispronunciations, and many common linguistic faux pas. The field of Natural Language Processing, or NLP, attempts to solve these problems, with a number of techniques we’ll discuss today. And even though our virtual assistants like Siri, Alexa, Google Home, Bixby, and Cortana have come a long way from the first speech processing and synthesis models, there is still much room for improvement. 
+> We’re going to talk about how computers understand speech and speak themselves. As computers play an increasing role in our daily lives there has been an growing demand for voice user interfaces, but speech is also terribly complicated. Vocabularies are diverse, sentence structures can often dictate the meaning of certain words, and computers also have to deal with accents, mispronunciations, and many common linguistic faux pas. The field of Natural Language Processing, or NLP, attempts to solve these problems, with a number of techniques we’ll discuss today. And even though our virtual assistants like Siri, Alexa, Google Home, Bixby, and Cortana have come a long way from the first speech processing and synthesis models, there is still much room for improvement. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fOvTtapxa9c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Neural Network
 
 A neural network is a type of artificial intelligence algorithm that is modeled after the structure and function of the human brain. Neural networks are often used in deep learning applications.
+
+> We're going to combine the artificial neuron we created last week into an artificial neural network. Artificial neural networks are better than other methods for more complicated tasks like image recognition, and the key to their success is their hidden layers. We'll talk about how the math of these networks work and how using many hidden layers allows us to do deep learning. Neural networks are really powerful at finding patterns in data which is why they've become one of the most dominant machine learning technologies used today. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oV3ZY6tJiA0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Reinforcement Learning
 
@@ -83,6 +91,10 @@ Reinforcement learning is a type of machine learning that involves training an a
 ## Supervised Learning
 
 Supervised learning is a type of machine learning that involves training an algorithm using labeled data, where the desired output is known.
+
+> Today we’re going to teach John Green Bot how to tell the difference between donuts and bagels using supervised learning! Supervised learning is the process of learning WITH training labels, and is the most widely used kind of learning with it comes to AI - helping with stuff like tagging photos on Facebook and filtering spam from your email. We’re going to start small today and show how just a single neuron (or perceptron) is constructed, and explain the differences between precision and recall. Next week, we'll build our first neural network. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4qVRBYAdLAo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Training Data
 
@@ -101,3 +113,7 @@ Lesson by Alex Gendler, animation by Patrick Smith.
 ## Unsupervised Learning
 
 Unsupervised learning is a type of machine learning that involves training an algorithm using unlabeled data, where the desired output is unknown. The algorithm must find patterns and relationships in the data on its own.
+
+> We’re moving on from artificial intelligence that needs training labels, called Supervised Learning, to Unsupervised Learning which is learning by finding patterns in the world. We’ll focus on the performing unsupervised clustering, specifically K-means clustering, and show you how we can extract meaningful patterns from data even when you don't know where those patterns are.   
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JnnaDNNb380" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
