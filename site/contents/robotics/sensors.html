@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+
+<html class="writer-html5" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../../img/favicon.ico" rel="shortcut icon"/>
+<title>Sensors - Artificial Intelligence, Programming and Robotics</title>
+<link href="../../css/theme.css" rel="stylesheet"/>
+<link href="../../css/theme_extra.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" rel="stylesheet"/>
+<link href="../../css/ict.css" rel="stylesheet"/>
+<script>
+        // Current page data
+        var mkdocs_page_name = "Sensors";
+        var mkdocs_page_input_path = "contents/robotics/sensors.md";
+        var mkdocs_page_url = null;
+      </script>
+<script defer="" src="../../js/jquery-3.6.0.min.js"></script>
+<!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            </style><script src="../../assets/javascripts/glightbox.min.js"></script></head>
+<body class="wy-body-for-nav" role="document">
+<div class="wy-grid-for-nav">
+<nav class="wy-nav-side stickynav" data-toggle="wy-nav-shift">
+<div class="wy-side-scroll">
+<div class="wy-side-nav-search">
+<a href="../..">
+<img alt="Logo" class="logo" src="../../images/floppy-ict3.png"/>
+</a><div role="search">
+<form action="../../search.html" class="wy-form" id="rtd-search-form" method="get">
+<input name="q" placeholder="Search docs" title="Type search term here" type="text"/>
+</form>
+</div>
+</div>
+<div aria-label="Navigation menu" class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation">
+<p class="caption"><span class="caption-text">Artificial Intelligence</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="#">Introduction to AI</a>
+<ul>
+<li class="toctree-l2"><a class="reference internal" href="../ai/the-turing-test.html">The Turing Test</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../ai/terms.html">AI terms</a>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Robotics</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="#">Introduction to Robotics</a>
+<ul>
+<li class="toctree-l2"><a class="reference internal" href="robots.html">What is a robot?</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="robots_ai.html">Robots and AI</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="crashcourse_robots.html">Robots</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="crashcourse_robotics_ai.html">Robotics and AI</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="crashcourse_robots_engineering.html">How Engineering Robots Works</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#">Control of robotic systems</a>
+<ul>
+<li class="toctree-l2"><a class="reference internal" href="mblock.html">Introduction to mBlock</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal current" href="#">Sensors, actuators and controllers</a>
+<ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="intro_sens_act_contr.html">Introduction</a>
+</li>
+<li class="toctree-l2 current"><a class="reference internal current" href="sensors.html">Sensors</a>
+<ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="#definition-of-sensor">Definition of sensor</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#types-of-sensors">Types of sensors</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#quiz">Quiz</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="actuators.html">Actuators</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="controllers.html">Controllers</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="mbot.html">mBot</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="robotresearch.html">Project: Robot Research</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<section class="wy-nav-content-wrap" data-toggle="wy-nav-shift">
+<nav aria-label="Mobile navigation menu" class="wy-nav-top" role="navigation">
+<i class="fa fa-bars" data-toggle="wy-nav-top"></i>
+<a href="../..">Artificial Intelligence, Programming and Robotics</a>
+</nav>
+<div class="wy-nav-content">
+<div class="rst-content"><div aria-label="breadcrumbs navigation" role="navigation">
+<ul class="wy-breadcrumbs">
+<li><a alt="Docs" class="icon icon-home" href="../.."></a> »</li>
+<li>Robotics »</li>
+<li>Sensors, actuators and controllers »</li>
+<li>Sensors</li>
+<li class="wy-breadcrumbs-aside">
+</li>
+</ul>
+<hr/>
+</div>
+<div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main"><a class="md-content__icon pdf-download-btn" download href="../../pandoc/contents/robotics/sensors.pdf" title="Download"><i class="fa fas fa-download"></i><small> sensors.pdf </small></a>
+<div class="section" itemprop="articleBody">
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="images/computer_vision.jpg"><img alt="Computer Vision" src="images/computer_vision.jpg"/></a></p>
+<h1 id="sensors">Sensors</h1>
+<h2 id="definition-of-sensor">Definition of sensor</h2>
+<p><strong>Sensors</strong> are devices that can <strong>detect and measure</strong> physical and environmental conditions such as temperature, light, sound, and movement. In this lesson, we will learn about the different types of sensors used in AI applications and the different ways in which they can be used.</p>
+<h2 id="types-of-sensors">Types of sensors</h2>
+<ul>
+<li>
+<p><strong>Optical sensors</strong>: These sensors detect light and are used in applications such as facial recognition, object detection, and image processing. Examples of optical sensors include cameras and lidar sensors.</p>
+</li>
+<li>
+<p><strong>Temperature sensors</strong>: These sensors measure temperature and are used in applications such as climate control and food safety. Examples of temperature sensors include thermocouples and thermistors.</p>
+</li>
+<li>
+<p><strong>Pressure sensors</strong>: These sensors measure pressure and are used in applications such as industrial automation, weather forecasting, and healthcare. Examples of pressure sensors include piezoelectric sensors and strain gauge sensors.</p>
+</li>
+<li>
+<p><strong>Accelerometer sensors</strong>: These sensors measure acceleration and are used in applications such as motion detection, navigation, and gaming. Examples of accelerometer sensors include MEMS accelerometers and piezoelectric accelerometers.</p>
+</li>
+<li>
+<p><strong>Gyroscopic sensors</strong>: These sensors measure angular velocity and are used in applications such as navigation, gaming, and robotics. Examples of gyroscopic sensors include MEMS gyroscopes and fiber optic gyroscopes.</p>
+</li>
+<li>
+<p><strong>Magnetic sensors</strong>: These sensors measure magnetic fields and are used in applications such as navigation, industrial automation, and healthcare. Examples of magnetic sensors include Hall effect sensors and magnetoresistive sensors.</p>
+</li>
+<li>
+<p><strong>Ultrasonic sensors</strong>: These sensors measure distance and are used in applications such as object detection, navigation, and industrial automation. Examples of ultrasonic sensors include sonar sensors and lidar sensors.</p>
+</li>
+<li>
+<p><strong>Infrared sensors</strong>: These sensors detect infrared radiation and are used in applications such as temperature measurement, night vision, and gesture recognition. Examples of infrared sensors include thermopile sensors and pyroelectric sensors.</p>
+</li>
+<li>
+<p><strong>Proximity sensors</strong>: These sensors detect the presence of objects and are used in applications such as gesture recognition, object detection, and access control. Examples of proximity sensors include infrared proximity sensors and ultrasonic proximity sensors.</p>
+</li>
+<li>
+<p><strong>Light sensors</strong>: These sensors detect light and are used in applications such as light control, gesture recognition, and object detection. Examples of light sensors include photodiodes and phototransistors.</p>
+</li>
+<li>
+<p><strong>Humidity sensors</strong>: These sensors measure humidity and are used in applications such as weather forecasting, agriculture, and healthcare. Examples of humidity sensors include capacitive humidity sensors and resistive humidity sensors.</p>
+</li>
+<li>
+<p><strong>Gas sensors</strong>: These sensors detect the presence of gases and are used in applications such as environmental monitoring, industrial automation, and healthcare. Examples of gas sensors include electrochemical gas sensors and metal oxide gas sensors.</p>
+</li>
+</ul>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="images/quiz.jpg"><img alt="Computer Vision" src="images/quiz.jpg"/></a></p>
+<h2 id="quiz">Quiz</h2>
+<p><strong>1. What do sensors detect and measure?</strong></p>
+<p>a) Physical and environmental conditions<br/>
+b) Human emotions<br/>
+c) Food flavors<br/>
+d) Political opinions<br/></p>
+<p><strong>2. Which type of sensor is used in facial recognition and image processing?</strong></p>
+<p>a) Temperature sensors<br/>
+b) Pressure sensors<br/>
+c) Optical sensors<br/>
+d) Magnetic sensors<br/></p>
+<p><strong>3. Which type of sensor measures acceleration?</strong></p>
+<p>a) Temperature sensors<br/>
+b) Gyroscopic sensors<br/>
+c) Humidity sensors<br/>
+d) Gas sensors<br/></p>
+<p><strong>4. What do proximity sensors detect?</strong></p>
+<p>a) The presence of objects<br/>
+b) The color of objects<br/>
+c) The weight of objects<br/>
+d) The shape of objects<br/></p>
+<p><strong>5. What type of sensors measure angular velocity and can be used in navigation and robotics?</strong></p>
+<p>a) Gyroscopic sensors<br/>
+b) Temperature sensors<br/>
+c) Infrared sensors<br/>
+d) Gas sensors<br/></p>
+</div>
+</div><footer>
+<div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
+<a class="btn btn-neutral float-left" href="intro_sens_act_contr.html" title="Introduction"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+<a class="btn btn-neutral float-right" href="actuators.html" title="Actuators">Next <span class="icon icon-circle-arrow-right"></span></a>
+</div>
+<hr/>
+<div role="contentinfo">
+<!-- Copyright etc -->
+</div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+</div>
+</div>
+</section>
+</div>
+<div aria-label="Versions" class="rst-versions" role="note">
+<span class="rst-current-version" data-toggle="rst-current-version">
+<span><a href="intro_sens_act_contr.html" style="color: #fcfcfc">« Previous</a></span>
+<span><a href="actuators.html" style="color: #fcfcfc">Next »</a></span>
+</span>
+</div>
+<script>var base_url = '../..';</script>
+<script defer="" src="../../js/theme_extra.js"></script>
+<script defer="" src="../../js/theme.js"></script>
+<script defer="" src="../../search/main.js"></script>
+<script defer="">
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+<script>const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});</script></body>
+</html>
