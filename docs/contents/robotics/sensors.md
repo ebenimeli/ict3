@@ -70,3 +70,29 @@ a) Gyroscopic sensors<br/>
 b) Temperature sensors<br/>
 c) Infrared sensors<br/>
 d) Gas sensors<br/>
+
+## Glossary
+
+| English                  | Spanish                   | Example Sentence (English)                                                                         |
+|--------------------------|---------------------------|----------------------------------------------------------------------------------------------------|
+| **Accelerometer sensors**| Sensores de aceleración   | "The **accelerometer sensors** detected sudden movements and adjusted the robot's trajectory."       |
+| **Color sensors**        | Sensores de color         | "The robot's **color sensors** enabled it to distinguish between different objects based on hue."     |
+| **Force sensors**        | Sensores de fuerza        | "The robot used **force sensors** to measure the applied force during object manipulation."          |
+| **Gas sensors**          | Sensores de gas           | "The robot's safety was enhanced by **gas sensors** that detected hazardous fumes."                  |
+| **Gyroscopic sensors**   | Sensores giroscópicos     | "The robot's precise movements were achieved with the help of **gyroscopic sensors**."               |
+| **Humidity sensors**     | Sensores de humedad       | "The **humidity sensors** ensured optimal conditions for plant growth in automated farming."         |
+| **Infrared sensors**     | Sensores infrarrojos      | "The **infrared sensors** detected human body heat for gesture recognition."                         |
+| **Light sensors**        | Sensores de luz           | "The robot adjusted its behavior based on the readings from the **light sensors**."                  |
+| **Magnetic sensors**     | Sensores magnéticos       | "The robot relied on **magnetic sensors** to navigate and avoid obstacles in its path."              |
+| **Motion sensors**       | Sensores de movimiento    | "The robot's behavior was influenced by the readings from the **motion sensors** in its environment."|
+| **Pressure sensors**     | Sensores de presión       | "The robot used **pressure sensors** to monitor the gripping force during assembly tasks."           |
+| **Proximity sensors**    | Sensores de proximidad    | "The robot's precise movements were achieved with the help of **proximity sensors**."               |
+| **Sound sensors**        | Sensores de sonido        | "The robot utilized **sound sensors** to identify specific audio patterns in its environment."       |
+| **Temperature sensors**  | Sensores de temperatura   | "The robot's **temperature sensors** ensured optimal conditions for storing perishable goods."        |
+| **Touch sensors**        | Sensores táctiles         | "The robot's **touch sensors** allowed it to detect and respond to human touch."                     |
+| **Ultrasonic sensors**   | Sensores ultrasónicos     | "The robot used **ultrasonic sensors** to detect the presence of objects in its vicinity."           |
+| **Vibration sensors**    | Sensores de vibración     | "The robot's navigation system incorporated **vibration sensors** for terrain analysis."             |
+| **GPS sensors**          | Sensores GPS              | "The robot relied on **GPS sensors** to navigate outdoor environments with precise location tracking."|
+| **Humidity sensors**     | Sensores de humedad       | "The **humidity sensors** ensured optimal conditions for weather forecasting and agriculture."       |
+| **Infrared sensors**     | Sensores infrarrojos      | "The **infrared sensors** detected human body heat for gesture recognition."                         |
+| **Light sensors**        | Sensores de luz           | "The robot adjusted its behavior based on the readings from the **light
