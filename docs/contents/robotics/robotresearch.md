@@ -29,14 +29,14 @@ Use PowerPoint to create a presentation to share your research with the class.
 Your presentation should include the following:
 
 - **Introduction**: Introduce the robot and explain why you chose it.
-- Purpose: Describe what the robot is designed to do.
-- Design: Share images and descriptions of the robot's design and components.
-- Sensors: Explain what sensors the robot uses and how they work.
-- Actuators: Explain what actuators the robot uses and how they work.
-- Controller: Describe the type of controller the robot uses and how it manages the robot's behavior.
-- Innovations: Discuss what makes this robot advanced and innovative.
-- Applications: Share some potential applications for the robot.
-- Conclusion: Summarize the key points and why this robot is interesting or important.
+- **Purpose**: Describe what the robot is designed to do.
+- **Design**: Share images and descriptions of the robot's design and components.
+- **Sensors**: Explain what sensors the robot uses and how they work.
+- **Actuators**: Explain what actuators the robot uses and how they work.
+- **Controller**: Describe the type of controller the robot uses and how it manages the robot's behavior.
+- **Innovations**: Discuss what makes this robot advanced and innovative.
+- **Applications**: Share some potential applications for the robot.
+- **Conclusion**: Summarize the key points and why this robot is interesting or important.
 
 ## Part 4: Presenting to the class
 

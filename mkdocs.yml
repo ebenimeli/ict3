@@ -80,8 +80,8 @@ theme:
 
 plugins:
   - glightbox
-  - search
-  - pandoc
+#  - search
+#  - pandoc
 
 markdown_extensions:
   - attr_list
