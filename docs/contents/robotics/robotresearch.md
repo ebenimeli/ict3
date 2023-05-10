@@ -14,13 +14,13 @@ Use reliable sources such as academic journals, reputable websites, and news art
 
 Gather information on the following aspects of the robot:
 
-- Purpose: What is the robot designed to do?
-- Design: What does the robot look like? What components make up the robot?
-- Sensors: What sensors does the robot use to interact with its environment?
-- Actuators: What actuators does the robot use to move and interact with its environment?
-- Controller: What type of controller does the robot use to manage its behavior?
-- Innovations: What makes this robot advanced and innovative? What sets it apart from other robots?
-- Applications: What are some of the potential applications for this robot? How might it be used in industry or everyday life?
+- **Purpose**: What is the robot designed to do?
+- **Design**: What does the robot look like? What components make up the robot?
+- **Sensors**: What sensors does the robot use to interact with its environment?
+- **Actuators**: What actuators does the robot use to move and interact with its environment?
+- **Controller**: What type of controller does the robot use to manage its behavior?
+- **Innovations**: What makes this robot advanced and innovative? What sets it apart from other robots?
+- **Applications**: What are some of the potential applications for this robot? How might it be used in industry or everyday life?
 
 ## Part 3: Creating a presentation
 
@@ -28,7 +28,7 @@ Use PowerPoint to create a presentation to share your research with the class.
 
 Your presentation should include the following:
 
-- Introduction: Introduce the robot and explain why you chose it.
+- **Introduction**: Introduce the robot and explain why you chose it.
 - Purpose: Describe what the robot is designed to do.
 - Design: Share images and descriptions of the robot's design and components.
 - Sensors: Explain what sensors the robot uses and how they work.
