@@ -80,7 +80,7 @@ theme:
 
 plugins:
   - glightbox
-#  - search
+  - search
 #  - pandoc
 
 markdown_extensions:
