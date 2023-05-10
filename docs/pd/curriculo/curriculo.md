@@ -2,8 +2,8 @@
 
 ## Competencias clave
 
-* **CCL**: competencia en comunicación lingüística
-* **CP**: competencia plurilingüe
+* **CCL**: competencia en comunicación lingüística
+* **CP**: competencia plurilingüe
 * **CMCT**: competencia matemática, ciencia y tecnológica
 * **CD**: competencia digital
 * **CPSAA**: competencia personal, social y de aprender a aprender
@@ -36,7 +36,7 @@
 * Sensores, tipología y aplicaciones.
 <!--* Fundamentos de la IA. Árboles de decisión. big data, redes neuronales. [2]-->
 * Técnicas iniciales de IA: sistemas expertos, redes neuronales y aprendizaje automático.
-* Procesado autom􀁩tico de la información.
+* Procesado automático de la información.
 * Equidad e inclusión en sistemas de IA. Sesgos en IA.
 * Implicaciones sociales y éticas de la inteligencia artificial.
 * Técnicas de virtualización de la realidad.
@@ -89,7 +89,7 @@ texto.
 
 **CE2**. Aplicar el pensamiento computacional en el análisis y resolución de problemas básicos y significativos para el alumnado mediante el desarrollo de software.
 
-* 2.1. Analizar problemas b􀁩sicos significativos para el alumnado, mediante el uso de las estructuras de control más adecuadas.
+* 2.1. Analizar problemas básicos significativos para el alumnado, mediante el uso de las estructuras de control más adecuadas.
 * 2.2. Evaluar y mantener las aplicaciones informáticas desarrolladas por el propio alumnado.
 * 2.3. Planificar de forma autónoma la solución de problemas básicos, utilizando los algoritmos y las estructuras de datos más adecuados.
 * 2.4. Programar aplicaciones sencillas multiplataforma de manera autónoma para resolver problemas básicos.

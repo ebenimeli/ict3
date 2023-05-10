@@ -81,7 +81,9 @@ theme:
 plugins:
   - glightbox
   - search
-#  - pandoc
+  - pandoc
+  #pandoc:
+    - combined: true
 
 markdown_extensions:
   - attr_list
