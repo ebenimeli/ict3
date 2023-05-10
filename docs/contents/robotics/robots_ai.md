@@ -1,4 +1,4 @@
-![Cyborg](images/cyborg.jpg)
+![Cyborg](/docs/contents/robotics/images/cyborg.jpg)
 
 # Robots and AI
 
