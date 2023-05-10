@@ -2,7 +2,7 @@
 title: "Robots and Artificial Intelligence"
 author: Enrique Benimeli
 date: May 10, 2023
-geometry: "left=3cm,right=3cm,top=2cm,bottom=2cm"
+geometry: "left=2cm,right=2cm,top=2cm,bottom=2cm"
 output: pdf_document
 ---
 
