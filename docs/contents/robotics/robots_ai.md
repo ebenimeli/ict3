@@ -1,4 +1,4 @@
-![Cyborg](contents/robotics/images/cyborg.jpg)
+![Cyborg](https://docs.esferatic.com/ict3/contents/robotics/images/cyborg.jpg)
 
 # Robots and AI
 
