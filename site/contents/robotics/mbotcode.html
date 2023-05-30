@@ -6,15 +6,15 @@
 <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <link href="../../img/favicon.ico" rel="shortcut icon"/>
-<title>Introduction to mBlock - Artificial Intelligence, Programming and Robotics</title>
+<title>Project (II): mBot Robot Programming - Artificial Intelligence, Programming and Robotics</title>
 <link href="../../css/theme.css" rel="stylesheet"/>
 <link href="../../css/theme_extra.css" rel="stylesheet"/>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" rel="stylesheet"/>
 <link href="../../css/ict.css" rel="stylesheet"/>
 <script>
         // Current page data
-        var mkdocs_page_name = "Introduction to mBlock";
-        var mkdocs_page_input_path = "contents/robotics/mblock.md";
+        var mkdocs_page_name = "Project (II): mBot Robot Programming";
+        var mkdocs_page_input_path = "contents/robotics/mbotcode.md";
         var mkdocs_page_url = null;
       </script>
 <script defer="" src="../../js/jquery-3.6.0.min.js"></script>
@@ -70,15 +70,9 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l1 current"><a class="reference internal current" href="#">Control of robotic systems</a>
-<ul class="current">
-<li class="toctree-l2 current"><a class="reference internal current" href="mblock.html">Introduction to mBlock</a>
-<ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="#what-is-mblock-5">What Is mBlock 5?</a>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="#software-versions">Software versions</a>
-</li>
-</ul>
+<li class="toctree-l1"><a class="reference internal" href="#">Control of robotic systems</a>
+<ul>
+<li class="toctree-l2"><a class="reference internal" href="mblock.html">Introduction to mBlock</a>
 </li>
 </ul>
 </li>
@@ -98,7 +92,11 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="robotresearch.html">Project (I): Robot Research</a>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="mbotcode.html">Project (II): mBot Robot Programming</a>
+<li class="toctree-l1 current"><a class="reference internal current" href="mbotcode.html">Project (II): mBot Robot Programming</a>
+<ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="#main-code">Main code</a>
+</li>
+</ul>
 </li>
 </ul>
 </div>
@@ -114,8 +112,7 @@
 <ul class="wy-breadcrumbs">
 <li><a alt="Docs" class="icon icon-home" href="../.."></a> »</li>
 <li>Robotics »</li>
-<li>Control of robotic systems »</li>
-<li>Introduction to mBlock</li>
+<li>Project (II): mBot Robot Programming</li>
 <li class="wy-breadcrumbs-aside">
 </li>
 </ul>
@@ -123,24 +120,38 @@
 </div>
 <div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
 <div class="section" itemprop="articleBody">
-<h1 id="mblock">mBlock</h1>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="images/mblock_screenshot.png"><img alt="mBlock" src="images/mblock_screenshot.png"/></a></p>
-<h2 id="what-is-mblock-5">What Is mBlock 5?</h2>
-<p>mBlock 5 is designed for the Science, Technology, Engineering, Arts and Mathematics (STEAM) education. Inspired by Scratch 3.0, it supports both graphical and textual programming languages.</p>
-<p>Currently, more than 10 million people are using it to learn programming, create their own projects, and share their creations. With mBlock 5, you can design engaging stories, games, and animations, and program devices such as Makeblock robots and microbit.</p>
-<p>On mBlock 5, you can switch to the Python mode simply with one-click. In addition, mBlock 5 integrates cutting-edge technologies including Artificial Intelligence (AI) and Internet of Things (IoT).</p>
-<h2 id="software-versions">Software versions</h2>
-<p>Currently, the following versions are available:</p>
+<h1 id="mbot-robot-programming">mBot Robot Programming</h1>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="images/mbot.png"><img alt="mBot" src="images/mbot.png"/></a></p>
+<h2 id="main-code">Main code</h2>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="images/mbot_start.png"><img alt="Main code" src="images/mbot_start.png"/></a></p>
+<h1 id="the-ultrasonic-sensor">The Ultrasonic Sensor</h1>
+<p>Me Ultrasonic module is an electronic module designed for distance detection. The distance range it can detect is 3-400 cm. mBot can use this module to avoid obstacles or for other programs about distance detection. The yellow tag on the interface of this module indicates that it is a single digital interface and that it should be connected to a port with the yellow tag on the main control board.</p>
+<p>The ultrasonic sensor measures distance. One of the “eyes” transmits a sound, and the other waits for the echo of the sound to return. From the time this process takes, the distance of the object from the sensor can be calculated.</p>
+<p>The ultrasonic sensor has a range of 3-400cm. If an object is outside this range, the sensor will return a value of 400.</p>
+<h2 id="checkobstacles-block"><em>CheckObstacles</em> block</h2>
+<p>This block is used to check for obstacles in front of the mBot. It allows the program to detect if there is an obstacle in the path of the robot using its sensors, such as the ultrasonic sensor.</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="images/mbot_CheckObstacles.png"><img alt="mBot" src="images/mbot_CheckObstacles.png"/></a></p>
+<h2 id="moveforward-block"><em>MoveForward</em> block</h2>
+<p>This block commands the mBot to move forward in a straight line.</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="images/mBot_MoveForward.png"><img alt="mBot" src="images/mBot_MoveForward.png"/></a></p>
+<h2 id="turnrandom-block"><em>TurnRandom</em> block</h2>
+<p>This block instructs the mBot to turn in a random direction. It can be used to introduce randomness in the robot's movement or to create unpredictable behaviors.</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="images/mBot_TurnRandom.png"><img alt="mBot" src="images/mBot_TurnRandom.png"/></a></p>
+<h1 id="the-line-follower">The Line Follower</h1>
+<p>The line follower has 2 sensors which can detect a white surface (within the range of 1-2cm).</p>
+<p>It works by emitting IR (InfraRed) light and recording how much is reflected back:</p>
 <ul>
-<li>For <strong>PCs</strong> (software required): <a href="https://www.mblock.cc/en-us/download">www.mblock.cc/en-us/download</a></li>
-<li><strong>Web version</strong> (no software required): <a href="https://ide.mblock.cc/">ide.mblock.cc/</a></li>
-<li>For <strong>Android</strong> and <strong>iOS</strong>: Search for mBlock on any app store to download it</li>
+<li>If a lot is reflected back, it can be deduced it is close to a white surface.</li>
+<li>If a little is reflected back, it can be deduced that the surface is black, or the sensor is not near a surface.</li>
 </ul>
+<h1 id="followpath-block"><em>FollowPath</em> block</h1>
+<p>This block instructs the mBot to follow a line using its line-following sensors. The block typically includes parameters or inputs to specify the speed or power at which the robot should move and the behavior it should exhibit when encountering different line configurations.</p>
+<p>The line-following sensors on the mBot detect the contrast between a line and the surrounding surface. The robot uses this information to determine its position relative to the line and adjust its movement accordingly. The <em>mBot_FollowPath</em> block allows users to define the specific actions the robot should take to stay on the line, such as turning left or right, stopping, or adjusting its speed.</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="images/mBot_FollowPath.png"><img alt="mBot" src="images/mBot_FollowPath.png"/></a></p>
 </div>
 </div><footer>
 <div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
-<a class="btn btn-neutral float-left" href="crashcourse_robots_engineering.html" title="How Engineering Robots Works"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-<a class="btn btn-neutral float-right" href="intro_sens_act_contr.html" title="Introduction">Next <span class="icon icon-circle-arrow-right"></span></a>
+<a class="btn btn-neutral float-left" href="robotresearch.html" title="Project (I): Robot Research"><span class="icon icon-circle-arrow-left"></span> Previous</a>
 </div>
 <hr/>
 <div role="contentinfo">
@@ -155,8 +166,7 @@
 </div>
 <div aria-label="Versions" class="rst-versions" role="note">
 <span class="rst-current-version" data-toggle="rst-current-version">
-<span><a href="crashcourse_robots_engineering.html" style="color: #fcfcfc">« Previous</a></span>
-<span><a href="intro_sens_act_contr.html" style="color: #fcfcfc">Next »</a></span>
+<span><a href="robotresearch.html" style="color: #fcfcfc">« Previous</a></span>
 </span>
 </div>
 <script>var base_url = '../..';</script>
