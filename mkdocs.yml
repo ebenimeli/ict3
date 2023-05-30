@@ -66,7 +66,6 @@ nav:
 #    - 'Item'
   - 'Project (I): Robot Research' : 'contents/robotics/robotresearch.md'
   - 'Project (II): mBot Robot Programming' : 'contents/robotics/mbotcode.md'
-
 #- 'Programación Didáctica':
 #    - 'Elementos curriculares': 'pd/curriculo/curriculo.md'
 theme:
