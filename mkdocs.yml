@@ -64,7 +64,9 @@ nav:
 #    - 'Item'
 #  - 'Robotic systems in experimentation with designed prototypes':
 #    - 'Item'
-  - 'Project: Robot Research' : 'contents/robotics/robotresearch.md'
+  - 'Project (I): Robot Research' : 'contents/robotics/robotresearch.md'
+  - 'Project (II): mBot Robot Programming' : 'contents/robotics/mbotcode.md'
+
 #- 'Programación Didáctica':
 #    - 'Elementos curriculares': 'pd/curriculo/curriculo.md'
 theme:
@@ -81,9 +83,9 @@ theme:
 plugins:
   - glightbox
   - search
-  - pandoc
+  #- pandoc
   #pandoc:
-    - combined: true
+  # - combined: true
 
 markdown_extensions:
   - attr_list

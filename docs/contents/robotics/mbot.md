@@ -1,8 +1,8 @@
-## mBot
+# mBot
 
 ![mBot](images/mbot.png)
 
-# Ultrasonic Sensor
+## Ultrasonic Sensor
 
 Me Ultrasonic module is an electronic module designed for distance detection. The distance range it can detect is 3-400 cm. mBot can use this module to avoid obstacles or for other programs about distance detection. The yellow tag on the interface of this module indicates that it is a single digital interface and that it should be connected to a port with the yellow tag on the main control board.
 
