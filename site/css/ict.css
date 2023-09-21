@@ -19,3 +19,11 @@ ul, ol {
 h2 {
     border-bottom: 1px solid steelblue;
 }
+
+.twemoji { 
+    font-size: .3em;
+}
+
+img.twemoji {
+    width: 5%;
+}

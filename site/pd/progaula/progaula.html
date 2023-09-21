@@ -6,15 +6,15 @@
 <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <link href="../../img/favicon.ico" rel="shortcut icon"/>
-<title>mBlock - Artificial Intelligence, Programming and Robotics</title>
+<title>Programación de aula - Artificial Intelligence, Programming and Robotics</title>
 <link href="../../css/theme.css" rel="stylesheet"/>
 <link href="../../css/theme_extra.css" rel="stylesheet"/>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" rel="stylesheet"/>
 <link href="../../css/ict.css" rel="stylesheet"/>
 <script>
         // Current page data
-        var mkdocs_page_name = "mBlock";
-        var mkdocs_page_input_path = "contents/robotics/mblock.md";
+        var mkdocs_page_name = "Programaci\u00f3n de aula";
+        var mkdocs_page_input_path = "pd/progaula/progaula.md";
         var mkdocs_page_url = null;
       </script>
 <script defer="" src="../../js/jquery-3.6.0.min.js"></script>
@@ -47,9 +47,9 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="#">Introduction to AI</a>
 <ul>
-<li class="toctree-l2"><a class="reference internal" href="../ai/the-turing-test.html">The Turing Test</a>
+<li class="toctree-l2"><a class="reference internal" href="../../contents/ai/the-turing-test.html">The Turing Test</a>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../ai/terms.html">AI terms</a>
+<li class="toctree-l2"><a class="reference internal" href="../../contents/ai/terms.html">AI terms</a>
 </li>
 </ul>
 </li>
@@ -66,7 +66,7 @@
 <div class="rst-content"><div aria-label="breadcrumbs navigation" role="navigation">
 <ul class="wy-breadcrumbs">
 <li><a aria-label="Docs" class="icon icon-home" href="../.."></a> »</li>
-<li>mBlock</li>
+<li>Programación de aula</li>
 <li class="wy-breadcrumbs-aside">
 </li>
 </ul>
@@ -74,19 +74,54 @@
 </div>
 <div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
 <div class="section" itemprop="articleBody">
-<h1 id="mblock">mBlock</h1>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="images/mblock_screenshot.png"><img alt="mBlock" src="images/mblock_screenshot.png"/></a></p>
-<h2 id="what-is-mblock-5">What Is mBlock 5?</h2>
-<p>mBlock 5 is designed for the Science, Technology, Engineering, Arts and Mathematics (STEAM) education. Inspired by Scratch 3.0, it supports both graphical and textual programming languages.</p>
-<p>Currently, more than 10 million people are using it to learn programming, create their own projects, and share their creations. With mBlock 5, you can design engaging stories, games, and animations, and program devices such as Makeblock robots and microbit.</p>
-<p>On mBlock 5, you can switch to the Python mode simply with one-click. In addition, mBlock 5 integrates cutting-edge technologies including Artificial Intelligence (AI) and Internet of Things (IoT).</p>
-<h2 id="software-versions">Software versions</h2>
-<p>Currently, the following versions are available:</p>
-<ul>
-<li>For <strong>PCs</strong> (software required): <a href="https://www.mblock.cc/en-us/download">www.mblock.cc/en-us/download</a></li>
-<li><strong>Web version</strong> (no software required): <a href="https://ide.mblock.cc/">ide.mblock.cc/</a></li>
-<li>For <strong>Android</strong> and <strong>iOS</strong>: Search for mBlock on any app store to download it</li>
-</ul>
+<h1 id="programacion-de-aula">Programación de aula</h1>
+<table>
+<thead>
+<tr>
+<th align="left">Method</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><code>GET</code></td>
+<td align="left"><span class="twemoji"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59 21 7Z"></path></svg></span>     Fetch resource</td>
+</tr>
+<tr>
+<td align="left"><code>PUT</code></td>
+<td align="left"><span class="twemoji"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M.41 13.41 6 19l1.41-1.42L1.83 12m20.41-6.42L11.66 16.17 7.5 12l-1.43 1.41L11.66 19l12-12M18 7l-1.41-1.42-6.35 6.35 1.42 1.41L18 7Z"></path></svg></span> Update resource</td>
+</tr>
+<tr>
+<td align="left"><code>DELETE</code></td>
+<td align="left"><span class="twemoji"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"></path></svg></span>     Delete resource</td>
+</tr>
+</tbody>
+</table>
+<pre class="mermaid"><code>graph LR
+  A[Start] --&gt; B{Error?};
+  B --&gt;|Yes| C[Hmm...];
+  C --&gt; D[Debug];
+  D --&gt; B;
+  B ----&gt;|No| E[Yay!];</code></pre>
+<pre class="mermaid"><code>sequenceDiagram
+  autonumber
+  Alice-&gt;&gt;John: Hello John, how are you?
+  loop Healthcheck
+      John-&gt;&gt;John: Fight against hypochondria
+  end
+  Note right of John: Rational thoughts!
+  John--&gt;&gt;Alice: Great!
+  John-&gt;&gt;Bob: How about you?
+  Bob--&gt;&gt;John: Jolly good!</code></pre>
+<pre class="mermaid"><code>sequenceDiagram
+    Alice-&gt;&gt;John: Hello John, how are you?
+    John--&gt;&gt;Alice: Great!
+    Alice-)John: See you later!</code></pre>
+<p>sequenceDiagram
+    participant A as Alice
+    participant J as John
+    A-&gt;&gt;J: Hello John, how are you?
+    J-&gt;&gt;A: Great!</p>
 </div>
 </div><footer>
 <hr/>
