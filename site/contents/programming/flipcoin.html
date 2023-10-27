@@ -64,6 +64,12 @@
 </li>
 <li class="toctree-l2 current"><a class="reference internal current" href="flipcoin.html">The Simulator: Flip Coin Simulation</a>
 <ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="#0-heads-or-tails">0. Heads or Tails</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#1-definition-of-variables">1. Definition of variables</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#2-the-main-loop">2. The Main Loop</a>
+</li>
 </ul>
 </li>
 </ul>
@@ -93,6 +99,35 @@
 <div class="section" itemprop="articleBody">
 <h1 id="programming-project-coin-flip-simulation">Programming Project: Coin Flip Simulation</h1>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="images/CoinFlipSimulation500.gif"><img align="center" alt="Coin Flip Simulation" src="images/CoinFlipSimulation500.gif" width="600"/></a></p>
+<p>This animation displays a <strong>simulation of 500 coin tosses</strong>. As can be observed, the <strong>percentages of heads and tails</strong> are converging towards <strong>50%</strong>, which is the theoretical probability of getting a head or a tail in a single toss.</p>
+<h2 id="0-heads-or-tails">0. Heads or Tails</h2>
+<p>Obviously, we need coins for this simulation. Coin flipping, coin tossing, or heads or tails is the practice of throwing a coin in the air and checking which side is showing when it lands, in order to choose between two alternatives, heads or tails, sometimes used to resolve a dispute between two parties.</p>
+<h2 id="1-definition-of-variables">1. Definition of variables</h2>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="images/flipcoin_variables.gif"><img align="center" alt="Variables" src="images/flipcoin_variables.gif" width="600"/></a></p>
+<p>These are the variables that need to be defined in the simulation application:</p>
+<ul>
+<li><code>result</code>: This variable stores a random integer between 0 and 1, meaning result can have a value of 0 or 1. We will assign the value 0 to "heads" and the value 1 to "tails."</li>
+<li><code>heads</code>: The variable heads stores the number of heads that have appeared so far.</li>
+<li><code>tails</code>: The variable tails stores the number of tails that have appeared so far.</li>
+<li><code>flips</code>: The variable flips stores the number of heads and tails that have appeared so far, in other words, the number of coin tosses performed.</li>
+<li><code>nflips</code>: The variable <code>nflips</code> stores the number of tosses the simulator will perform.</li>
+<li><code>f_heads</code>: The variable <code>f_heads</code> stores the percentage of heads that have appeared so far. It is a numerical value.</li>
+<li><code>f_tails</code>: The variable <code>f_tails</code> stores the percentage of tails that have appeared so far. It is a numerical value.</li>
+<li><code>p_heads</code>: The variable <code>p_heads</code> stores the percentage of heads that have appeared so far followed by the "%" character. It is a text value displayed in the interface.</li>
+<li><code>p_tails</code>: The variable <code>p_tails</code> stores the percentage of tails that have appeared so far followed by the "%" character. It is a text value displayed in the interface.</li>
+</ul>
+<h2 id="2-the-main-loop">2. The Main Loop</h2>
+<p>The structure of the main program should look like this:</p>
+<pre><code>flips = 0
+heads = 0
+tails = 0
+repeat nflips
+    result = random(0,1)
+    flips = flips + 1
+    wait 0.2 sec
+</code></pre>
+<p>In Scratch, you can build this main loop using the following instructions and control structures:</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="images/main_loop_puzzle.jpg"><img align="center" alt="Main Loop" src="images/main_loop_puzzle.jpg" width="600"/></a></p>
 </div>
 </div><footer>
 <div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
