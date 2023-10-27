@@ -19,7 +19,10 @@ nav:
   #  - 'Topic'
   #- 'Virtual reality techniques':
   #  - 'Topic'
-#- 'Programming':
+- 'Programming':
+  - 'Project: Flip Coin Simulation':
+    - 'The Law of Large Numbers' : 'contents/programming/lawlargenumbers.md'
+    - 'The Simulator: Flip Coin Simulation' : 'contents/programming/flipcoin.md'
 #  - 'Interpretation of reality through problem modeling': 'contents/programming/problem-modeling.md'
 #  - 'Abstraction, sequencing, algorithmic and its representation with natural language and flow diagrams':
 #    - 'Item'
