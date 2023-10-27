@@ -52,3 +52,7 @@ The structure of the main program should look like this:
 In Scratch, you can build this main loop using the following instructions and control structures:
 
 ![Main Loop](images/main_loop_puzzle.jpg){align="center" width="600"}
+
+## Check Flip
+
+![Main Loop](images/checkflip_heads.gif){align="center" width="600"}
