@@ -14,20 +14,33 @@ Obviously, we need coins for this simulation. Coin flipping, coin tossing, or he
 
 These are the variables that need to be defined in the simulation application:
 
-* `result`: This variable stores a random integer between 0 and 1, meaning result can have a value of 0 or 1. We will assign the value 0 to "heads" and the value 1 to "tails."
-* `heads`: The variable heads stores the number of heads that have appeared so far.
-* `tails`: The variable tails stores the number of tails that have appeared so far.
-* `flips`: The variable flips stores the number of heads and tails that have appeared so far, in other words, the number of coin tosses performed.
-* `nflips`: The variable `nflips` stores the number of tosses the simulator will perform.
-* `f_heads`: The variable `f_heads` stores the percentage of heads that have appeared so far. It is a numerical value.
-* `f_tails`: The variable `f_tails` stores the percentage of tails that have appeared so far. It is a numerical value.
-* `p_heads`: The variable `p_heads` stores the percentage of heads that have appeared so far followed by the "%" character. It is a text value displayed in the interface.
-* `p_tails`: The variable `p_tails` stores the percentage of tails that have appeared so far followed by the "%" character. It is a text value displayed in the interface.
+**Heads or tails?**
+
+* `result`: This variable stores a **random** integer between 0 and 1, meaning result can have a **value of 0 or 1**. We will assign the value 0 to "heads" and the value 1 to "tails."
+
+**Number of heads and tails**
+
+* `heads`: The variable heads stores the **number of heads** that have appeared so far.
+* `tails`: The variable tails stores the **number of tails** that have appeared so far.
+
+**Flips or tosses**
+
+* `flips`: The variable flips stores the number of heads and tails that have appeared so far, in other words, the **number of coin tosses** performed.
+* `nflips`: The variable `nflips` stores the **number of tosses** the simulator **will perform**.
+
+**Frequency and percetages**
+
+* `f_heads`: The variable `f_heads` stores the **percentage of heads** that have appeared so far. It is a numerical value.
+* `f_tails`: The variable `f_tails` stores the **percentage of tails** that have appeared so far. It is a numerical value.
+* `p_heads`: The variable `p_heads` stores the **percentage of heads** that have appeared so far followed by the **"%" character**. It is a text value displayed in the interface.
+* `p_tails`: The variable `p_tails` stores the **percentage of tails** that have appeared so far followed by the **"%" character**
+* . It is a text value displayed in the interface.
 
 ## 2. The Main Loop
 
 The structure of the main program should look like this:
 
+    wait 2 sec
     flips = 0
     heads = 0
     tails = 0

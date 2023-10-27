@@ -105,20 +105,32 @@
 <h2 id="1-definition-of-variables">1. Definition of variables</h2>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="images/flipcoin_variables.gif"><img align="center" alt="Variables" src="images/flipcoin_variables.gif" width="600"/></a></p>
 <p>These are the variables that need to be defined in the simulation application:</p>
+<p><strong>Heads or tails?</strong></p>
 <ul>
-<li><code>result</code>: This variable stores a random integer between 0 and 1, meaning result can have a value of 0 or 1. We will assign the value 0 to "heads" and the value 1 to "tails."</li>
-<li><code>heads</code>: The variable heads stores the number of heads that have appeared so far.</li>
-<li><code>tails</code>: The variable tails stores the number of tails that have appeared so far.</li>
-<li><code>flips</code>: The variable flips stores the number of heads and tails that have appeared so far, in other words, the number of coin tosses performed.</li>
-<li><code>nflips</code>: The variable <code>nflips</code> stores the number of tosses the simulator will perform.</li>
-<li><code>f_heads</code>: The variable <code>f_heads</code> stores the percentage of heads that have appeared so far. It is a numerical value.</li>
-<li><code>f_tails</code>: The variable <code>f_tails</code> stores the percentage of tails that have appeared so far. It is a numerical value.</li>
-<li><code>p_heads</code>: The variable <code>p_heads</code> stores the percentage of heads that have appeared so far followed by the "%" character. It is a text value displayed in the interface.</li>
-<li><code>p_tails</code>: The variable <code>p_tails</code> stores the percentage of tails that have appeared so far followed by the "%" character. It is a text value displayed in the interface.</li>
+<li><code>result</code>: This variable stores a <strong>random</strong> integer between 0 and 1, meaning result can have a <strong>value of 0 or 1</strong>. We will assign the value 0 to "heads" and the value 1 to "tails."</li>
+</ul>
+<p><strong>Number of heads and tails</strong></p>
+<ul>
+<li><code>heads</code>: The variable heads stores the <strong>number of heads</strong> that have appeared so far.</li>
+<li><code>tails</code>: The variable tails stores the <strong>number of tails</strong> that have appeared so far.</li>
+</ul>
+<p><strong>Flips or tosses</strong></p>
+<ul>
+<li><code>flips</code>: The variable flips stores the number of heads and tails that have appeared so far, in other words, the <strong>number of coin tosses</strong> performed.</li>
+<li><code>nflips</code>: The variable <code>nflips</code> stores the <strong>number of tosses</strong> the simulator <strong>will perform</strong>.</li>
+</ul>
+<p><strong>Frequency and percetages</strong></p>
+<ul>
+<li><code>f_heads</code>: The variable <code>f_heads</code> stores the <strong>percentage of heads</strong> that have appeared so far. It is a numerical value.</li>
+<li><code>f_tails</code>: The variable <code>f_tails</code> stores the <strong>percentage of tails</strong> that have appeared so far. It is a numerical value.</li>
+<li><code>p_heads</code>: The variable <code>p_heads</code> stores the <strong>percentage of heads</strong> that have appeared so far followed by the <strong>"%" character</strong>. It is a text value displayed in the interface.</li>
+<li><code>p_tails</code>: The variable <code>p_tails</code> stores the <strong>percentage of tails</strong> that have appeared so far followed by the <strong>"%" character</strong></li>
+<li>. It is a text value displayed in the interface.</li>
 </ul>
 <h2 id="2-the-main-loop">2. The Main Loop</h2>
 <p>The structure of the main program should look like this:</p>
-<pre><code>flips = 0
+<pre><code>wait 2 sec
+flips = 0
 heads = 0
 tails = 0
 repeat nflips
