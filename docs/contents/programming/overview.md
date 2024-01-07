@@ -1,5 +1,7 @@
 # Python: A Comprehensive Overview
 
+![Python](images/python.jpeg)
+
 ## Introduction
 
 Python is a high-level, versatile, and interpreted programming language known for its readability and ease of use. Guido van Rossum created Python in the late 1980s, and since then, it has evolved into one of the most popular languages in the world. Python's design philosophy emphasizes code readability and encourages developers to write clear and concise code. In this comprehensive overview, we will explore what Python is, how it works, its history, and its current applications.
