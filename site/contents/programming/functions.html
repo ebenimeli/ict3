@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+
+<html class="writer-html5" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../../img/favicon.ico" rel="shortcut icon"/>
+<title>Functions - Artificial Intelligence, Programming and Robotics</title>
+<link href="../../css/theme.css" rel="stylesheet"/>
+<link href="../../css/theme_extra.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" rel="stylesheet"/>
+<link href="../../css/ict.css" rel="stylesheet"/>
+<script>
+        // Current page data
+        var mkdocs_page_name = "Functions";
+        var mkdocs_page_input_path = "contents/programming/functions.md";
+        var mkdocs_page_url = null;
+      </script>
+<script defer="" src="../../js/jquery-3.6.0.min.js"></script>
+<!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        </style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+<body class="wy-body-for-nav" role="document">
+<div class="wy-grid-for-nav">
+<nav class="wy-nav-side stickynav" data-toggle="wy-nav-shift">
+<div class="wy-side-scroll">
+<div class="wy-side-nav-search">
+<a href="../..">
+<img alt="Logo" class="logo" src="../../images/floppy-ict3.png"/>
+</a><div role="search">
+<form action="../../search.html" class="wy-form" id="rtd-search-form" method="get">
+<input aria-label="Search docs" name="q" placeholder="Search docs" title="Type search term here" type="text"/>
+</form>
+</div>
+</div>
+<div aria-label="Navigation menu" class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation">
+<p class="caption"><span class="caption-text">Artificial Intelligence</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="#">Introduction to AI</a>
+<ul>
+<li class="toctree-l2"><a class="reference internal" href="../ai/the-turing-test.html">The Turing Test</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../ai/activity-turing.html">Activity 1. The Turing Test</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../ai/terms.html">AI terms</a>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Programming</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="#">Project: Flip Coin Simulation</a>
+<ul>
+<li class="toctree-l2"><a class="reference internal" href="lawlargenumbers.html">The Law of Large Numbers</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="flipcoin.html">The Simulator: Flip Coin Simulation</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal current" href="#">Learning Python: An Introduction</a>
+<ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="overview.html">An overview</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="variables.html">Variables and data types</a>
+</li>
+<li class="toctree-l2 current"><a class="reference internal current" href="functions.html">Functions</a>
+<ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="#introduction">Introduction</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#functions-without-parameters">Functions Without Parameters</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#functions-with-two-parameters">Functions with Two Parameters</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#functions-with-return-value">Functions with Return Value</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#functions-without-return-value">Functions Without Return Value</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#more-examples">More examples</a>
+<ul>
+<li class="toctree-l4"><a class="reference internal" href="#example-1-greeting-function">Example 1: Greeting Function</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#example-2-calculator-function">Example 2: Calculator Function</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="basics.html">Creating an Application: The Basics</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="code_example.html">Understanding Python through an example</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<section class="wy-nav-content-wrap" data-toggle="wy-nav-shift">
+<nav aria-label="Mobile navigation menu" class="wy-nav-top" role="navigation">
+<i class="fa fa-bars" data-toggle="wy-nav-top"></i>
+<a href="../..">Artificial Intelligence, Programming and Robotics</a>
+</nav>
+<div class="wy-nav-content">
+<div class="rst-content"><div aria-label="breadcrumbs navigation" role="navigation">
+<ul class="wy-breadcrumbs">
+<li><a aria-label="Docs" class="icon icon-home" href="../.."></a> »</li>
+<li>Programming »</li>
+<li>Learning Python: An Introduction »</li>
+<li>Functions</li>
+<li class="wy-breadcrumbs-aside">
+</li>
+</ul>
+<hr/>
+</div>
+<div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
+<div class="section" itemprop="articleBody">
+<h1 id="functions-in-python-basic-concepts">Functions in Python: Basic Concepts</h1>
+<h2 id="introduction">Introduction</h2>
+<p>In Python, functions are like little helpers that perform specific tasks. They make code organized and reusable. Let's explore two types of functions: those without parameters and those with two parameters. We'll also cover functions with and without a return value.</p>
+<h2 id="functions-without-parameters">Functions Without Parameters</h2>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">say_hello</span><span class="p">():</span>
+<span class="w">    </span><span class="sd">"""This function prints a simple greeting."""</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Hello, world!"</span><span class="p">)</span>
+
+<span class="c1"># Function Call</span>
+<span class="n">say_hello</span><span class="p">()</span>
+</code></pre></div>
+<ul>
+<li><code>def say_hello():</code>: Declares a function named <code>say_hello</code> without parameters.</li>
+<li><code>print("Hello, world!")</code>: Code inside the function that prints a greeting.</li>
+</ul>
+<h2 id="functions-with-two-parameters">Functions with Two Parameters</h2>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">add_numbers</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">"""This function adds two numbers and prints the result."""</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Sum:"</span><span class="p">,</span> <span class="n">result</span><span class="p">)</span>
+
+<span class="c1"># Function Call</span>
+<span class="n">add_numbers</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+</code></pre></div>
+<ul>
+<li><code>def add_numbers(x, y):</code>: Declares a function named <code>add_numbers</code> with two parameters (<code>x</code> and <code>y</code>).</li>
+<li><code>result = x + y</code>: Performs addition inside the function.</li>
+<li><code>print("Sum:", result)</code>: Prints the result.</li>
+</ul>
+<h2 id="functions-with-return-value">Functions with Return Value</h2>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">multiply_numbers</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">"""This function multiplies two numbers and returns the result."""</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="n">a</span> <span class="o">*</span> <span class="n">b</span>
+    <span class="k">return</span> <span class="n">result</span>
+
+<span class="c1"># Function Call</span>
+<span class="n">product</span> <span class="o">=</span> <span class="n">multiply_numbers</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">7</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Product:"</span><span class="p">,</span> <span class="n">product</span><span class="p">)</span>
+</code></pre></div>
+<ul>
+<li><code>def multiply_numbers(a, b):</code>: Declares a function named <code>multiply_numbers</code> with two parameters.</li>
+<li><code>return result</code>: Returns the multiplication result.</li>
+<li><code>product = multiply_numbers(4, 7)</code>: Calls the function and assigns the result to <code>product</code>.</li>
+<li><code>print("Product:", product)</code>: Prints the product.</li>
+</ul>
+<h2 id="functions-without-return-value">Functions Without Return Value</h2>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">greet_user</span><span class="p">():</span>
+<span class="w">    </span><span class="sd">"""This function greets the user without returning a value."""</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Hey there! Welcome!"</span><span class="p">)</span>
+
+<span class="c1"># Function Call</span>
+<span class="n">greet_user</span><span class="p">()</span>
+</code></pre></div>
+<ul>
+<li><code>def greet_user():</code>: Declares a function named <code>greet_user</code> without a return value.</li>
+<li><code>print("Hey there! Welcome!")</code>: Prints a friendly greeting.</li>
+</ul>
+<h2 id="more-examples">More examples</h2>
+<h3 id="example-1-greeting-function">Example 1: Greeting Function</h3>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">greet_user</span><span class="p">():</span>
+<span class="w">    </span><span class="sd">"""This function greets the user without returning a value."""</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Hey there! Welcome!"</span><span class="p">)</span>
+
+<span class="c1"># Function Call</span>
+<span class="n">greet_user</span><span class="p">()</span>
+</code></pre></div>
+<ul>
+<li><strong>Explanation:</strong> This function says a friendly greeting.</li>
+<li><strong>Example Message:</strong> "Hey there! Welcome!"</li>
+</ul>
+<h3 id="example-2-calculator-function">Example 2: Calculator Function</h3>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">multiply_numbers</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">"""This function multiplies two numbers and returns the result."""</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="n">a</span> <span class="o">*</span> <span class="n">b</span>
+    <span class="k">return</span> <span class="n">result</span>
+
+<span class="c1"># Function Call</span>
+<span class="n">product</span> <span class="o">=</span> <span class="n">multiply_numbers</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">7</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Product:"</span><span class="p">,</span> <span class="n">product</span><span class="p">)</span>
+</code></pre></div>
+<ul>
+<li><strong>Explanation:</strong> This function multiplies two numbers.</li>
+<li><strong>Example Message:</strong> "Product: 28"</li>
+</ul>
+<p>These basic functions help keep code organized and are easy to understand. Functions without parameters perform specific actions, while functions with parameters allow customization. Functions with return values provide results that can be used in other parts of the code.</p>
+</div>
+</div><footer>
+<div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
+<a class="btn btn-neutral float-left" href="variables.html" title="Variables and data types"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+<a class="btn btn-neutral float-right" href="basics.html" title="Creating an Application: The Basics">Next <span class="icon icon-circle-arrow-right"></span></a>
+</div>
+<hr/>
+<div role="contentinfo">
+<!-- Copyright etc -->
+</div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+</div>
+</div>
+</section>
+</div>
+<div aria-label="Versions" class="rst-versions" role="note">
+<span class="rst-current-version" data-toggle="rst-current-version">
+<span><a href="variables.html" style="color: #fcfcfc">« Previous</a></span>
+<span><a href="basics.html" style="color: #fcfcfc">Next »</a></span>
+</span>
+</div>
+<script>var base_url = '../..';</script>
+<script defer="" src="../../js/theme_extra.js"></script>
+<script defer="" src="../../js/theme.js"></script>
+<script defer="" src="https://unpkg.com/mermaid@10.2.4/dist/mermaid.min.js"></script>
+<script defer="" src="../../search/main.js"></script>
+<script defer="">
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+<script>const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});</script></body>
+</html>
