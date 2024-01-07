@@ -23,6 +23,12 @@ nav:
   - 'Project: Flip Coin Simulation':
     - 'The Law of Large Numbers' : 'contents/programming/lawlargenumbers.md'
     - 'The Simulator: Flip Coin Simulation' : 'contents/programming/flipcoin.md'
+  - 'Learning Python: An Introduction':
+    - 'An overview' : 'contents/programming/overview.md'
+    - 'Variables and data types' : 'contents/programming/variables.md'
+    - 'Functions' : 'contents/programming/functions.md'
+    - 'Creating an Application: The Basics' : 'contents/programming/basics.md'
+    - 'Understanding Python through an example' : 'contents/programming/code_example.md'
 #  - 'Interpretation of reality through problem modeling': 'contents/programming/problem-modeling.md'
 #  - 'Abstraction, sequencing, algorithmic and its representation with natural language and flow diagrams':
 #    - 'Item'
