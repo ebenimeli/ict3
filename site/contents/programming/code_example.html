@@ -125,89 +125,89 @@
 In Python, functions are blocks of reusable code. They can take parameters as input, perform operations, and return a result.</p>
 <p><strong>Exercise:</strong>
 Define a function <code>calculate_average</code> that takes four parameters (x1, x2, x3, x4) and returns their average.</p>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">calculate_average</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span> <span class="n">x2</span><span class="p">,</span> <span class="n">x3</span><span class="p">,</span> <span class="n">x4</span><span class="p">):</span>
-    <span class="n">average</span> <span class="o">=</span> <span class="p">(</span><span class="n">x1</span> <span class="o">+</span> <span class="n">x2</span> <span class="o">+</span> <span class="n">x3</span> <span class="o">+</span> <span class="n">x4</span><span class="p">)</span> <span class="o">/</span> <span class="mi">4</span>
-    <span class="k">return</span> <span class="n">average</span>
-</code></pre></div>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="k">def</span> <span class="nf">calculate_average</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span> <span class="n">x2</span><span class="p">,</span> <span class="n">x3</span><span class="p">,</span> <span class="n">x4</span><span class="p">):</span>
+</span><span id="__span-0-2"><a href="#__codelineno-0-2" id="__codelineno-0-2" name="__codelineno-0-2"></a>    <span class="n">average</span> <span class="o">=</span> <span class="p">(</span><span class="n">x1</span> <span class="o">+</span> <span class="n">x2</span> <span class="o">+</span> <span class="n">x3</span> <span class="o">+</span> <span class="n">x4</span><span class="p">)</span> <span class="o">/</span> <span class="mi">4</span>
+</span><span id="__span-0-3"><a href="#__codelineno-0-3" id="__codelineno-0-3" name="__codelineno-0-3"></a>    <span class="k">return</span> <span class="n">average</span>
+</span></code></pre></div>
 <h2 id="2-conditional-statements">2. Conditional Statements</h2>
 <p><strong>Theory:</strong>
 Conditional statements (if, elif, else) allow you to execute different blocks of code based on certain conditions.</p>
 <p><strong>Exercise:</strong>
 Write a function <code>convert_to_text_grade</code> that takes a numeric grade as a parameter and returns the corresponding text grade using conditional statements.</p>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">convert_to_text_grade</span><span class="p">(</span><span class="n">numeric_grade</span><span class="p">):</span>
-    <span class="k">if</span> <span class="n">numeric_grade</span> <span class="o">&gt;=</span> <span class="mf">7.5</span><span class="p">:</span>
-        <span class="k">return</span> <span class="s2">"Very good"</span>
-    <span class="k">elif</span> <span class="n">numeric_grade</span> <span class="o">&gt;=</span> <span class="mi">5</span><span class="p">:</span>
-        <span class="k">return</span> <span class="s2">"Good"</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="k">return</span> <span class="s2">"Fail"</span>
-</code></pre></div>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-1-1"><a href="#__codelineno-1-1" id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="k">def</span> <span class="nf">convert_to_text_grade</span><span class="p">(</span><span class="n">numeric_grade</span><span class="p">):</span>
+</span><span id="__span-1-2"><a href="#__codelineno-1-2" id="__codelineno-1-2" name="__codelineno-1-2"></a>    <span class="k">if</span> <span class="n">numeric_grade</span> <span class="o">&gt;=</span> <span class="mf">7.5</span><span class="p">:</span>
+</span><span id="__span-1-3"><a href="#__codelineno-1-3" id="__codelineno-1-3" name="__codelineno-1-3"></a>        <span class="k">return</span> <span class="s2">"Very good"</span>
+</span><span id="__span-1-4"><a href="#__codelineno-1-4" id="__codelineno-1-4" name="__codelineno-1-4"></a>    <span class="k">elif</span> <span class="n">numeric_grade</span> <span class="o">&gt;=</span> <span class="mi">5</span><span class="p">:</span>
+</span><span id="__span-1-5"><a href="#__codelineno-1-5" id="__codelineno-1-5" name="__codelineno-1-5"></a>        <span class="k">return</span> <span class="s2">"Good"</span>
+</span><span id="__span-1-6"><a href="#__codelineno-1-6" id="__codelineno-1-6" name="__codelineno-1-6"></a>    <span class="k">else</span><span class="p">:</span>
+</span><span id="__span-1-7"><a href="#__codelineno-1-7" id="__codelineno-1-7" name="__codelineno-1-7"></a>        <span class="k">return</span> <span class="s2">"Fail"</span>
+</span></code></pre></div>
 <h2 id="3-variable-assignment-and-basic-operations">3. Variable Assignment and Basic Operations</h2>
 <p><strong>Theory:</strong>
 Variables are used to store and manage data. Basic operations (+, -, *, /) are essential for performing calculations.</p>
 <p><strong>Exercise:</strong>
 Assign values to variables <code>t1</code> and <code>t2</code> representing grades.</p>
-<div class="highlight"><pre><span></span><code><span class="n">t1</span> <span class="o">=</span> <span class="mf">6.0</span>
-<span class="n">t2</span> <span class="o">=</span> <span class="mf">4.0</span>
-</code></pre></div>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-2-1"><a href="#__codelineno-2-1" id="__codelineno-2-1" name="__codelineno-2-1"></a><span class="n">t1</span> <span class="o">=</span> <span class="mf">6.0</span>
+</span><span id="__span-2-2"><a href="#__codelineno-2-2" id="__codelineno-2-2" name="__codelineno-2-2"></a><span class="n">t2</span> <span class="o">=</span> <span class="mf">4.0</span>
+</span></code></pre></div>
 <h2 id="4-function-invocation">4. Function Invocation</h2>
 <p><strong>Theory:</strong>
 Functions are invoked (called) to execute the code within them and obtain the result.</p>
 <p><strong>Exercise:</strong>
 Use the <code>calculate_average</code> function to find the average of <code>t1</code> and <code>t2</code>.</p>
-<div class="highlight"><pre><span></span><code><span class="n">average</span> <span class="o">=</span> <span class="n">calculate_average</span><span class="p">(</span><span class="n">t1</span><span class="p">,</span> <span class="n">t2</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Average:"</span><span class="p">,</span> <span class="n">average</span><span class="p">)</span>
-</code></pre></div>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-3-1"><a href="#__codelineno-3-1" id="__codelineno-3-1" name="__codelineno-3-1"></a><span class="n">average</span> <span class="o">=</span> <span class="n">calculate_average</span><span class="p">(</span><span class="n">t1</span><span class="p">,</span> <span class="n">t2</span><span class="p">)</span>
+</span><span id="__span-3-2"><a href="#__codelineno-3-2" id="__codelineno-3-2" name="__codelineno-3-2"></a><span class="nb">print</span><span class="p">(</span><span class="s2">"Average:"</span><span class="p">,</span> <span class="n">average</span><span class="p">)</span>
+</span></code></pre></div>
 <h2 id="5-rounding-numbers">5. Rounding Numbers</h2>
 <p><strong>Theory:</strong>
 The <code>round()</code> function is used to round numerical values to a specified number of decimal places.</p>
 <p><strong>Exercise:</strong>
 Round the calculated average to two decimal places.</p>
-<div class="highlight"><pre><span></span><code><span class="n">average</span> <span class="o">=</span> <span class="nb">round</span><span class="p">(</span><span class="n">average</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Rounded Average:"</span><span class="p">,</span> <span class="n">average</span><span class="p">)</span>
-</code></pre></div>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-4-1"><a href="#__codelineno-4-1" id="__codelineno-4-1" name="__codelineno-4-1"></a><span class="n">average</span> <span class="o">=</span> <span class="nb">round</span><span class="p">(</span><span class="n">average</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+</span><span id="__span-4-2"><a href="#__codelineno-4-2" id="__codelineno-4-2" name="__codelineno-4-2"></a><span class="nb">print</span><span class="p">(</span><span class="s2">"Rounded Average:"</span><span class="p">,</span> <span class="n">average</span><span class="p">)</span>
+</span></code></pre></div>
 <h2 id="6-string-concatenation">6. String Concatenation</h2>
 <p><strong>Theory:</strong>
 Strings can be concatenated using the <code>+</code> operator.</p>
 <p><strong>Exercise:</strong>
 Concatenate strings to print the final grade in the specified format.</p>
-<div class="highlight"><pre><span></span><code><span class="n">text_average</span> <span class="o">=</span> <span class="n">convert_to_text_grade</span><span class="p">(</span><span class="n">average</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Final grade: "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">average</span><span class="p">)</span> <span class="o">+</span> <span class="s2">" ("</span> <span class="o">+</span> <span class="n">text_average</span> <span class="o">+</span> <span class="s2">")"</span><span class="p">)</span>
-</code></pre></div>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-5-1"><a href="#__codelineno-5-1" id="__codelineno-5-1" name="__codelineno-5-1"></a><span class="n">text_average</span> <span class="o">=</span> <span class="n">convert_to_text_grade</span><span class="p">(</span><span class="n">average</span><span class="p">)</span>
+</span><span id="__span-5-2"><a href="#__codelineno-5-2" id="__codelineno-5-2" name="__codelineno-5-2"></a><span class="nb">print</span><span class="p">(</span><span class="s2">"Final grade: "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">average</span><span class="p">)</span> <span class="o">+</span> <span class="s2">" ("</span> <span class="o">+</span> <span class="n">text_average</span> <span class="o">+</span> <span class="s2">")"</span><span class="p">)</span>
+</span></code></pre></div>
 <h2 id="7-application-example">7. Application Example</h2>
 <p>Here's a basic example that calculates the average of two grades, converts it to a text grade, and prints the result:</p>
-<p><div class="highlight"><pre><span></span><code><span class="c1"># Function to calculate average</span>
-<span class="k">def</span> <span class="nf">getAverage</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span> <span class="n">x2</span><span class="p">):</span>
-    <span class="n">x</span> <span class="o">=</span> <span class="p">(</span><span class="n">x1</span> <span class="o">+</span> <span class="n">x2</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span>
-    <span class="k">return</span> <span class="n">x</span>
-
-<span class="c1"># Function to convert numeric grade to text</span>
-<span class="k">def</span> <span class="nf">getTextGrade</span><span class="p">(</span><span class="n">ngrade</span><span class="p">):</span>
-    <span class="n">text</span> <span class="o">=</span> <span class="s2">""</span>
-    <span class="k">if</span> <span class="n">ngrade</span> <span class="o">&gt;=</span> <span class="mf">7.5</span><span class="p">:</span>
-        <span class="n">text</span> <span class="o">=</span> <span class="s2">"Very good"</span>
-    <span class="k">elif</span> <span class="mi">5</span> <span class="o">&lt;=</span> <span class="n">ngrade</span> <span class="o">&lt;</span> <span class="mf">7.5</span><span class="p">:</span>
-        <span class="n">text</span> <span class="o">=</span> <span class="s2">"Good"</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="n">text</span> <span class="o">=</span> <span class="s2">"Fail"</span>
-    <span class="k">return</span> <span class="n">text</span>
-
-<span class="c1"># Assign values to variables</span>
-<span class="n">t1</span> <span class="o">=</span> <span class="mf">6.0</span>
-<span class="n">t2</span> <span class="o">=</span> <span class="mf">4.0</span>
-
-<span class="c1"># Calculate average</span>
-<span class="n">average</span> <span class="o">=</span> <span class="n">getAverage</span><span class="p">(</span><span class="n">t1</span><span class="p">,</span> <span class="n">t2</span><span class="p">)</span>
-
-<span class="c1"># Round the average to 2 decimals</span>
-<span class="n">average</span> <span class="o">=</span> <span class="nb">round</span><span class="p">(</span><span class="n">average</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
-
-<span class="c1"># Convert numeric average to text grade</span>
-<span class="n">text_average</span> <span class="o">=</span> <span class="n">getTextGrade</span><span class="p">(</span><span class="n">average</span><span class="p">)</span>
-
-<span class="c1"># Print the final grade</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Final grade: "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">average</span><span class="p">)</span> <span class="o">+</span> <span class="s2">" ("</span> <span class="o">+</span> <span class="n">text_average</span> <span class="o">+</span> <span class="s2">")"</span><span class="p">)</span>
-</code></pre></div>
+<p><div class="language-python highlight"><pre><span></span><code><span id="__span-6-1"><a href="#__codelineno-6-1" id="__codelineno-6-1" name="__codelineno-6-1"></a><span class="c1"># Function to calculate average</span>
+</span><span id="__span-6-2"><a href="#__codelineno-6-2" id="__codelineno-6-2" name="__codelineno-6-2"></a><span class="k">def</span> <span class="nf">getAverage</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span> <span class="n">x2</span><span class="p">):</span>
+</span><span id="__span-6-3"><a href="#__codelineno-6-3" id="__codelineno-6-3" name="__codelineno-6-3"></a>    <span class="n">x</span> <span class="o">=</span> <span class="p">(</span><span class="n">x1</span> <span class="o">+</span> <span class="n">x2</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span>
+</span><span id="__span-6-4"><a href="#__codelineno-6-4" id="__codelineno-6-4" name="__codelineno-6-4"></a>    <span class="k">return</span> <span class="n">x</span>
+</span><span id="__span-6-5"><a href="#__codelineno-6-5" id="__codelineno-6-5" name="__codelineno-6-5"></a>
+</span><span id="__span-6-6"><a href="#__codelineno-6-6" id="__codelineno-6-6" name="__codelineno-6-6"></a><span class="c1"># Function to convert numeric grade to text</span>
+</span><span id="__span-6-7"><a href="#__codelineno-6-7" id="__codelineno-6-7" name="__codelineno-6-7"></a><span class="k">def</span> <span class="nf">getTextGrade</span><span class="p">(</span><span class="n">ngrade</span><span class="p">):</span>
+</span><span id="__span-6-8"><a href="#__codelineno-6-8" id="__codelineno-6-8" name="__codelineno-6-8"></a>    <span class="n">text</span> <span class="o">=</span> <span class="s2">""</span>
+</span><span id="__span-6-9"><a href="#__codelineno-6-9" id="__codelineno-6-9" name="__codelineno-6-9"></a>    <span class="k">if</span> <span class="n">ngrade</span> <span class="o">&gt;=</span> <span class="mf">7.5</span><span class="p">:</span>
+</span><span id="__span-6-10"><a href="#__codelineno-6-10" id="__codelineno-6-10" name="__codelineno-6-10"></a>        <span class="n">text</span> <span class="o">=</span> <span class="s2">"Very good"</span>
+</span><span id="__span-6-11"><a href="#__codelineno-6-11" id="__codelineno-6-11" name="__codelineno-6-11"></a>    <span class="k">elif</span> <span class="mi">5</span> <span class="o">&lt;=</span> <span class="n">ngrade</span> <span class="o">&lt;</span> <span class="mf">7.5</span><span class="p">:</span>
+</span><span id="__span-6-12"><a href="#__codelineno-6-12" id="__codelineno-6-12" name="__codelineno-6-12"></a>        <span class="n">text</span> <span class="o">=</span> <span class="s2">"Good"</span>
+</span><span id="__span-6-13"><a href="#__codelineno-6-13" id="__codelineno-6-13" name="__codelineno-6-13"></a>    <span class="k">else</span><span class="p">:</span>
+</span><span id="__span-6-14"><a href="#__codelineno-6-14" id="__codelineno-6-14" name="__codelineno-6-14"></a>        <span class="n">text</span> <span class="o">=</span> <span class="s2">"Fail"</span>
+</span><span id="__span-6-15"><a href="#__codelineno-6-15" id="__codelineno-6-15" name="__codelineno-6-15"></a>    <span class="k">return</span> <span class="n">text</span>
+</span><span id="__span-6-16"><a href="#__codelineno-6-16" id="__codelineno-6-16" name="__codelineno-6-16"></a>
+</span><span id="__span-6-17"><a href="#__codelineno-6-17" id="__codelineno-6-17" name="__codelineno-6-17"></a><span class="c1"># Assign values to variables</span>
+</span><span id="__span-6-18"><a href="#__codelineno-6-18" id="__codelineno-6-18" name="__codelineno-6-18"></a><span class="n">t1</span> <span class="o">=</span> <span class="mf">6.0</span>
+</span><span id="__span-6-19"><a href="#__codelineno-6-19" id="__codelineno-6-19" name="__codelineno-6-19"></a><span class="n">t2</span> <span class="o">=</span> <span class="mf">4.0</span>
+</span><span id="__span-6-20"><a href="#__codelineno-6-20" id="__codelineno-6-20" name="__codelineno-6-20"></a>
+</span><span id="__span-6-21"><a href="#__codelineno-6-21" id="__codelineno-6-21" name="__codelineno-6-21"></a><span class="c1"># Calculate average</span>
+</span><span id="__span-6-22"><a href="#__codelineno-6-22" id="__codelineno-6-22" name="__codelineno-6-22"></a><span class="n">average</span> <span class="o">=</span> <span class="n">getAverage</span><span class="p">(</span><span class="n">t1</span><span class="p">,</span> <span class="n">t2</span><span class="p">)</span>
+</span><span id="__span-6-23"><a href="#__codelineno-6-23" id="__codelineno-6-23" name="__codelineno-6-23"></a>
+</span><span id="__span-6-24"><a href="#__codelineno-6-24" id="__codelineno-6-24" name="__codelineno-6-24"></a><span class="c1"># Round the average to 2 decimals</span>
+</span><span id="__span-6-25"><a href="#__codelineno-6-25" id="__codelineno-6-25" name="__codelineno-6-25"></a><span class="n">average</span> <span class="o">=</span> <span class="nb">round</span><span class="p">(</span><span class="n">average</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+</span><span id="__span-6-26"><a href="#__codelineno-6-26" id="__codelineno-6-26" name="__codelineno-6-26"></a>
+</span><span id="__span-6-27"><a href="#__codelineno-6-27" id="__codelineno-6-27" name="__codelineno-6-27"></a><span class="c1"># Convert numeric average to text grade</span>
+</span><span id="__span-6-28"><a href="#__codelineno-6-28" id="__codelineno-6-28" name="__codelineno-6-28"></a><span class="n">text_average</span> <span class="o">=</span> <span class="n">getTextGrade</span><span class="p">(</span><span class="n">average</span><span class="p">)</span>
+</span><span id="__span-6-29"><a href="#__codelineno-6-29" id="__codelineno-6-29" name="__codelineno-6-29"></a>
+</span><span id="__span-6-30"><a href="#__codelineno-6-30" id="__codelineno-6-30" name="__codelineno-6-30"></a><span class="c1"># Print the final grade</span>
+</span><span id="__span-6-31"><a href="#__codelineno-6-31" id="__codelineno-6-31" name="__codelineno-6-31"></a><span class="nb">print</span><span class="p">(</span><span class="s2">"Final grade: "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">average</span><span class="p">)</span> <span class="o">+</span> <span class="s2">" ("</span> <span class="o">+</span> <span class="n">text_average</span> <span class="o">+</span> <span class="s2">")"</span><span class="p">)</span>
+</span></code></pre></div>
 By working through these exercises, you'll reinforce the fundamental concepts needed to understand and write the Python code needed to create a get_average.py application. Each exercise corresponds to a key aspect of the code, helping you build a solid foundation in Python programming.</p>
 </div>
 </div><footer>

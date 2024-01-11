@@ -29,6 +29,9 @@ nav:
     - 'Functions' : 'contents/programming/functions.md'
     - 'Creating an Application: The Basics' : 'contents/programming/basics.md'
     - 'Understanding Python through an example' : 'contents/programming/code_example.md'
+#    - 'Exercises' : 'contents/programming/exercises.md'
+#    - 'Exercises (solution)' : 'contents/programming/exercises_solution.md'
+
 #  - 'Interpretation of reality through problem modeling': 'contents/programming/problem-modeling.md'
 #  - 'Abstraction, sequencing, algorithmic and its representation with natural language and flow diagrams':
 #    - 'Item'
@@ -88,7 +91,8 @@ theme:
         text: Roboto
         code: Roboto Mono
     logo: 'images/floppy-ict3.png'
-
+    features:
+      - content.code.annotate
 plugins:
   - glightbox
   - search
@@ -109,9 +113,15 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
 extra_css:
   - css/ict.css
 
 extra_javascript:
   - https://unpkg.com/mermaid@10.2.4/dist/mermaid.min.js
+
