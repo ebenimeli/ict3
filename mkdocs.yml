@@ -31,7 +31,6 @@ nav:
     - 'Understanding Python through an example' : 'contents/programming/code_example.md'
 #    - 'Exercises' : 'contents/programming/exercises.md'
 #    - 'Exercises (solution)' : 'contents/programming/exercises_solution.md'
-
 #  - 'Interpretation of reality through problem modeling': 'contents/programming/problem-modeling.md'
 #  - 'Abstraction, sequencing, algorithmic and its representation with natural language and flow diagrams':
 #    - 'Item'
@@ -81,6 +80,10 @@ nav:
 #- 'Programación Didáctica':
 #    - 'Elementos curriculares': 'pd/curriculo/curriculo.md'
 #    - 'Programación de aula': 'pd/progaula/progaula.md'
+- 'More':
+  - 'Blog': 'https://www.esferatic.com'
+  - 'Instagram': 'https://www.instagram.com/esferatic'
+
 theme:
     language: es
     name: 'readthedocs'
