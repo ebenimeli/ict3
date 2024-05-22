@@ -54,7 +54,7 @@ nav:
 #    - 'Item'
 #  - 'Initiative, self-confidence and metacognition in the software development learning process':
 #    - 'Item'
-#- 'Robotics':
+- 'Robotics':
 #  - 'Robot assembly':
 #    - 'Item'
 #  - 'Introduction to Robotics':
@@ -76,7 +76,7 @@ nav:
 #  - 'Robotic systems in experimentation with designed prototypes':
 #    - 'Item'
 #  - 'Project (I): Robot Research' : 'contents/robotics/robotresearch.md'
-#  - 'Project (II): mBot Robot Programming' : 'contents/robotics/mbotcode.md'
+  - 'Project (II): mBot Robot Programming' : 'contents/robotics/mbotcode.md'
 #- 'Programación Didáctica':
 #    - 'Elementos curriculares': 'pd/curriculo/curriculo.md'
 #    - 'Programación de aula': 'pd/progaula/progaula.md'
