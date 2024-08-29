@@ -6,23 +6,22 @@
 <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <link href="../../img/favicon.ico" rel="shortcut icon"/>
-<title>Functions - Artificial Intelligence, Programming and Robotics</title>
+<title>Functions in Python: Basic Concepts - Artificial Intelligence, Programming and Robotics (I) - 3.º ESO</title>
 <link href="../../css/theme.css" rel="stylesheet"/>
 <link href="../../css/theme_extra.css" rel="stylesheet"/>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" rel="stylesheet"/>
 <link href="../../css/ict.css" rel="stylesheet"/>
 <script>
         // Current page data
-        var mkdocs_page_name = "Functions";
+        var mkdocs_page_name = "Functions in Python: Basic Concepts";
         var mkdocs_page_input_path = "contents/programming/functions.md";
         var mkdocs_page_url = null;
       </script>
-<script defer="" src="../../js/jquery-3.6.0.min.js"></script>
 <!--[if lt IE 9]>
       <script src="../../js/html5shiv.min.js"></script>
     <![endif]-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
 <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
         html.glightbox-open { overflow: initial; height: 100%; }
         .gslide-title { margin-top: 0px; user-select: text; }
@@ -43,67 +42,63 @@
 </div>
 </div>
 <div aria-label="Navigation menu" class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation">
-<p class="caption"><span class="caption-text">Artificial Intelligence</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="#">Introduction to AI</a>
+<li class="toctree-l1"><a class="" href="../presentation.md">Presentation</a>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Unit 0. Introduction</span></p>
 <ul>
-<li class="toctree-l2"><a class="reference internal" href="../ai/the-turing-test.html">The Turing Test</a>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="../ai/activity-turing.html">Activity 1. The Turing Test</a>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="../ai/terms.html">AI terms</a>
+<li class="toctree-l1"><a class="" href="../unit01/intro.md">0.1. Introduction to AI, Programming and Robotics</a>
 </li>
 </ul>
-</li>
-</ul>
-<p class="caption"><span class="caption-text">Programming</span></p>
-<ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="#">Project: Flip Coin Simulation</a>
+<p class="caption"><span class="caption-text">Unit 1. Sensors and AI</span></p>
 <ul>
-<li class="toctree-l2"><a class="reference internal" href="lawlargenumbers.html">The Law of Large Numbers</a>
+<li class="toctree-l1"><a class="reference internal" href="../unit01/unit1.html">Sensors and AI: Fundamentals and Applications</a>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="flipcoin.html">The Simulator: Flip Coin Simulation</a>
-</li>
-</ul>
-</li>
-<li class="toctree-l1 current"><a class="reference internal current" href="#">Learning Python: An Introduction</a>
-<ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="overview.html">An overview</a>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="variables.html">Variables and data types</a>
-</li>
-<li class="toctree-l2 current"><a class="reference internal current" href="functions.html">Functions</a>
-<ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="#introduction">Introduction</a>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="#functions-without-parameters">Functions Without Parameters</a>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="#functions-with-two-parameters">Functions with Two Parameters</a>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="#functions-with-return-value">Functions with Return Value</a>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="#functions-without-return-value">Functions Without Return Value</a>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="#more-examples">More examples</a>
+<li class="toctree-l1"><a class="reference internal">1. Sensors, typology and applications</a>
 <ul>
-<li class="toctree-l4"><a class="reference internal" href="#example-1-greeting-function">Example 1: Greeting Function</a>
+<li class="toctree-l2"><a class="" href="../unit01/Sensors.md">Sensors</a>
 </li>
-<li class="toctree-l4"><a class="reference internal" href="#example-2-calculator-function">Example 2: Calculator Function</a>
+<li class="toctree-l2"><a class="" href="../unit01/types-of-sensors.md">Types of sensors</a>
 </li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="basics.html">Creating an Application: The Basics</a>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="code_example.html">Understanding Python through an example</a>
+<li class="toctree-l2"><a class="" href="../unit01/sensors-applications.md">Applications</a>
 </li>
 </ul>
 </li>
-</ul>
-<p class="caption"><span class="caption-text">Robotics</span></p>
+<li class="toctree-l1"><a class="reference internal">2. Basic techniques of AI</a>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../robotics/mbotcode.html">Project (II): mBot Robot Programming</a>
+<li class="toctree-l2"><a class="" href="../unit01/expert-systems.md">Expert systems</a>
+</li>
+<li class="toctree-l2"><a class="" href="../unit01/neural-networks-tech.md">Neural networks</a>
+</li>
+<li class="toctree-l2"><a class="" href="../unit01/machine-learning.md">Machine learning</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal">3. Automatic information processing</a>
+<ul>
+<li class="toctree-l2"><a class="" href="../unit01/auto-inf-processing.md">Automatic information processing</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal">Activities &amp; Projects</a>
+<ul>
+<li class="toctree-l2"><a class="" href="../unit01/activity-A01.md">A01. Learning in Biological Systems</a>
+</li>
+<li class="toctree-l2"><a class="" href="../unit01/activity-A02.md">A02. Title</a>
+</li>
+<li class="toctree-l2"><a class="" href="../unit01/activity-A03.md">A03. Title</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="" href="../unit01/glossary-ud01.md">Glossary</a>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Programación Didáctica</span></p>
+<ul>
+<li class="toctree-l1"><a class="" href="../saberes.md">Saberes</a>
+</li>
+<li class="toctree-l1"><a class="" href="../criterios.md">Criterios de evaluación</a>
 </li>
 </ul>
 <p class="caption"><span class="caption-text">More</span></p>
@@ -119,15 +114,13 @@
 <section class="wy-nav-content-wrap" data-toggle="wy-nav-shift">
 <nav aria-label="Mobile navigation menu" class="wy-nav-top" role="navigation">
 <i class="fa fa-bars" data-toggle="wy-nav-top"></i>
-<a href="../..">Artificial Intelligence, Programming and Robotics</a>
+<a href="../..">Artificial Intelligence, Programming and Robotics (I) - 3.º ESO</a>
 </nav>
 <div class="wy-nav-content">
 <div class="rst-content"><div aria-label="breadcrumbs navigation" role="navigation">
 <ul class="wy-breadcrumbs">
-<li><a aria-label="Docs" class="icon icon-home" href="../.."></a> »</li>
-<li>Programming »</li>
-<li>Learning Python: An Introduction »</li>
-<li>Functions</li>
+<li><a aria-label="Docs" class="icon icon-home" href="../.."></a></li>
+<li class="breadcrumb-item active">Functions in Python: Basic Concepts</li>
 <li class="wy-breadcrumbs-aside">
 </li>
 </ul>
@@ -139,41 +132,41 @@
 <h2 id="introduction">Introduction</h2>
 <p>In Python, functions are like little helpers that perform specific tasks. They make code organized and reusable. Let's explore two types of functions: those without parameters and those with two parameters. We'll also cover functions with and without a return value.</p>
 <h2 id="functions-without-parameters">Functions Without Parameters</h2>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="k">def</span> <span class="nf">say_hello</span><span class="p">():</span>
-</span><span id="__span-0-2"><a href="#__codelineno-0-2" id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="w">    </span><span class="sd">"""This function prints a simple greeting."""</span>
-</span><span id="__span-0-3"><a href="#__codelineno-0-3" id="__codelineno-0-3" name="__codelineno-0-3"></a>    <span class="nb">print</span><span class="p">(</span><span class="s2">"Hello, world!"</span><span class="p">)</span>
-</span><span id="__span-0-4"><a href="#__codelineno-0-4" id="__codelineno-0-4" name="__codelineno-0-4"></a>
-</span><span id="__span-0-5"><a href="#__codelineno-0-5" id="__codelineno-0-5" name="__codelineno-0-5"></a><span class="c1"># Function Call</span>
-</span><span id="__span-0-6"><a href="#__codelineno-0-6" id="__codelineno-0-6" name="__codelineno-0-6"></a><span class="n">say_hello</span><span class="p">()</span>
-</span></code></pre></div>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">say_hello</span><span class="p">():</span>
+<span class="w">    </span><span class="sd">"""This function prints a simple greeting."""</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Hello, world!"</span><span class="p">)</span>
+
+<span class="c1"># Function Call</span>
+<span class="n">say_hello</span><span class="p">()</span>
+</code></pre></div>
 <ul>
 <li><code>def say_hello():</code>: Declares a function named <code>say_hello</code> without parameters.</li>
 <li><code>print("Hello, world!")</code>: Code inside the function that prints a greeting.</li>
 </ul>
 <h2 id="functions-with-two-parameters">Functions with Two Parameters</h2>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-1-1"><a href="#__codelineno-1-1" id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="k">def</span> <span class="nf">add_numbers</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
-</span><span id="__span-1-2"><a href="#__codelineno-1-2" id="__codelineno-1-2" name="__codelineno-1-2"></a><span class="w">    </span><span class="sd">"""This function adds two numbers and prints the result."""</span>
-</span><span id="__span-1-3"><a href="#__codelineno-1-3" id="__codelineno-1-3" name="__codelineno-1-3"></a>    <span class="n">result</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span>
-</span><span id="__span-1-4"><a href="#__codelineno-1-4" id="__codelineno-1-4" name="__codelineno-1-4"></a>    <span class="nb">print</span><span class="p">(</span><span class="s2">"Sum:"</span><span class="p">,</span> <span class="n">result</span><span class="p">)</span>
-</span><span id="__span-1-5"><a href="#__codelineno-1-5" id="__codelineno-1-5" name="__codelineno-1-5"></a>
-</span><span id="__span-1-6"><a href="#__codelineno-1-6" id="__codelineno-1-6" name="__codelineno-1-6"></a><span class="c1"># Function Call</span>
-</span><span id="__span-1-7"><a href="#__codelineno-1-7" id="__codelineno-1-7" name="__codelineno-1-7"></a><span class="n">add_numbers</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
-</span></code></pre></div>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">add_numbers</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">"""This function adds two numbers and prints the result."""</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Sum:"</span><span class="p">,</span> <span class="n">result</span><span class="p">)</span>
+
+<span class="c1"># Function Call</span>
+<span class="n">add_numbers</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+</code></pre></div>
 <ul>
 <li><code>def add_numbers(x, y):</code>: Declares a function named <code>add_numbers</code> with two parameters (<code>x</code> and <code>y</code>).</li>
 <li><code>result = x + y</code>: Performs addition inside the function.</li>
 <li><code>print("Sum:", result)</code>: Prints the result.</li>
 </ul>
 <h2 id="functions-with-return-value">Functions with Return Value</h2>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-2-1"><a href="#__codelineno-2-1" id="__codelineno-2-1" name="__codelineno-2-1"></a><span class="k">def</span> <span class="nf">multiply_numbers</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
-</span><span id="__span-2-2"><a href="#__codelineno-2-2" id="__codelineno-2-2" name="__codelineno-2-2"></a><span class="w">    </span><span class="sd">"""This function multiplies two numbers and returns the result."""</span>
-</span><span id="__span-2-3"><a href="#__codelineno-2-3" id="__codelineno-2-3" name="__codelineno-2-3"></a>    <span class="n">result</span> <span class="o">=</span> <span class="n">a</span> <span class="o">*</span> <span class="n">b</span>
-</span><span id="__span-2-4"><a href="#__codelineno-2-4" id="__codelineno-2-4" name="__codelineno-2-4"></a>    <span class="k">return</span> <span class="n">result</span>
-</span><span id="__span-2-5"><a href="#__codelineno-2-5" id="__codelineno-2-5" name="__codelineno-2-5"></a>
-</span><span id="__span-2-6"><a href="#__codelineno-2-6" id="__codelineno-2-6" name="__codelineno-2-6"></a><span class="c1"># Function Call</span>
-</span><span id="__span-2-7"><a href="#__codelineno-2-7" id="__codelineno-2-7" name="__codelineno-2-7"></a><span class="n">product</span> <span class="o">=</span> <span class="n">multiply_numbers</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">7</span><span class="p">)</span>
-</span><span id="__span-2-8"><a href="#__codelineno-2-8" id="__codelineno-2-8" name="__codelineno-2-8"></a><span class="nb">print</span><span class="p">(</span><span class="s2">"Product:"</span><span class="p">,</span> <span class="n">product</span><span class="p">)</span>
-</span></code></pre></div>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">multiply_numbers</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">"""This function multiplies two numbers and returns the result."""</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="n">a</span> <span class="o">*</span> <span class="n">b</span>
+    <span class="k">return</span> <span class="n">result</span>
+
+<span class="c1"># Function Call</span>
+<span class="n">product</span> <span class="o">=</span> <span class="n">multiply_numbers</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">7</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Product:"</span><span class="p">,</span> <span class="n">product</span><span class="p">)</span>
+</code></pre></div>
 <ul>
 <li><code>def multiply_numbers(a, b):</code>: Declares a function named <code>multiply_numbers</code> with two parameters.</li>
 <li><code>return result</code>: Returns the multiplication result.</li>
@@ -181,40 +174,40 @@
 <li><code>print("Product:", product)</code>: Prints the product.</li>
 </ul>
 <h2 id="functions-without-return-value">Functions Without Return Value</h2>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-3-1"><a href="#__codelineno-3-1" id="__codelineno-3-1" name="__codelineno-3-1"></a><span class="k">def</span> <span class="nf">greet_user</span><span class="p">():</span>
-</span><span id="__span-3-2"><a href="#__codelineno-3-2" id="__codelineno-3-2" name="__codelineno-3-2"></a><span class="w">    </span><span class="sd">"""This function greets the user without returning a value."""</span>
-</span><span id="__span-3-3"><a href="#__codelineno-3-3" id="__codelineno-3-3" name="__codelineno-3-3"></a>    <span class="nb">print</span><span class="p">(</span><span class="s2">"Hey there! Welcome!"</span><span class="p">)</span>
-</span><span id="__span-3-4"><a href="#__codelineno-3-4" id="__codelineno-3-4" name="__codelineno-3-4"></a>
-</span><span id="__span-3-5"><a href="#__codelineno-3-5" id="__codelineno-3-5" name="__codelineno-3-5"></a><span class="c1"># Function Call</span>
-</span><span id="__span-3-6"><a href="#__codelineno-3-6" id="__codelineno-3-6" name="__codelineno-3-6"></a><span class="n">greet_user</span><span class="p">()</span>
-</span></code></pre></div>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">greet_user</span><span class="p">():</span>
+<span class="w">    </span><span class="sd">"""This function greets the user without returning a value."""</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Hey there! Welcome!"</span><span class="p">)</span>
+
+<span class="c1"># Function Call</span>
+<span class="n">greet_user</span><span class="p">()</span>
+</code></pre></div>
 <ul>
 <li><code>def greet_user():</code>: Declares a function named <code>greet_user</code> without a return value.</li>
 <li><code>print("Hey there! Welcome!")</code>: Prints a friendly greeting.</li>
 </ul>
 <h2 id="more-examples">More examples</h2>
 <h3 id="example-1-greeting-function">Example 1: Greeting Function</h3>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-4-1"><a href="#__codelineno-4-1" id="__codelineno-4-1" name="__codelineno-4-1"></a><span class="k">def</span> <span class="nf">greet_user</span><span class="p">():</span>
-</span><span id="__span-4-2"><a href="#__codelineno-4-2" id="__codelineno-4-2" name="__codelineno-4-2"></a><span class="w">    </span><span class="sd">"""This function greets the user without returning a value."""</span>
-</span><span id="__span-4-3"><a href="#__codelineno-4-3" id="__codelineno-4-3" name="__codelineno-4-3"></a>    <span class="nb">print</span><span class="p">(</span><span class="s2">"Hey there! Welcome!"</span><span class="p">)</span>
-</span><span id="__span-4-4"><a href="#__codelineno-4-4" id="__codelineno-4-4" name="__codelineno-4-4"></a>
-</span><span id="__span-4-5"><a href="#__codelineno-4-5" id="__codelineno-4-5" name="__codelineno-4-5"></a><span class="c1"># Function Call</span>
-</span><span id="__span-4-6"><a href="#__codelineno-4-6" id="__codelineno-4-6" name="__codelineno-4-6"></a><span class="n">greet_user</span><span class="p">()</span>
-</span></code></pre></div>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">greet_user</span><span class="p">():</span>
+<span class="w">    </span><span class="sd">"""This function greets the user without returning a value."""</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Hey there! Welcome!"</span><span class="p">)</span>
+
+<span class="c1"># Function Call</span>
+<span class="n">greet_user</span><span class="p">()</span>
+</code></pre></div>
 <ul>
 <li><strong>Explanation:</strong> This function says a friendly greeting.</li>
 <li><strong>Example Message:</strong> "Hey there! Welcome!"</li>
 </ul>
 <h3 id="example-2-calculator-function">Example 2: Calculator Function</h3>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-5-1"><a href="#__codelineno-5-1" id="__codelineno-5-1" name="__codelineno-5-1"></a><span class="k">def</span> <span class="nf">multiply_numbers</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
-</span><span id="__span-5-2"><a href="#__codelineno-5-2" id="__codelineno-5-2" name="__codelineno-5-2"></a><span class="w">    </span><span class="sd">"""This function multiplies two numbers and returns the result."""</span>
-</span><span id="__span-5-3"><a href="#__codelineno-5-3" id="__codelineno-5-3" name="__codelineno-5-3"></a>    <span class="n">result</span> <span class="o">=</span> <span class="n">a</span> <span class="o">*</span> <span class="n">b</span>
-</span><span id="__span-5-4"><a href="#__codelineno-5-4" id="__codelineno-5-4" name="__codelineno-5-4"></a>    <span class="k">return</span> <span class="n">result</span>
-</span><span id="__span-5-5"><a href="#__codelineno-5-5" id="__codelineno-5-5" name="__codelineno-5-5"></a>
-</span><span id="__span-5-6"><a href="#__codelineno-5-6" id="__codelineno-5-6" name="__codelineno-5-6"></a><span class="c1"># Function Call</span>
-</span><span id="__span-5-7"><a href="#__codelineno-5-7" id="__codelineno-5-7" name="__codelineno-5-7"></a><span class="n">product</span> <span class="o">=</span> <span class="n">multiply_numbers</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">7</span><span class="p">)</span>
-</span><span id="__span-5-8"><a href="#__codelineno-5-8" id="__codelineno-5-8" name="__codelineno-5-8"></a><span class="nb">print</span><span class="p">(</span><span class="s2">"Product:"</span><span class="p">,</span> <span class="n">product</span><span class="p">)</span>
-</span></code></pre></div>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">multiply_numbers</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">"""This function multiplies two numbers and returns the result."""</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="n">a</span> <span class="o">*</span> <span class="n">b</span>
+    <span class="k">return</span> <span class="n">result</span>
+
+<span class="c1"># Function Call</span>
+<span class="n">product</span> <span class="o">=</span> <span class="n">multiply_numbers</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">7</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Product:"</span><span class="p">,</span> <span class="n">product</span><span class="p">)</span>
+</code></pre></div>
 <ul>
 <li><strong>Explanation:</strong> This function multiplies two numbers.</li>
 <li><strong>Example Message:</strong> "Product: 28"</li>
@@ -222,10 +215,6 @@
 <p>These basic functions help keep code organized and are easy to understand. Functions without parameters perform specific actions, while functions with parameters allow customization. Functions with return values provide results that can be used in other parts of the code.</p>
 </div>
 </div><footer>
-<div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
-<a class="btn btn-neutral float-left" href="variables.html" title="Variables and data types"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-<a class="btn btn-neutral float-right" href="basics.html" title="Creating an Application: The Basics">Next <span class="icon icon-circle-arrow-right"></span></a>
-</div>
 <hr/>
 <div role="contentinfo">
 <!-- Copyright etc -->
@@ -239,19 +228,18 @@
 </div>
 <div aria-label="Versions" class="rst-versions" role="note">
 <span class="rst-current-version" data-toggle="rst-current-version">
-<span><a href="variables.html" style="color: #fcfcfc">« Previous</a></span>
-<span><a href="basics.html" style="color: #fcfcfc">Next »</a></span>
 </span>
 </div>
-<script>var base_url = '../..';</script>
-<script defer="" src="../../js/theme_extra.js"></script>
-<script defer="" src="../../js/theme.js"></script>
-<script defer="" src="https://unpkg.com/mermaid@10.2.4/dist/mermaid.min.js"></script>
-<script defer="" src="../../search/main.js"></script>
-<script defer="">
-        window.onload = function () {
+<script src="../../js/jquery-3.6.0.min.js"></script>
+<script>var base_url = "../..";</script>
+<script src="../../js/theme_extra.js"></script>
+<script src="../../js/theme.js"></script>
+<script src="https://unpkg.com/mermaid@10.2.4/dist/mermaid.min.js"></script>
+<script src="../../search/main.js"></script>
+<script>
+        jQuery(function () {
             SphinxRtdTheme.Navigation.enable(true);
-        };
+        });
     </script>
 <script>const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});</script></body>
 </html>
