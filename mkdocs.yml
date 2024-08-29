@@ -1,85 +1,119 @@
-site_name: Artificial Intelligence, Programming and Robotics
+site_name: Artificial Intelligence, Programming and Robotics (I) - 3.º ESO
 use_directory_urls: false
 nav:
-- 'Artificial Intelligence':
-  - 'Introduction to AI':
-    - 'The Turing Test': 'contents/ai/the-turing-test.md'
-    - 'Activity 1. The Turing Test': 'contents/ai/activity-turing.md'
-    - 'AI terms' : 'contents/ai/terms.md'
-  #- 'Sensors, typology and applications':
-  #  - 'Sensors': 'contents/ai/Sensors.md'
-  #  - 'Types of sensors': 'contents/ai/types-of-sensors.md'
-  #  - 'Applications': 'contents/ai/sensors-applications.md'
-  #- 'Initial techniques of AI: expert systems, neural networks and machine learning':
-  #  - 'Topic'
-  #- 'Automatic information processing':
-  #  - 'Topic'
-  #- 'Equity and inclusion in AI systems. Biases in AI': 'contents/ia/equity-inclusion.md'
-  #- 'Social and ethical implications of artificial intelligence':
-  #  - 'Topic'
-  #- 'Virtual reality techniques':
-  #  - 'Topic'
-- 'Programming':
-  - 'Project: Flip Coin Simulation':
-    - 'The Law of Large Numbers' : 'contents/programming/lawlargenumbers.md'
-    - 'The Simulator: Flip Coin Simulation' : 'contents/programming/flipcoin.md'
-  - 'Learning Python: An Introduction':
-    - 'An overview' : 'contents/programming/overview.md'
-    - 'Variables and data types' : 'contents/programming/variables.md'
-    - 'Functions' : 'contents/programming/functions.md'
-    - 'Creating an Application: The Basics' : 'contents/programming/basics.md'
-    - 'Understanding Python through an example' : 'contents/programming/code_example.md'
-#    - 'Exercises' : 'contents/programming/exercises.md'
-#    - 'Exercises (solution)' : 'contents/programming/exercises_solution.md'
-#  - 'Interpretation of reality through problem modeling': 'contents/programming/problem-modeling.md'
-#  - 'Abstraction, sequencing, algorithmic and its representation with natural language and flow diagrams':
+- 'Presentation' : 'contents/presentation.md' 
+- 'Unit 0. Introduction':
+  - '0.1. Introduction to AI, Programming and Robotics' : 'contents/unit01/intro.md' 
+  #    - 'The Turing Test': 'contents/unit01/the-turing-test.md'
+  #    - 'AI terms' : 'contents/unit01/terms.md'
+  #    - 'Activity 1. The Turing Test': 'contents/unit01/activity-turing.md'  
+- 'Unit 1. Sensors and AI':
+  - 'Sensors and AI: Fundamentals and Applications': 'contents/unit01/unit1.md'
+  # -[2ESO] '1. Learning: Biological Systems and AI': # SB1.1
+  #  -[2ESO]  'Learning in Biological Systems: Decisions and Free Will': 'contents/unit01/ai-bio.md'
+  #  -[2ESO]  'Learning, AI, Programming, and Robots': 'contents/unit01/learning-aipr.md'
+  #  -[2ESO]  '✏️ Exercises': 'contents/unit01/exercises-1-1.md'
+  - '1. Sensors, typology and applications': # SB1.2
+    - 'Sensors': 'contents/unit01/Sensors.md'
+    - 'Types of sensors': 'contents/unit01/types-of-sensors.md'
+    - 'Applications': 'contents/unit01/sensors-applications.md'
+  #- '[2ESO] 3. Fundamentals of AI': # SB1.3
+  #  - '[2ESO] Fundamentals of AI' : 'contents/unit01/ai-fundamentals.md'
+  #  - '[2ESO] Decision Trees' : 'contents/unit01/decision-trees.md'  
+  #  - '[2ESO] Big Data' : 'contents/unit01/big-data.md'
+  #  - '[2ESO] Neural Networks' : 'contents/unit01/neural-networks.md'
+  - '2. Basic techniques of AI': #SB1.4
+    - 'Expert systems' : 'contents/unit01/expert-systems.md'
+    - 'Neural networks' : 'contents/unit01/neural-networks-tech.md'
+    - 'Machine learning' : 'contents/unit01/machine-learning.md'
+  - '3. Automatic information processing': #SB1.5
+    - 'Automatic information processing' : 'contents/unit01/auto-inf-processing.md'
+  - 'Activities & Projects':
+    - 'A01. Learning in Biological Systems': 'contents/unit01/activity-A01.md'
+    - 'A02. Title': 'contents/unit01/activity-A02.md'
+    - 'A03. Title': 'contents/unit01/activity-A03.md'
+  - 'Glossary': 'contents/unit01/glossary-ud01.md'
+#- 'Unit 2. AI Ethics and Inclusion':
+#  - 'Exploring AI: Ethics, Inclusion, and Virtual Reality': 'contents/unit02/unit2.md'
+#  - '1. Equity and inclusion in AI systems. Biases in AI': #SB1.6
+#    - 'Equity and inclusion in AI systems' : 'contents/unit02/equity-inclusion.md'
+#    - 'Biases in AI' : 'contents/unit02/biases-ai.md'
+#  - '2. Social and ethical implications of artificial intelligence': #SB1.7
+#    - 'Social and ethical implications of artificial intelligence': 'contents/unit02/social-ethical-ai.md'
+#  - '3. Virtual reality techniques': # SB1.8
+#    - 'Virtual reality techniques': 'contents/unit02/vr-techniques.md'
+#    - 'Glossary': 'contents/unit02/glossary-ud02.md'
+#- 'Unit 3. Algorithms in Programming':
+#  - 'Modeling, Algorithms, and Patterns in Programming': 'contents/unit03/unit3.md'
+#  - '[2ESO] 1. Computational Thinking Skills' : 'contents/unit03/compskills.md' #SB2.1
+#  - '1. Interpretation of reality through problem modeling': 'contents/unit03/problem-modeling.md' #SB2.2
+#  - '2. Abstraction, sequencing, algorithmic and its representation with natural language and flow diagrams': #SB2.3
+#    - 'Introduction' : 'contents/unit03/abstraction.md'
+#    - 'Abstraction and sequencing' : 'contents/unit03/abstraction_seq.md'
+#    - 'Algorithms' : 'contents/programming/unit03.md'
+#    - 'Natural Language and Flow Diagrams' : 'contents/unit03/nl-flowdiagrams.md'
+#  - '3. Pattern detection and reuse. Generalization':
+#  - '4. Sustainability and inclusion as software design requirements':
+#  - 'Glossary': 'contents/unit03/glossary-ud03.md'
+#- 'Unit 4. Programming Fundamentals':
+#  - 'Programming Fundamentals: Languages, Flow Control, and Variables': 'contents/unit04/unit4.md'
+#  - '1. Program flow control structures': # SB2.6
 #    - 'Item'
-#  - 'Pattern detection and reuse. Generalization':
+#  - '2. Variables, constants, conditions and operators': #SB2.7
 #    - 'Item'
-#  - 'Sustainability and inclusion as software design requirements':
+#  - '[2ESO] 3. Block Programming: Composition of Basic Structures and Block Fitting': # SB2.8
+  #- '3. Introduction to programming in high-level languages. Types of languages. Syntax and semantics':
+  #- '4. Mobile device application programming':
+#  - 'Glossary': 'contents/unit04/glossary-ud04.md'
+#- 'Unit 5. Software Management':
+#  - 'Software Management: Applications and Maintenance': 'contents/unit05/unit5.md'
+#  - '[2ESO] 1. Software Analysis and Validation': # SB2.11
+  #- '1. Software Evaluation and Maintenance':
+#  - '2. Software licenses. Free software and proprietary software': #SB2.13
 #    - 'Item'
-#  - 'Program flow control structures':
+  #- '3. Controller card simulators':
+#  - '4. Initiative, self-confidence and metacognition in the software development learning process': #SB2.15
 #    - 'Item'
-#  - 'Variables, constants, conditions and operators':
+  #- 'Project Rock Paper Scissors Lizard Spock':
+  #  - '0. The Project' : 'contents/programming/rpsls/project.md'
+  #  - '1. The Game' : 'contents/programming/rpsls/thegame.md'
+  #  - '2. Graphics and Animation' : 'contents/programming/rpsls/animation.md'
+  #  - '3. Logic and Flow Control' : 'contents/programming/rpsls/logic.md'
+  #  - '4. Final Version and Testing' : 'contents/programming/rpsls/final.md'
+  #  - 'Tutorial: Rock, Paper, Scissors' : 'contents/programming/rpsls/rps_tutorial.md'
+#  - 'Glossary': 'contents/unit05/glossary-ud05.md'
+#- 'Unit 6. Robotics ':
+#  - 'Robotics in Action: Assembly, Control, and Programming': 'contents/unit06/unit6.md'
+#  - '0. Introduction to Robotics' :
+#    - 'Introduction' : 'contents/unit06/intro.md' 
+#    - 'What is a robot?' : 'contents/unit06/robots.md'
+#    - 'Robots and AI' : 'contents/unit06/robots_ai.md'
+#    - 'Robots' : 'contents/unit06/crashcourse_robots.md'
+#    - 'Robotics and AI' : 'contents/unit06/crashcourse_robotics_ai.md'
+#    - 'How Engineering Robots Works' : 'contents/unit06/crashcourse_robots_engineering.md'
+#  - '[2ESO] 1. Robots: Types, Degrees of Freedom, and Basic Technical Characteristics': #SB3.1
+#    - 'Item' : 'contents/unit06/item.md'  
+#  - '1. Robot assembly': #SB3.2
 #    - 'Item'
-#  - 'Introduction to programming in high-level languages. Types of languages. Syntax and semantics':
+#  - '2. Control of robotic systems': #SB3.3
+#    - 'Introduction to mBlock' : 'contents/unit06/mblock.md'
+#  - '3. Sensors, actuators and controllers': #SB3.4
+#    - 'Introduction' : 'contents/unit06/intro_sens_act_contr.md'
+#    - 'Sensors' : 'contents/unit06/sensors.md'
+#    - 'Actuators' : 'contents/unit06/actuators.md'
+#    - 'Controllers' : 'contents/unit06/controllers.md'
+#    - 'mBot' : 'contents/unit06/mbot.md'
+#  - '4. Loading and execution of algorithms in robots': #SB3.5
 #    - 'Item'
-#  - 'Mobile device application programming':
-#    - 'Item'
-#  - 'Software evaluation and maintenance':
-#    - 'Item'
-#  - 'Software licenses. Free software and proprietary software':
-#    - 'Item'
-#  - 'Controller card simulators':
-#    - 'Item'
-#  - 'Initiative, self-confidence and metacognition in the software development learning process':
-#    - 'Item'
-- 'Robotics':
-#  - 'Robot assembly':
-#    - 'Item'
-#  - 'Introduction to Robotics':
-#    - 'What is a robot?' : 'contents/robotics/robots.md'
-#    - 'Robots and AI' : 'contents/robotics/robots_ai.md'
-#    - 'Robots' : 'contents/robotics/crashcourse_robots.md'
-#    - 'Robotics and AI' : 'contents/robotics/crashcourse_robotics_ai.md'
-#    - 'How Engineering Robots Works' : 'contents/robotics/crashcourse_robots_engineering.md'
-#  - 'Control of robotic systems':
-#    - 'Introduction to mBlock' : 'contents/robotics/mblock.md'
-#  - 'Sensors, actuators and controllers':
-#    - 'Introduction' : 'contents/robotics/intro_sens_act_contr.md'
-#    - 'Sensors' : 'contents/robotics/sensors.md'
-#    - 'Actuators' : 'contents/robotics/actuators.md'
-#    - 'Controllers' : 'contents/robotics/controllers.md'
-#    - 'mBot' : 'contents/robotics/mbot.md'
-#  - 'Loading and execution of algorithms in robots':
-#    - 'Item'
-#  - 'Robotic systems in experimentation with designed prototypes':
-#    - 'Item'
-#  - 'Project (I): Robot Research' : 'contents/robotics/robotresearch.md'
-  - 'Project (II): mBot Robot Programming' : 'contents/robotics/mbotcode.md'
-#- 'Programación Didáctica':
+#  - '5. Robotic systems in experimentation with designed prototypes': 
+# - 'Project (I): Robot Research' : 'contents/robotics/robotresearch.md'
+# - 'Project (II): mBot Robot Programming' : 'contents/robotics/mbotcode.md'
+# - 'Programación Didáctica':
 #    - 'Elementos curriculares': 'pd/curriculo/curriculo.md'
-#    - 'Programación de aula': 'pd/progaula/progaula.md'
+#  - 'Glossary': 'contents/unit06/glossary-ud06.md'
+- 'Programación Didáctica':
+  - 'Saberes' : 'contents/saberes.md'
+  - 'Criterios de evaluación' : 'contents/criterios.md'
 - 'More':
   - 'Blog': 'https://www.esferatic.com'
   - 'Instagram': 'https://www.instagram.com/esferatic'
@@ -94,8 +128,7 @@ theme:
         text: Roboto
         code: Roboto Mono
     logo: 'images/floppy-ict3.png'
-    features:
-      - content.code.annotate
+
 plugins:
   - glightbox
   - search
@@ -105,26 +138,15 @@ plugins:
   # - combined: true
 
 markdown_extensions:
-  - tables
   - attr_list
   - sane_lists
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
 extra_css:
   - css/ict.css
 
 extra_javascript:
   - https://unpkg.com/mermaid@10.2.4/dist/mermaid.min.js
-
