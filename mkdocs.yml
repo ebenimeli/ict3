@@ -29,9 +29,10 @@ nav:
   - '3. Automatic information processing': #SB1.5
     - 'Automatic information processing' : 'contents/unit01/auto-inf-processing.md'
   - 'Activities & Projects':
-    - 'A01. Learning in Biological Systems': 'contents/unit01/activity-A01.md'
-    - 'A02. Title': 'contents/unit01/activity-A02.md'
-    - 'A03. Title': 'contents/unit01/activity-A03.md'
+    - 'AI Robot Research': 'contents/unit01/robotresearch.md'
+   # - 'A01. Learning in Biological Systems': 'contents/unit01/activity-A01.md'
+   # - 'A02. Title': 'contents/unit01/activity-A02.md'
+   # - 'A03. Title': 'contents/unit01/activity-A03.md'
   - 'Glossary': 'contents/unit01/glossary-ud01.md'
 #- 'Unit 2. AI Ethics and Inclusion':
 #  - 'Exploring AI: Ethics, Inclusion, and Virtual Reality': 'contents/unit02/unit2.md'
