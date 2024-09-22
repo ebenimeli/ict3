@@ -1,10 +1,10 @@
-site_name: Artificial Intelligence, Programming and Robotics (I) - 3.º ESO
+site_name: Programming, Artificial Intelligence and Robotics (II) - 3.º ESO
 use_directory_urls: false
 nav:
 - 'Presentation' : 'contents/unit00/presentation.md' 
 - 'Unit 0. Introduction':
   - '0.1. Introduction to AI, Programming and Robotics' : 'contents/unit01/intro.md' 
-  #    - 'The Turing Test': 'contents/unit01/the-turing-test.md'
+  #     - 'The Turing Test': 'contents/unit01/the-turing-test.md'
   #    - 'AI terms' : 'contents/unit01/terms.md'
   #    - 'Activity 1. The Turing Test': 'contents/unit01/activity-turing.md'  
 - 'Unit 1. Sensors and AI':
@@ -14,9 +14,9 @@ nav:
   #  -[2ESO]  'Learning, AI, Programming, and Robots': 'contents/unit01/learning-aipr.md'
   #  -[2ESO]  '✏️ Exercises': 'contents/unit01/exercises-1-1.md'
   - '1. Sensors, typology and applications': # SB1.2
-    - 'Sensors': 'contents/unit01/Sensors.md'
-    - 'Types of sensors': 'contents/unit01/types-of-sensors.md'
-    - 'Applications': 'contents/unit01/sensors-applications.md'
+    - 'Sensors': ''
+    - 'Types of sensors': ''
+    - 'Applications': ''
   #- '[2ESO] 3. Fundamentals of AI': # SB1.3
   #  - '[2ESO] Fundamentals of AI' : 'contents/unit01/ai-fundamentals.md'
   #  - '[2ESO] Decision Trees' : 'contents/unit01/decision-trees.md'  
