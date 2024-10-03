@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+
+<html class="writer-html5" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../../img/favicon.ico" rel="shortcut icon"/>
+<title>Virtual Reality Techniques - Programming, Artificial Intelligence and Robotics (II) - 3.º ESO</title>
+<link href="../../css/theme.css" rel="stylesheet"/>
+<link href="../../css/theme_extra.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" rel="stylesheet"/>
+<link href="../../css/ict.css" rel="stylesheet"/>
+<script>
+        // Current page data
+        var mkdocs_page_name = "Virtual Reality Techniques";
+        var mkdocs_page_input_path = "contents/unit01/vr-techniques.md";
+        var mkdocs_page_url = null;
+      </script>
+<!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+<link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        </style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+<body class="wy-body-for-nav" role="document">
+<div class="wy-grid-for-nav">
+<nav class="wy-nav-side stickynav" data-toggle="wy-nav-shift">
+<div class="wy-side-scroll">
+<div class="wy-side-nav-search">
+<a href="../..">
+<img alt="Logo" class="logo" src="../../images/floppy-ict3.png"/>
+</a><div role="search">
+<form action="../../search.html" class="wy-form" id="rtd-search-form" method="get">
+<input aria-label="Search docs" name="q" placeholder="Search docs" title="Type search term here" type="text"/>
+</form>
+</div>
+</div>
+<div aria-label="Navigation menu" class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../unit00/presentation.html">Presentation</a>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Unit 0. Introduction</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal">0.1. Introduction to AI, Programming and Robotics</a>
+<ul>
+<li class="toctree-l2"><a class="reference internal" href="intro.html">Introduction to AI</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="c0_the-turing-test.html">The Turing Test</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="c0_text-turing.html">Text 1. The Turing Test</a>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Unit 1. Sensors and AI</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="unit1.html">Sensors and AI: Fundamentals and Applications</a>
+</li>
+<li class="toctree-l1"><a class="reference internal">1. Learning: Biological Systems and AI</a>
+<ul>
+<li class="toctree-l2"><a class="reference internal" href="c1_ai-bio.html">Learning in Biological Systems: Decisions and Free Will</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="c1_learning-aipr.html">Learning, AI, Programming, and Robots</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="exercises-1-1.html">✏️ Exercises</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal">2. Sensors, typology and applications</a>
+<ul>
+<li class="toctree-l2"><a class="reference internal" href="c2_sensors.html">Sensors</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="c2_types-of-sensors.html">Types of sensors</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="c2_sensors-applications.html">Applications</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal">3. Fundamentals of AI</a>
+<ul>
+<li class="toctree-l2"><a class="reference internal" href="c3_ai-fundamentals.html">Fundamentals of AI</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="c3_decision-trees.html">Decision Trees</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="c3_big-data.html">Big Data</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="c3_neural-networks.html">Neural Networks</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal">4. Basic techniques of AI</a>
+<ul>
+<li class="toctree-l2"><a class="reference internal" href="c4_expert-systems.html">Expert systems</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="c4_neural-networks-tech.html">Neural networks</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="c4_machine-learning.html">Machine learning</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal">5. Automatic information processing</a>
+<ul>
+<li class="toctree-l2"><a class="reference internal" href="c5_auto-inf-processing.html">Automatic information processing</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal">Activities &amp; Projects</a>
+<ul>
+<li class="toctree-l2"><a class="" href="activity-A01.md">A01. Learning in Biological Systems</a>
+</li>
+<li class="toctree-l2"><a class="" href="activity-A02.md">A02. Title</a>
+</li>
+<li class="toctree-l2"><a class="" href="activity-A03.md">A03. Title</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="glossary-ud01.html">Glossary</a>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">More</span></p>
+<ul>
+<li class="toctree-l1"><a class="" href="https://www.esferatic.com">Blog</a>
+</li>
+<li class="toctree-l1"><a class="" href="https://www.instagram.com/esferatic">Instagram</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<section class="wy-nav-content-wrap" data-toggle="wy-nav-shift">
+<nav aria-label="Mobile navigation menu" class="wy-nav-top" role="navigation">
+<i class="fa fa-bars" data-toggle="wy-nav-top"></i>
+<a href="../..">Programming, Artificial Intelligence and Robotics (II) - 3.º ESO</a>
+</nav>
+<div class="wy-nav-content">
+<div class="rst-content"><div aria-label="breadcrumbs navigation" role="navigation">
+<ul class="wy-breadcrumbs">
+<li><a aria-label="Docs" class="icon icon-home" href="../.."></a></li>
+<li class="breadcrumb-item active">Virtual Reality Techniques</li>
+<li class="wy-breadcrumbs-aside">
+</li>
+</ul>
+<hr/>
+</div>
+<div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
+<div class="section" itemprop="articleBody">
+<h1 id="virtual-reality-techniques">Virtual Reality Techniques</h1>
+<p><strong>Introduction to Virtual Reality</strong></p>
+<p>Virtual Reality (VR) is a technology that creates a simulated environment. Unlike traditional user interfaces, VR places the user inside an experience. Instead of viewing a screen in front of them, users are immersed and able to interact with 3D worlds. This makes VR a powerful tool for learning, playing, and exploring.</p>
+<p><strong>How Virtual Reality Works</strong></p>
+<p>VR works through a combination of hardware and software. The main hardware components include:</p>
+<ol>
+<li><strong>VR Headsets:</strong> These are like goggles that cover your eyes and show you the virtual world. Examples include the Oculus Rift, HTC Vive, and PlayStation VR.</li>
+<li><strong>Motion Controllers:</strong> These are handheld devices that let you interact with the VR world. They track your hand movements and allow you to pick up objects, draw, or even fight virtual enemies.</li>
+<li><strong>Tracking Sensors:</strong> These sensors monitor the position of your headset and controllers in space, ensuring that your movements in the real world are accurately reflected in the virtual world.</li>
+</ol>
+<p>The software in VR includes the applications and games that create the virtual environments and allow you to interact with them. </p>
+<p><strong>Techniques Used in Virtual Reality</strong></p>
+<p>Several key techniques make VR possible and enhance the experience:</p>
+<ol>
+<li><strong>3D Modeling and Animation:</strong>
+   - <strong>3D Modeling:</strong> Creating a digital representation of any object or environment. For example, a chair or a room.
+   - <strong>Animation:</strong> Bringing these models to life by making them move. This could be a character walking or a car driving.</li>
+</ol>
+<p><strong>Example:</strong> In a VR art application, you can use 3D modeling to create sculptures. With animation, these sculptures can come to life, moving or changing colors.</p>
+<ol start="2">
+<li><strong>Spatial Audio:</strong>
+   - Spatial audio makes sounds seem like they are coming from specific locations in the virtual environment. This means if someone is talking behind you in VR, the sound will come from behind you.</li>
+</ol>
+<p><strong>Example:</strong> In a VR mystery game, you might hear footsteps behind you, prompting you to turn around and investigate.</p>
+<ol start="3">
+<li><strong>Head Tracking:</strong>
+   - This technique tracks the position and movement of your head, adjusting the view in the VR headset accordingly. It allows you to look around the virtual world naturally.</li>
+</ol>
+<p><strong>Example:</strong> If you’re exploring a VR jungle, you can look up to see the treetops or down to see the underbrush.</p>
+<ol start="4">
+<li><strong>Motion Tracking:</strong>
+   - This tracks the movements of your hands or other parts of your body. It allows for a more interactive experience, as you can move objects, draw, or perform tasks.</li>
+</ol>
+<p><strong>Example:</strong> In a VR cooking game, you can use motion controllers to chop vegetables, stir pots, and serve food.</p>
+<ol start="5">
+<li><strong>Haptic Feedback:</strong>
+   - Haptic feedback uses vibrations or other sensations to simulate touch. This means you can feel when you touch or pick up something in the VR world.</li>
+</ol>
+<p><strong>Example:</strong> When you catch a ball in a VR sports game, you might feel a slight vibration in your hand.</p>
+<p><strong>Practical Applications of Virtual Reality</strong></p>
+<ol>
+<li><strong>Education:</strong>
+   - VR can create immersive learning experiences. Imagine learning about ancient Egypt by walking around a pyramid or exploring the human body by traveling through its systems.</li>
+</ol>
+<p><strong>Example:</strong> A VR history lesson where students visit a medieval castle and interact with historical figures.</p>
+<ol start="2">
+<li><strong>Training:</strong>
+   - VR is used for training in fields like medicine, aviation, and the military. It allows for safe practice of complex tasks.</li>
+</ol>
+<p><strong>Example:</strong> Medical students can perform virtual surgeries to practice without any risk to real patients.</p>
+<ol start="3">
+<li><strong>Entertainment:</strong>
+   - VR is popular in gaming, where it creates immersive experiences that traditional gaming setups can’t match.</li>
+</ol>
+<p><strong>Example:</strong> Playing a VR zombie game where you need to physically move and fight off zombies coming from all directions.</p>
+<ol start="4">
+<li><strong>Travel:</strong>
+   - VR can provide virtual travel experiences, allowing people to visit places they might never go in real life.</li>
+</ol>
+<p><strong>Example:</strong> A virtual tour of the Eiffel Tower, where you can look around and explore Paris from above.</p>
+<ol start="5">
+<li><strong>Therapy:</strong>
+   - VR is used in therapy to treat conditions like PTSD, anxiety, and phobias.</li>
+</ol>
+<p><strong>Example:</strong> A person afraid of heights can use VR to gradually and safely expose themselves to higher and higher places.</p>
+<p><strong>Conclusion</strong></p>
+<p>Virtual Reality is a fascinating and versatile technology. By understanding the basic techniques and applications, you can see how VR is changing the way we learn, work, and play. As technology advances, the possibilities for VR are endless, making it an exciting field for future exploration and innovation.</p>
+</div>
+</div><footer>
+<hr/>
+<div role="contentinfo">
+<!-- Copyright etc -->
+</div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+</div>
+</div>
+</section>
+</div>
+<div aria-label="Versions" class="rst-versions" role="note">
+<span class="rst-current-version" data-toggle="rst-current-version">
+</span>
+</div>
+<script src="../../js/jquery-3.6.0.min.js"></script>
+<script>var base_url = "../..";</script>
+<script src="../../js/theme_extra.js"></script>
+<script src="../../js/theme.js"></script>
+<script src="https://unpkg.com/mermaid@10.2.4/dist/mermaid.min.js"></script>
+<script src="../../search/main.js"></script>
+<script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+<script>const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});</script></body>
+</html>
