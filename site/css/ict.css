@@ -42,3 +42,14 @@ img.header {
     display: block;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
+
+div.note {
+    position: relative; /* Para que el ícono se posicione relativo al div */
+    background-color: #CEE7FF;
+    padding: 15px;
+    padding-right: 15px;
+    margin: 5px;
+    margin-bottom: 15px;
+    border-left: solid 7px steelblue;
+    /*border-radius: 10px;*/
+}

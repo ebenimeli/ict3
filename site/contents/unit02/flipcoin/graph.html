@@ -6,15 +6,15 @@
 <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <link href="../../../img/favicon.ico" rel="shortcut icon"/>
-<title>Coin Flip: The project - Programming, Artificial Intelligence and Robotics (II) - 3.º ESO</title>
+<title>Step 4: Display a simulation graph - Programming, Artificial Intelligence and Robotics (II) - 3.º ESO</title>
 <link href="../../../css/theme.css" rel="stylesheet"/>
 <link href="../../../css/theme_extra.css" rel="stylesheet"/>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" rel="stylesheet"/>
 <link href="../../../css/ict.css" rel="stylesheet"/>
 <script>
         // Current page data
-        var mkdocs_page_name = "Coin Flip: The project";
-        var mkdocs_page_input_path = "contents/unit01/flipcoin/flipcoin.md";
+        var mkdocs_page_name = "Step 4: Display a simulation graph";
+        var mkdocs_page_input_path = "contents/unit02/flipcoin/graph.md";
         var mkdocs_page_url = null;
       </script>
 <!--[if lt IE 9]>
@@ -48,22 +48,26 @@
 </ul>
 <p class="caption"><span class="caption-text">Unit 1. Programming, AI &amp; Robots</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../unit1.html">Introduction to AI, Programming and Robotics</a>
+<li class="toctree-l1"><a class="reference internal" href="../../unit01/unit1.html">Introduction to AI, Programming and Robotics</a>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../c0_the-turing-test.html">The Turing Test</a>
+<li class="toctree-l1"><a class="reference internal" href="../../unit01/c0_the-turing-test.html">The Turing Test</a>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../c0_text-turing.html">✏️ Activity. The Turing Test</a>
+<li class="toctree-l1"><a class="reference internal" href="../../unit01/c0_text-turing.html">A01. Introduction to Artificial Intelligence: The Turing Test</a>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../unit01/neural_deeplearn.html">Neural Networks and Deep Learning</a>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../unit01/alphago.html">AlphaGo</a>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../unit01/alphago_activity.html">A02. Artificial Intelligence Techniques, Applications and Ethics</a>
 </li>
 </ul>
 <p class="caption"><span class="caption-text">Unit 2. Programming Fundamentals</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="" href="../../../contentes/unit02/unit2.md">Programming Fundamentals: Data, Logic, and Control</a>
+<li class="toctree-l1"><a class="reference internal" href="../unit2.html">Programming Fundamentals: Data, Logic, and Control</a>
 </li>
 <li class="toctree-l1 current"><a class="reference internal current">Project: Coin Flip Simulator</a>
 <ul class="current">
-<li class="toctree-l2 current"><a class="reference internal current" href="#">Coin Flip: The project</a>
-<ul class="current">
-</ul>
+<li class="toctree-l2"><a class="reference internal" href="flipcoin.html">Coin Flip: The project</a>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="vars_mainloop.html">Step 1: Flip coins and count the throws</a>
 </li>
@@ -71,7 +75,9 @@
 </li>
 <li class="toctree-l2"><a class="reference internal" href="calculations.html">Step 3: Calculate percentages</a>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="graph.html">Step 4: Display a simulation graph</a>
+<li class="toctree-l2 current"><a class="reference internal current" href="#">Step 4: Display a simulation graph</a>
+<ul class="current">
+</ul>
 </li>
 </ul>
 </li>
@@ -97,7 +103,7 @@
 <li><a aria-label="Docs" class="icon icon-home" href="../../.."></a></li>
 <li class="breadcrumb-item">Unit 2. Programming Fundamentals</li>
 <li class="breadcrumb-item">Project: Coin Flip Simulator</li>
-<li class="breadcrumb-item active">Coin Flip: The project</li>
+<li class="breadcrumb-item active">Step 4: Display a simulation graph</li>
 <li class="wy-breadcrumbs-aside">
 </li>
 </ul>
@@ -105,20 +111,15 @@
 </div>
 <div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
 <div class="section" itemprop="articleBody">
-<h1 id="programming-project-coin-flip-simulation">Programming Project: Coin Flip Simulation</h1>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="img/CoinFlipSimulation500.gif"><img align="center" alt="Coin Flip Simulation" src="img/CoinFlipSimulation500.gif" width="600"/></a></p>
-<p>This animation displays a <strong>simulation of 500 coin tosses</strong>. As can be observed, the <strong>percentages of heads and tails</strong> are converging towards <strong>50%</strong>, which is the theoretical probability of getting a head or a tail in a single toss.</p>
-<ul>
-<li><a href="vars_mainloop.html">Step 1: Flip coins and count the throws</a></li>
-<li><a href="checkflip.html">Step 2: Animate and count heads and tails</a></li>
-<li><a href="calculations.html">Step 3: Calculate percentages</a></li>
-<li><a href="graph.html">Step 4: Display a simulation graph</a></li>
-</ul>
+<div><h1 id="display-a-simulation-graph">Display a simulation graph</h1>
+<p>Code in backdrop:</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="img/plotvalue.png"><img align="center" alt="Plot Value" src="img/plotvalue.png" width="600"/></a></p>
+<p>Code in pencil:</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="img/plot.png"><img align="center" alt="Plot Graph" src="img/plot.png" width="600"/></a></p></div>
 </div>
 </div><footer>
 <div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
-<a class="btn btn-neutral float-left" href="../c0_text-turing.html" title="✏️ Activity. The Turing Test"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-<a class="btn btn-neutral float-right" href="vars_mainloop.html" title="Step 1: Flip coins and count the throws">Next <span class="icon icon-circle-arrow-right"></span></a>
+<a class="btn btn-neutral float-left" href="calculations.html" title="Step 3: Calculate percentages"><span class="icon icon-circle-arrow-left"></span> Previous</a>
 </div>
 <hr/>
 <div role="contentinfo">
@@ -133,8 +134,7 @@
 </div>
 <div aria-label="Versions" class="rst-versions" role="note">
 <span class="rst-current-version" data-toggle="rst-current-version">
-<span><a href="../c0_text-turing.html" style="color: #fcfcfc">« Previous</a></span>
-<span><a href="vars_mainloop.html" style="color: #fcfcfc">Next »</a></span>
+<span><a href="calculations.html" style="color: #fcfcfc">« Previous</a></span>
 </span>
 </div>
 <script src="../../../js/jquery-3.6.0.min.js"></script>
