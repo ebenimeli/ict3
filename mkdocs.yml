@@ -155,4 +155,5 @@ extra_css:
   - css/ict.css
 
 extra_javascript:
+  - javascript/extra.js
   - https://unpkg.com/mermaid@10.2.4/dist/mermaid.min.js
