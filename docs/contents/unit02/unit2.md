@@ -1,3 +1,3 @@
-# Unit 2. Exploring AI: Ethics, Inclusion, and Virtual Reality
+# Unit 2. Programming, Fundamentals: Data, Logic, and Control
 
-<img class="header" src="../images/ud2_ict3.jpeg"/>
+<img class="header" src="../images/ud4_ict3.jpeg"/>

@@ -3,12 +3,13 @@ use_directory_urls: false
 nav:
 - 'Presentation' : 'contents/unit00/presentation.md' 
 - 'Unit 1. Programming, AI & Robots':
-  - 'Introduction to AI, Programming and Robotics' :
-      - 'Introduction to AI': 'contents/unit01/intro.md' 
-      - 'The Turing Test': 'contents/unit01/c0_the-turing-test.md'
-      - '✏️ Activity. The Turing Test': 'contents/unit01/c0_text-turing.md'  
+  - 'Introduction to AI, Programming and Robotics' : 'contents/unit01/unit1.md' 
+  - 'The Turing Test': 'contents/unit01/c0_the-turing-test.md'
+  - 'Activity. The Turing Test': 'contents/unit01/c0_text-turing.md'  
   #    - 'AI terms' : 'contents/unit01/terms.md'
-  - 'Coin Flip Simulator':
+- 'Unit 2. Programming Fundamentals':
+  - 'Programming Fundamentals: Data, Logic, and Control' : 'contents/unit02/unit2.md'
+  - 'Project: Coin Flip Simulator':
     - 'Coin Flip: The project': 'contents/unit01/flipcoin/flipcoin.md'
     - 'Step 1: Flip coins and count the throws': 'contents/unit01/flipcoin/vars_mainloop.md'
     - 'Step 2: Animate and count heads and tails': 'contents/unit01/flipcoin/checkflip.md'
