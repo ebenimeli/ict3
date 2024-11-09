@@ -8,8 +8,12 @@ nav:
       - 'The Turing Test': 'contents/unit01/c0_the-turing-test.md'
       - '✏️ Activity. The Turing Test': 'contents/unit01/c0_text-turing.md'  
   #    - 'AI terms' : 'contents/unit01/terms.md'
-  - 'Flip Coin Simulator':
-    - 'Flip Coin: The project': 'contents/unit01/flipcoin/flipcoin.md'
+  - 'Coin Flip Simulator':
+    - 'Coin Flip: The project': 'contents/unit01/flipcoin/flipcoin.md'
+    - 'Step 1: Flip coins and count the throws': 'contents/unit01/flipcoin/vars_mainloop.md'
+    - 'Step 2: Animate and count heads and tails': 'contents/unit01/flipcoin/checkflip.md'
+    - 'Step 3: Calculate percentages': 'contents/unit01/flipcoin/calculations.md'
+    - 'Step 4: Display a simulation graph': 'contents/unit01/flipcoin/graph.md'
   #- 'Sensors and AI: Fundamentals and Applications': 'contents/unit01/unit1.md'
   #- '1. Learning: Biological Systems and AI': # SB1.1
   #  - 'Learning in Biological Systems: Decisions and Free Will': 'contents/unit01/c1_ai-bio.md'

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+
+<html class="writer-html5" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../../../img/favicon.ico" rel="shortcut icon"/>
+<title>Step 1: Flip coins and count the throws - Programming, Artificial Intelligence and Robotics (II) - 3.º ESO</title>
+<link href="../../../css/theme.css" rel="stylesheet"/>
+<link href="../../../css/theme_extra.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" rel="stylesheet"/>
+<link href="../../../css/ict.css" rel="stylesheet"/>
+<script>
+        // Current page data
+        var mkdocs_page_name = "Step 1: Flip coins and count the throws";
+        var mkdocs_page_input_path = "contents/unit01/flipcoin/vars_mainloop.md";
+        var mkdocs_page_url = null;
+      </script>
+<!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+<link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        </style> <script src="../../../assets/javascripts/glightbox.min.js"></script></head>
+<body class="wy-body-for-nav" role="document">
+<div class="wy-grid-for-nav">
+<nav class="wy-nav-side stickynav" data-toggle="wy-nav-shift">
+<div class="wy-side-scroll">
+<div class="wy-side-nav-search">
+<a href="../../..">
+<img alt="Logo" class="logo" src="../../../images/floppy-ict3.png"/>
+</a><div role="search">
+<form action="../../../search.html" class="wy-form" id="rtd-search-form" method="get">
+<input aria-label="Search docs" name="q" placeholder="Search docs" title="Type search term here" type="text"/>
+</form>
+</div>
+</div>
+<div aria-label="Navigation menu" class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../unit00/presentation.html">Presentation</a>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Unit 1. Programming, AI &amp; Robots</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal">Introduction to AI, Programming and Robotics</a>
+<ul>
+<li class="toctree-l2"><a class="reference internal" href="../intro.html">Introduction to AI</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../c0_the-turing-test.html">The Turing Test</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../c0_text-turing.html">✏️ Activity. The Turing Test</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal current">Coin Flip Simulator</a>
+<ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="flipcoin.html">Coin Flip: The project</a>
+</li>
+<li class="toctree-l2 current"><a class="reference internal current" href="#">Step 1: Flip coins and count the throws</a>
+<ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="#0-heads-or-tails">0. Heads or Tails</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#1-definition-of-variables">1. Definition of variables</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#2-the-main-loop">2. The Main Loop</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="checkflip.html">Step 2: Animate and count heads and tails</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="calculations.html">Step 3: Calculate percentages</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="graph.html">Step 4: Display a simulation graph</a>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">More</span></p>
+<ul>
+<li class="toctree-l1"><a class="" href="https://www.esferatic.com">Blog</a>
+</li>
+<li class="toctree-l1"><a class="" href="https://www.instagram.com/esferatic">Instagram</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<section class="wy-nav-content-wrap" data-toggle="wy-nav-shift">
+<nav aria-label="Mobile navigation menu" class="wy-nav-top" role="navigation">
+<i class="fa fa-bars" data-toggle="wy-nav-top"></i>
+<a href="../../..">Programming, Artificial Intelligence and Robotics (II) - 3.º ESO</a>
+</nav>
+<div class="wy-nav-content">
+<div class="rst-content"><div aria-label="breadcrumbs navigation" role="navigation">
+<ul class="wy-breadcrumbs">
+<li><a aria-label="Docs" class="icon icon-home" href="../../.."></a></li>
+<li class="breadcrumb-item">Unit 1. Programming, AI &amp; Robots</li>
+<li class="breadcrumb-item">Coin Flip Simulator</li>
+<li class="breadcrumb-item active">Step 1: Flip coins and count the throws</li>
+<li class="wy-breadcrumbs-aside">
+</li>
+</ul>
+<hr/>
+</div>
+<div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
+<div class="section" itemprop="articleBody">
+<h1 id="variables-and-main-loop">Variables and Main Loop</h1>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="img/CoinFlipSimulation500.gif"><img align="center" alt="Coin Flip Simulation" src="img/CoinFlipSimulation500.gif" width="600"/></a></p>
+<p>This animation displays a <strong>simulation of 500 coin tosses</strong>. As can be observed, the <strong>percentages of heads and tails</strong> are converging towards <strong>50%</strong>, which is the theoretical probability of getting a head or a tail in a single toss.</p>
+<h2 id="0-heads-or-tails">0. Heads or Tails</h2>
+<p>Obviously, we need coins for this simulation. Coin flipping, coin tossing, or heads or tails is the practice of throwing a coin in the air and checking which side is showing when it lands, in order to choose between two alternatives, heads or tails, sometimes used to resolve a dispute between two parties.</p>
+<h2 id="1-definition-of-variables">1. Definition of variables</h2>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="img/flipcoin_variables.gif"><img align="center" alt="Variables" src="img/flipcoin_variables.gif" width="600"/></a></p>
+<p>These are the variables that need to be defined in the simulation application:</p>
+<p><strong>Heads or tails?</strong></p>
+<ul>
+<li><code>result</code>: This variable stores a <strong>random</strong> integer between 0 and 1, meaning result can have a <strong>value of 0 or 1</strong>. We will assign the value 0 to "heads" and the value 1 to "tails."</li>
+</ul>
+<p><strong>Number of heads and tails</strong></p>
+<ul>
+<li><code>heads</code>: The variable heads stores the <strong>number of heads</strong> that have appeared so far.</li>
+<li><code>tails</code>: The variable tails stores the <strong>number of tails</strong> that have appeared so far.</li>
+</ul>
+<p><strong>Flips or tosses</strong></p>
+<ul>
+<li><code>flips</code>: The variable flips stores the number of heads and tails that have appeared so far, in other words, the <strong>number of coin tosses</strong> performed.</li>
+<li><code>nflips</code>: The variable <code>nflips</code> stores the <strong>number of tosses</strong> the simulator <strong>will perform</strong>.</li>
+</ul>
+<p><strong>Frequency and percetages</strong></p>
+<ul>
+<li><code>f_heads</code>: The variable <code>f_heads</code> stores the <strong>percentage of heads</strong> that have appeared so far. It is a numerical value.</li>
+<li><code>f_tails</code>: The variable <code>f_tails</code> stores the <strong>percentage of tails</strong> that have appeared so far. It is a numerical value.</li>
+<li><code>p_heads</code>: The variable <code>p_heads</code> stores the <strong>percentage of heads</strong> that have appeared so far followed by the <strong>"%" character</strong>. It is a text value displayed in the interface.</li>
+<li><code>p_tails</code>: The variable <code>p_tails</code> stores the <strong>percentage of tails</strong> that have appeared so far followed by the <strong>"%" character</strong></li>
+<li>. It is a text value displayed in the interface.</li>
+</ul>
+<h2 id="2-the-main-loop">2. The Main Loop</h2>
+<p>The structure of the main program should look like this:</p>
+<pre><code>wait 2 sec
+flips = 0
+heads = 0
+tails = 0
+repeat nflips
+    result = random(0,1)
+    flips = flips + 1
+    wait 0.2 sec
+</code></pre>
+<p>In Scratch, you can build this main loop using the following instructions and control structures:</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="img/main_loop_puzzle.jpg"><img align="center" alt="Main Loop" src="img/main_loop_puzzle.jpg" width="600"/></a></p>
+</div>
+</div><footer>
+<div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
+<a class="btn btn-neutral float-left" href="flipcoin.html" title="Coin Flip: The project"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+<a class="btn btn-neutral float-right" href="checkflip.html" title="Step 2: Animate and count heads and tails">Next <span class="icon icon-circle-arrow-right"></span></a>
+</div>
+<hr/>
+<div role="contentinfo">
+<!-- Copyright etc -->
+</div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+</div>
+</div>
+</section>
+</div>
+<div aria-label="Versions" class="rst-versions" role="note">
+<span class="rst-current-version" data-toggle="rst-current-version">
+<span><a href="flipcoin.html" style="color: #fcfcfc">« Previous</a></span>
+<span><a href="checkflip.html" style="color: #fcfcfc">Next »</a></span>
+</span>
+</div>
+<script src="../../../js/jquery-3.6.0.min.js"></script>
+<script>var base_url = "../../..";</script>
+<script src="../../../js/theme_extra.js"></script>
+<script src="../../../js/theme.js"></script>
+<script src="https://unpkg.com/mermaid@10.2.4/dist/mermaid.min.js"></script>
+<script src="../../../search/main.js"></script>
+<script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+<script>const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});</script></body>
+</html>
