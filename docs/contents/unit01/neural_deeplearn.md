@@ -59,6 +59,10 @@ In this video, the speaker explains how to build an artificial neural network us
 
 One of the most famous examples of **neural networks** and **deep learning** is the computer program called **AlphaGo** created by the company **DeepMind**. AlphaGo was designed to play the ancient board game called **Go**. Go is much more complex than chess because it has many more possible moves. In fact, there are more possible positions in Go than atoms in the universe!
 
+<div class="note">
+<b>AlphaGo</b>, a DeepMind AI, mastered the complex game of Go using <b>neural networks</b>, even defeating the world champion in 2016.
+</div>
+
 AlphaGo used neural networks to learn how to play the game by studying many matches played by humans. It also played **millions of games against itself** to get better. Deep learning helped it understand the board and decide the best moves. The amazing thing is that AlphaGo became so good that it defeated the world champion of Go in 2016. 
 
 This was a big step forward for artificial intelligence because it showed that computers could learn to do very complex tasks that even humans find challenging. Today, similar techniques are used in other areas, like medical research, where AI helps doctors find signs of diseases in X-ray images. Thanks to neural networks and deep learning, computers can now solve problems that were once thought impossible!
