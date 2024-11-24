@@ -7,6 +7,7 @@ nav:
   - 'The Turing Test': 'contents/unit01/c0_the-turing-test.md'
   - 'A01. Introduction to Artificial Intelligence: The Turing Test': 'contents/unit01/c0_text-turing.md'
   - 'Neural Networks and Deep Learning': 'contents/unit01/neural_deeplearn.md'
+  - 'Neural Networks': 'contents/unit01/neural_networks.md'
   - 'AlphaGo': 'contents/unit01/alphago.md'
   - 'A02. Artificial Intelligence Techniques, Applications and Ethics': 'contents/unit01/alphago_activity.md'
   #    - 'AI terms' : 'contents/unit01/terms.md'
