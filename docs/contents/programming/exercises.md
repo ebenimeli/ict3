@@ -1,6 +1,6 @@
 # Exercises
 
-## Combining strings using concatenation
+## 1. Combining strings using concatenation
 
 Create two string variables, 'greeting' and 'name', and concatenate them to print a personalized greeting.
 
@@ -23,7 +23,7 @@ print("Full Name: " + first_name + " " + last_name)
 </details>
 ---
 
-## Arithmetic expressions in Python
+## 2. Arithmetic expressions in Python
 
 Calculate and print the result of the expression: x = 10 + 5 * 2
 
@@ -45,7 +45,7 @@ print("Result of y:", y)
 </details>
 ---
 
-## Exponentiation in Python
+## 3. Exponentiation in Python
 
 Calculate and print the result of 2 raised to the power of 4 using the exponentiation operator.
 
@@ -57,7 +57,7 @@ print("2 to the power of 4:", result)
 </details>
 ---
 
-## Modulo operator in Python
+## 4. Modulo operator in Python
 
 Calculate and print the remainder when 15 is divided by 4 using the modulo operator.
 
@@ -69,7 +69,7 @@ print("Remainder:", x)
 </details>
 ---
 
-## Augmented assignment in Python
+## 5. Augmented assignment in Python
 
 Initialize variables x and y with some values.
 
@@ -91,7 +91,7 @@ print("Result of x += y:", x)
 </details>
 ---
 
-## Comments in Python
+## 6. Comments in Python
 
 Add comments to the following code explaining the purpose of each line.
 
@@ -113,7 +113,7 @@ print("Sum:", sum_result)
 </details>
 ---
 
-## Understanding data types - int vs float
+## 7. Understanding data types - int vs float
 
 Declare an integer variable 'integer_var' and a float variable 'float_var'.
 
@@ -135,7 +135,7 @@ print("Type of float_var:", type(float_var))
 </details>
 ---
 
-## Multi-line string in Python
+## 8. Multi-line string in Python
 
 Create a multi-line string containing your address.
 
@@ -157,7 +157,7 @@ print(address)
 </details>
 ---
 
-## Booleans in Python
+## 9. Booleans in Python
 
 Declare boolean variables indicating weather conditions.
 
@@ -179,7 +179,7 @@ print("Is it raining?", is_raining)
 </details>
 ---
 
-## Type error in Python
+## 10. Type error in Python
 
 Fix the type error in the following statement and print the corrected string.
 
@@ -202,7 +202,7 @@ print(bs)
 </details>
 ---
 
-## For loop with countries
+## 11. For loop with countries
 
 Create a list of countries: Spain, France and Germany.
 
@@ -223,7 +223,7 @@ for country in countries:
 </details>
 ---
 
-## For loop with numbers
+## 12. For loop with numbers
 
 Create a list of numbers: [1, 2, 3].
 
@@ -247,7 +247,7 @@ print("Product of numbers:", total)
 </details>
 ---
 
-## Return statements in Python
+## 13. Return statements in Python
 
 Define a function 'calculate_sum' that takes two parameters and returns their sum.
 
@@ -289,7 +289,7 @@ print(is_positive(-2))  # Should print False
 </details>
 ---
 
-## Defining a square function and calling it
+## 14. Defining a square function and calling it
 
 Define a function 'square' that takes a number as a parameter and returns its square.
 
@@ -324,7 +324,7 @@ print("The area of the square is:", area)
 </details>
 ---
 
-## Using a for loop
+## 15. Using a for loop
 
 Write a program that uses a for loop to print the numbers from 1 to 5.
 
@@ -336,7 +336,7 @@ for i in range(1, 6):
 </details>
 ---
 
-## Comparison operators in Python
+## 16. Comparison operators in Python
 
 Create a function 'compare_numbers' that takes two numbers as parameters and prints a message indicating which number is greater or if they are equal.
 
