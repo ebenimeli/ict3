@@ -26,6 +26,7 @@ nav:
     - 'Creating an App: The Basics': 'contents/programming/basics.md'
     - 'Code Example': 'contents/programming/code_example.md'
     - 'Exercises': 'contents/programming/exercises.md'
+    - 'Code Challenges': 'contents/programming/challenges.md'
   #  - 'Exercises (Solutions)': 'contents/programming/exercises_solution.md'
   #- 'Sensors and AI: Fundamentals and Applications': 'contents/unit01/unit1.md'
   #- '1. Learning: Biological Systems and AI': # SB1.1
