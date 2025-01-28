@@ -19,6 +19,8 @@ nav:
     - 'Step 2: Animate and count heads and tails': 'contents/unit02/flipcoin/checkflip.md'
     - 'Step 3: Calculate percentages': 'contents/unit02/flipcoin/calculations.md'
     - 'Step 4: Display a simulation graph': 'contents/unit02/flipcoin/graph.md'
+- 'Unit 3. Modeling and Algorithms':
+  - 'Modeling, Algorithms, and Patterns in Programming' : 'contents/unit03/unit3.md' 
   - 'Programming with Python':
     - 'Overview': 'contents/programming/overview.md'
     - 'Introduction to Python': 'contents/programming/variables.md'
@@ -26,7 +28,7 @@ nav:
     - 'Creating an App: The Basics': 'contents/programming/basics.md'
     - 'Code Example': 'contents/programming/code_example.md'
     - 'Exercises': 'contents/programming/exercises.md'
-    - 'Code Challenges': 'contents/programming/challenges.md'
+    #- 'Code Challenges': 'contents/programming/challenges.md'
   #  - 'Exercises (Solutions)': 'contents/programming/exercises_solution.md'
   #- 'Sensors and AI: Fundamentals and Applications': 'contents/unit01/unit1.md'
   #- '1. Learning: Biological Systems and AI': # SB1.1
