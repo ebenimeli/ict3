@@ -27,7 +27,31 @@
   <a href="slides/python/Diapositiva8.jpeg" class="glightbox hidden">
     <img src="slides/python/Diapositiva8.jpeg" alt="" />
   </a>
+  <a href="slides/python/Diapositiva9.jpeg" class="glightbox hidden">
+    <img src="slides/python/Diapositiva9.jpeg" alt="" />
+  </a>
   <a href="slides/python/Diapositiva10.jpeg" class="glightbox hidden">
     <img src="slides/python/Diapositiva10.jpeg" alt="" />
+  </a>
+  <a href="slides/python/Diapositiva11.jpeg" class="glightbox hidden">
+    <img src="slides/python/Diapositiva11.jpeg" alt="" />
+  </a>
+  <a href="slides/python/Diapositiva12.jpeg" class="glightbox hidden">
+    <img src="slides/python/Diapositiva12.jpeg" alt="" />
+  </a>
+  <a href="slides/python/Diapositiva13.jpeg" class="glightbox hidden">
+    <img src="slides/python/Diapositiva13.jpeg" alt="" />
+  </a>
+  <a href="slides/python/Diapositiva14.jpeg" class="glightbox hidden">
+    <img src="slides/python/Diapositiva14.jpeg" alt="" />
+  </a>
+  <a href="slides/python/Diapositiva15.jpeg" class="glightbox hidden">
+    <img src="slides/python/Diapositiva15.jpeg" alt="" />
+  </a>
+  <a href="slides/python/Diapositiva16.jpeg" class="glightbox hidden">
+    <img src="slides/python/Diapositiva16.jpeg" alt="" />
+  </a>
+  <a href="slides/python/Diapositiva18.jpeg" class="glightbox hidden">
+    <img src="slides/python/Diapositiva18.jpeg" alt="" />
   </a>
 </div>
