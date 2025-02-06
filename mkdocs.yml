@@ -23,7 +23,8 @@ nav:
   - 'Modeling, Algorithms, and Patterns in Programming' : 'contents/unit03/unit3.md' 
   - 'Programming with Python':
     - 'Overview': 'contents/programming/overview.md'
-    - 'Introduction to Python': 'contents/programming/variables.md'
+    - 'Python Basics': 'contents/programming/python_basic.md'
+    - 'Variables and data types': 'contents/programming/variables.md'
     - 'Functions in Python: Basic Concepts': 'contents/programming/functions.md'
     - 'Creating an App: The Basics': 'contents/programming/basics.md'
     - 'Code Example': 'contents/programming/code_example.md'
