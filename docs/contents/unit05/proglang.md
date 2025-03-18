@@ -1,5 +1,7 @@
 # Programming in High-Level Languages
 
+<img class="header" src="images/programming.jpg"/>
+
 - [Programming in High-Level Languages](#programming-in-high-level-languages)
   - [Introduction to Programming](#introduction-to-programming)
   - [High-Level Languages](#high-level-languages)
@@ -42,6 +44,8 @@ A good programmer needs to understand both syntax and semantics to write code th
 
 ## Compilers and Interpreters
 
+<img src="images/compiler.png"/>
+
 High-level programming languages need to be translated into machine language so that a computer can understand and execute them. This translation is done using either a **compiler** or an **interpreter**:
 
 - **Compiler**: A compiler translates the entire source code into machine code before execution. This results in a standalone executable file that can run on a computer. Examples of compiled languages include C, C++, and Go.
@@ -50,6 +54,8 @@ High-level programming languages need to be translated into machine language so 
 Some languages, like Java, use a combination of both: Java code is first compiled into an intermediate form called bytecode, which is then executed by an interpreter called the Java Virtual Machine (JVM).
 
 ## "Hello, World!" in Different Programming Languages
+
+<img  src="images/helloworld.png"/>
 
 The following examples show how to print "Hello, World!" in different programming languages. While most of these are high-level languages, assembly (or assembler) is a low-level language that is closer to machine code and directly interacts with the computer's hardware.
 
