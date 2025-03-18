@@ -25,13 +25,20 @@ nav:
     - 'Overview': 'contents/programming/overview.md'
     - 'Python Basics': 'contents/programming/python_basic.md'
     - 'Variables and data types': 'contents/programming/variables.md'
-    - 'Functions in Python: Basic Concepts': 'contents/programming/functions.md'
-    - 'Creating an App: The Basics': 'contents/programming/basics.md'
     - 'Code Example': 'contents/programming/code_example.md'
     - 'Exercises': 'contents/programming/exercises.md'
-    - 'Code Challenges': 'contents/programming/challenges.md'
     - 'Presentation': 'contents/programming/slides.md'
-  #  - 'Exercises (Solutions)': 'contents/programming/exercises_solution.md'
+    - 'Exercises (Solutions)': 'contents/programming/exercises_solution.md'
+- 'Unit 4. Advanced Programming':
+# - 'Unit 4. Advanced Programming: Flow Control, Functions and Apps':
+    - 'Functions in Python: Basic Concepts': 'contents/programming/functions.md'
+    - 'Creating an App: The Basics': 'contents/programming/basics.md'
+    - 'Code Challenges': 'contents/programming/challenges.md'
+- 'Unit 5. Software Management':
+  - 'Introduction': 'contents/unit05/unit5.md'
+  - 'Introduction to Programming in High-Level Languages': 'contents/unit05/proglang.md'
+  - 'Software Evaluation and Maintenance': 'contents/unit05/sweval.md'
+  - 'Software Licenses. Free Software and Proprietary Software': 'contents/unit05/swlicenses.md'
   #- 'Sensors and AI: Fundamentals and Applications': 'contents/unit01/unit1.md'
   #- '1. Learning: Biological Systems and AI': # SB1.1
   #  - 'Learning in Biological Systems: Decisions and Free Will': 'contents/unit01/c1_ai-bio.md'
@@ -106,8 +113,8 @@ nav:
   #  - '4. Final Version and Testing' : 'contents/programming/rpsls/final.md'
   #  - 'Tutorial: Rock, Paper, Scissors' : 'contents/programming/rpsls/rps_tutorial.md'
 #  - 'Glossary': 'contents/unit05/glossary-ud05.md'
-#- 'Unit 6. Robotics ':
-#  - 'Robotics in Action: Assembly, Control, and Programming': 'contents/unit06/unit6.md'
+- 'Unit 6. Robotics ':
+  - 'Robotics in Action: Assembly, Control, and Programming': 'contents/unit06/unit6.md'
 #  - '0. Introduction to Robotics' :
 #    - 'Introduction' : 'contents/unit06/intro.md' 
 #    - 'What is a robot?' : 'contents/unit06/robots.md'

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+
+<html class="writer-html5" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../../img/favicon.ico" rel="shortcut icon"/>
+<title>Introduction to Programming in High-Level Languages - Programming, Artificial Intelligence and Robotics (II) - 3.º ESO</title>
+<link href="../../css/theme.css" rel="stylesheet"/>
+<link href="../../css/theme_extra.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" rel="stylesheet"/>
+<link href="../../css/ict.css" rel="stylesheet"/>
+<script>
+        // Current page data
+        var mkdocs_page_name = "Introduction to Programming in High-Level Languages";
+        var mkdocs_page_input_path = "contents/unit05/proglang.md";
+        var mkdocs_page_url = null;
+      </script>
+<!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+<link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        </style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+<body class="wy-body-for-nav" role="document">
+<div class="wy-grid-for-nav">
+<nav class="wy-nav-side stickynav" data-toggle="wy-nav-shift">
+<div class="wy-side-scroll">
+<div class="wy-side-nav-search">
+<a href="../..">
+<img alt="Logo" class="logo" src="../../images/floppy-ict3.png"/>
+</a><div role="search">
+<form action="../../search.html" class="wy-form" id="rtd-search-form" method="get">
+<input aria-label="Search docs" name="q" placeholder="Search docs" title="Type search term here" type="text"/>
+</form>
+</div>
+</div>
+<div aria-label="Navigation menu" class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../unit00/presentation.html">Presentation</a>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Unit 1. Programming, AI &amp; Robots</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../unit01/unit1.html">Introduction to AI, Programming and Robotics</a>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../unit01/c0_the-turing-test.html">The Turing Test</a>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../unit01/c0_text-turing.html">A01. Introduction to Artificial Intelligence: The Turing Test</a>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../unit01/neural_deeplearn.html">Neural Networks and Deep Learning</a>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../unit01/neural_networks.html">Neural Networks</a>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../unit01/alphago.html">AlphaGo</a>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../unit01/alphago_activity.html">A02. Artificial Intelligence Techniques, Applications and Ethics</a>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Unit 2. Programming Fundamentals</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../unit02/unit2.html">Programming Fundamentals: Data, Logic, and Control</a>
+</li>
+<li class="toctree-l1"><a class="reference internal">Project: Coin Flip Simulator</a>
+<ul>
+<li class="toctree-l2"><a class="reference internal" href="../unit02/flipcoin/flipcoin.html">Coin Flip: The project</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../unit02/flipcoin/vars_mainloop.html">Step 1: Flip coins and count the throws</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../unit02/flipcoin/checkflip.html">Step 2: Animate and count heads and tails</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../unit02/flipcoin/calculations.html">Step 3: Calculate percentages</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../unit02/flipcoin/graph.html">Step 4: Display a simulation graph</a>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Unit 3. Modeling and Algorithms</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../unit03/unit3.html">Modeling, Algorithms, and Patterns in Programming</a>
+</li>
+<li class="toctree-l1"><a class="reference internal">Programming with Python</a>
+<ul>
+<li class="toctree-l2"><a class="reference internal" href="../programming/overview.html">Overview</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../programming/python_basic.html">Python Basics</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../programming/variables.html">Variables and data types</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../programming/code_example.html">Code Example</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../programming/exercises.html">Exercises</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../programming/slides.html">Presentation</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../programming/exercises_solution.html">Exercises (Solutions)</a>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Unit 4. Advanced Programming</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../programming/functions.html">Functions in Python: Basic Concepts</a>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../programming/basics.html">Creating an App: The Basics</a>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../programming/challenges.html">Code Challenges</a>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Unit 5. Software Management</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="unit5.html">Introduction</a>
+</li>
+<li class="toctree-l1 current"><a class="reference internal current" href="#">Introduction to Programming in High-Level Languages</a>
+<ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="#introduction-to-programming">Introduction to Programming</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#high-level-languages">High-Level Languages</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#types-of-programming-languages">Types of Programming Languages</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#syntax-and-semantics">Syntax and Semantics</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="sweval.html">Software Evaluation and Maintenance</a>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="swlicenses.html">Software Licenses. Free Software and Proprietary Software</a>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Unit 6. Robotics </span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../unit06/unit6.html">Robotics in Action: Assembly, Control, and Programming</a>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">More</span></p>
+<ul>
+<li class="toctree-l1"><a class="" href="https://www.esferatic.com">Blog</a>
+</li>
+<li class="toctree-l1"><a class="" href="https://www.instagram.com/esferatic">Instagram</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<section class="wy-nav-content-wrap" data-toggle="wy-nav-shift">
+<nav aria-label="Mobile navigation menu" class="wy-nav-top" role="navigation">
+<i class="fa fa-bars" data-toggle="wy-nav-top"></i>
+<a href="../..">Programming, Artificial Intelligence and Robotics (II) - 3.º ESO</a>
+</nav>
+<div class="wy-nav-content">
+<div class="rst-content"><div aria-label="breadcrumbs navigation" role="navigation">
+<ul class="wy-breadcrumbs">
+<li><a aria-label="Docs" class="icon icon-home" href="../.."></a></li>
+<li class="breadcrumb-item">Unit 5. Software Management</li>
+<li class="breadcrumb-item active">Introduction to Programming in High-Level Languages</li>
+<li class="wy-breadcrumbs-aside">
+</li>
+</ul>
+<hr/>
+</div>
+<div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
+<div class="section" itemprop="articleBody">
+<div><h1 id="introduction-to-programming-in-high-level-languages">Introduction to Programming in High-Level Languages</h1>
+<h2 id="introduction-to-programming">Introduction to Programming</h2>
+<p>Programming is the process of giving instructions to a computer to perform specific tasks. A computer understands only machine language, which consists of binary numbers (0s and 1s). However, humans write programs in high-level programming languages, which are easier to read and understand. These languages are translated into machine language by compilers or interpreters.</p>
+<h2 id="high-level-languages">High-Level Languages</h2>
+<p>High-level programming languages are designed to be easy for humans to read and write. Some examples of high-level languages are Python, Java, and C++. These languages use English-like words and mathematical symbols to express instructions, making them more accessible than low-level languages like assembly or machine code.</p>
+<ul>
+<li><strong>Python</strong>: A popular language known for its simple syntax and wide usage in fields like web development, data science, and artificial intelligence.</li>
+<li><strong>Java</strong>: A widely-used language for building large, complex applications, especially for Android development.</li>
+<li><strong>C++</strong>: A powerful language often used in game development and systems programming.</li>
+</ul>
+<h2 id="types-of-programming-languages">Types of Programming Languages</h2>
+<p>There are different types of programming languages based on their use and the way they interact with the computer:</p>
+<ol>
+<li><strong>Procedural Programming Languages</strong>: These languages focus on the sequence of actions or steps the computer must take to accomplish a task. The most common procedural language is C.</li>
+<li><strong>Object-Oriented Programming (OOP) Languages</strong>: These languages focus on objects, which are collections of data and methods that operate on that data. Java and Python are examples of OOP languages.</li>
+<li><strong>Functional Programming Languages</strong>: These languages treat computation as the evaluation of mathematical functions and avoid changing-state and mutable data. Haskell is an example of a functional language.</li>
+</ol>
+<h2 id="syntax-and-semantics">Syntax and Semantics</h2>
+<ul>
+<li>
+<p><strong>Syntax</strong> refers to the rules that define the structure of valid code in a programming language. It is like grammar in a language. For example, in Python, the syntax for defining a variable is:
+  </p><div class="highlight"><pre><span></span><code><span class="n">x</span> <span class="o">=</span> <span class="mi">5</span>
+</code></pre></div>
+  If you forget to write the correct syntax, the program will produce an error.
+</li>
+<li>
+<p><strong>Semantics</strong> refers to the meaning of the code. It is the logic that explains what each part of the code does. For example, in the above line of Python code, the syntax is correct, and the semantics tell us that the variable <code>x</code> is being assigned the value 5.</p>
+</li>
+</ul>
+<p>A good programmer needs to understand both syntax and semantics to write code that works as expected.</p></div>
+</div>
+</div><footer>
+<div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
+<a class="btn btn-neutral float-left" href="unit5.html" title="Introduction"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+<a class="btn btn-neutral float-right" href="sweval.html" title="Software Evaluation and Maintenance">Next <span class="icon icon-circle-arrow-right"></span></a>
+</div>
+<hr/>
+<div role="contentinfo">
+<!-- Copyright etc -->
+</div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+</div>
+</div>
+</section>
+</div>
+<div aria-label="Versions" class="rst-versions" role="note">
+<span class="rst-current-version" data-toggle="rst-current-version">
+<span><a href="unit5.html" style="color: #fcfcfc">« Previous</a></span>
+<span><a href="sweval.html" style="color: #fcfcfc">Next »</a></span>
+</span>
+</div>
+<script src="../../js/jquery-3.6.0.min.js"></script>
+<script>var base_url = "../..";</script>
+<script src="../../js/theme_extra.js"></script>
+<script src="../../js/theme.js"></script>
+<script src="../../javascript/extra.js"></script>
+<script src="https://unpkg.com/mermaid@10.2.4/dist/mermaid.min.js"></script>
+<script src="../../search/main.js"></script>
+<script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+<script>const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});</script></body>
+</html>
