@@ -126,7 +126,11 @@
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#types-of-programming-languages">Types of Programming Languages</a>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#syntax-and-semantics">Syntax and Semantics</a>
+<li class="toctree-l2"><a class="reference internal" href="#syntax-semantics-and-code-execution">Syntax, Semantics, and Code Execution</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#compilers-and-interpreters">Compilers and Interpreters</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#hello-world-in-different-programming-languages">"Hello, World!" in Different Programming Languages</a>
 </li>
 </ul>
 </li>
@@ -170,7 +174,16 @@
 </div>
 <div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
 <div class="section" itemprop="articleBody">
-<div><h1 id="introduction-to-programming-in-high-level-languages">Introduction to Programming in High-Level Languages</h1>
+<div><h1 id="programming-in-high-level-languages">Programming in High-Level Languages</h1>
+<ul>
+<li><a href="#programming-in-high-level-languages">Programming in High-Level Languages</a></li>
+<li><a href="#introduction-to-programming">Introduction to Programming</a></li>
+<li><a href="#high-level-languages">High-Level Languages</a></li>
+<li><a href="#types-of-programming-languages">Types of Programming Languages</a></li>
+<li><a href="#syntax-semantics-and-code-execution">Syntax, Semantics, and Code Execution</a></li>
+<li><a href="#compilers-and-interpreters">Compilers and Interpreters</a></li>
+<li><a href="#hello-world-in-different-programming-languages">"Hello, World!" in Different Programming Languages</a></li>
+</ul>
 <h2 id="introduction-to-programming">Introduction to Programming</h2>
 <p>Programming is the process of giving instructions to a computer to perform specific tasks. A computer understands only machine language, which consists of binary numbers (0s and 1s). However, humans write programs in high-level programming languages, which are easier to read and understand. These languages are translated into machine language by compilers or interpreters.</p>
 <h2 id="high-level-languages">High-Level Languages</h2>
@@ -187,7 +200,7 @@
 <li><strong>Object-Oriented Programming (OOP) Languages</strong>: These languages focus on objects, which are collections of data and methods that operate on that data. Java and Python are examples of OOP languages.</li>
 <li><strong>Functional Programming Languages</strong>: These languages treat computation as the evaluation of mathematical functions and avoid changing-state and mutable data. Haskell is an example of a functional language.</li>
 </ol>
-<h2 id="syntax-and-semantics">Syntax and Semantics</h2>
+<h2 id="syntax-semantics-and-code-execution">Syntax, Semantics, and Code Execution</h2>
 <ul>
 <li>
 <p><strong>Syntax</strong> refers to the rules that define the structure of valid code in a programming language. It is like grammar in a language. For example, in Python, the syntax for defining a variable is:
@@ -199,7 +212,106 @@
 <p><strong>Semantics</strong> refers to the meaning of the code. It is the logic that explains what each part of the code does. For example, in the above line of Python code, the syntax is correct, and the semantics tell us that the variable <code>x</code> is being assigned the value 5.</p>
 </li>
 </ul>
-<p>A good programmer needs to understand both syntax and semantics to write code that works as expected.</p></div>
+<p>A good programmer needs to understand both syntax and semantics to write code that works as expected.</p>
+<h2 id="compilers-and-interpreters">Compilers and Interpreters</h2>
+<p>High-level programming languages need to be translated into machine language so that a computer can understand and execute them. This translation is done using either a <strong>compiler</strong> or an <strong>interpreter</strong>:</p>
+<ul>
+<li><strong>Compiler</strong>: A compiler translates the entire source code into machine code before execution. This results in a standalone executable file that can run on a computer. Examples of compiled languages include C, C++, and Go.</li>
+<li><strong>Interpreter</strong>: An interpreter translates and executes code line by line. This allows for immediate execution but may be slower than compiled programs. Examples of interpreted languages include Python, JavaScript, and Ruby.</li>
+</ul>
+<p>Some languages, like Java, use a combination of both: Java code is first compiled into an intermediate form called bytecode, which is then executed by an interpreter called the Java Virtual Machine (JVM).</p>
+<h2 id="hello-world-in-different-programming-languages">"Hello, World!" in Different Programming Languages</h2>
+<p>The following examples show how to print "Hello, World!" in different programming languages. While most of these are high-level languages, assembly (or assembler) is a low-level language that is closer to machine code and directly interacts with the computer's hardware.</p>
+<p>The "Hello, World!" program is a simple example used to demonstrate the syntax of a programming language. Below are examples of how to write "Hello, World!" in different languages:</p>
+<ul>
+<li>
+<p><strong>Python</strong>:
+  </p><div class="highlight"><pre><span></span><code><span class="nb">print</span><span class="p">(</span><span class="s2">"Hello, World!"</span><span class="p">)</span>
+</code></pre></div>
+</li>
+<li>
+<p><strong>C</strong>:
+  </p><div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span>
+<span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">"Hello, World!</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+</li>
+<li>
+<p><strong>C++</strong>:
+  </p><div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span>
+<span class="k">using</span><span class="w"> </span><span class="k">namespace</span><span class="w"> </span><span class="nn">std</span><span class="p">;</span>
+<span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">"Hello, World!"</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">endl</span><span class="p">;</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+</li>
+<li>
+<p><strong>C#</strong>:
+  </p><div class="highlight"><pre><span></span><code><span class="k">using</span><span class="w"> </span><span class="nn">System</span><span class="p">;</span>
+<span class="k">class</span><span class="w"> </span><span class="nc">Program</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">static</span><span class="w"> </span><span class="k">void</span><span class="w"> </span><span class="nf">Main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">"Hello, World!"</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+</li>
+<li>
+<p><strong>Java</strong>:
+  </p><div class="highlight"><pre><span></span><code><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">Main</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="o">[]</span><span class="w"> </span><span class="n">args</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">"Hello, World!"</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+</li>
+<li>
+<p><strong>JavaScript</strong>:
+  </p><div class="highlight"><pre><span></span><code><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"Hello, World!"</span><span class="p">);</span>
+</code></pre></div>
+</li>
+<li>
+<p><strong>Go</strong>:
+  </p><div class="highlight"><pre><span></span><code><span class="kn">package</span><span class="w"> </span><span class="nx">main</span>
+<span class="kn">import</span><span class="w"> </span><span class="s">"fmt"</span>
+<span class="kd">func</span><span class="w"> </span><span class="nx">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nx">fmt</span><span class="p">.</span><span class="nx">Println</span><span class="p">(</span><span class="s">"Hello, World!"</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></div>
+</li>
+<li>
+<p><strong>Swift</strong>:
+  </p><div class="highlight"><pre><span></span><code><span class="bp">print</span><span class="p">(</span><span class="s">"Hello, World!"</span><span class="p">)</span>
+</code></pre></div>
+</li>
+<li>
+<p><strong>Ruby</strong>:
+  </p><div class="highlight"><pre><span></span><code><span class="nb">puts</span><span class="w"> </span><span class="s2">"Hello, World!"</span>
+</code></pre></div>
+</li>
+<li>
+<p><strong>Assembly (x86 NASM syntax)</strong>:
+  </p><div class="highlight"><pre><span></span><code>section .data
+    hello db "Hello, World!",0
+
+section .text
+    global _start
+
+_start:
+    mov edx, 13      ; Message length
+    mov ecx, hello  ; Message to print
+    mov ebx, 1       ; File descriptor (stdout)
+    mov eax, 4       ; System call number (sys_write)
+    int 0x80         ; Call kernel
+
+    mov eax, 1       ; System call number (sys_exit)
+    xor ebx, ebx     ; Exit status 0
+    int 0x80         ; Call kernel
+</code></pre></div>
+</li>
+</ul></div>
 </div>
 </div><footer>
 <div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
