@@ -1,5 +1,10 @@
 # 2. Software Evaluation and Maintenance
 
+- [2. Software Evaluation and Maintenance](#2-software-evaluation-and-maintenance)
+  - [What is Software Evaluation?](#what-is-software-evaluation)
+  - [What is Software Maintenance?](#what-is-software-maintenance)
+  - [Why is Software Evaluation and Maintenance Important?](#why-is-software-evaluation-and-maintenance-important)
+
 ## What is Software Evaluation?
 
 Software evaluation is the process of assessing how well a program or application works. This includes testing its functionality, performance, security, and user-friendliness. Evaluation helps developers understand if their software meets the requirements and is free from bugs or errors.

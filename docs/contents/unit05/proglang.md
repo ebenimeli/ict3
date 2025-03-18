@@ -1,8 +1,8 @@
-# Programming in High-Level Languages
+# 1. Programming in High-Level Languages
 
 <img class="header" src="images/programming.jpg"/>
 
-- [Programming in High-Level Languages](#programming-in-high-level-languages)
+- [1. Programming in High-Level Languages](#1-programming-in-high-level-languages)
   - [Introduction to Programming](#introduction-to-programming)
   - [High-Level Languages](#high-level-languages)
   - [Types of Programming Languages](#types-of-programming-languages)
