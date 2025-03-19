@@ -39,6 +39,8 @@ nav:
   - 'Introduction to Programming in High-Level Languages': 'contents/unit05/proglang.md'
   - 'Software Evaluation and Maintenance': 'contents/unit05/sweval.md'
   - 'Software Licenses. Free Software and Proprietary Software': 'contents/unit05/swlicenses.md'
+  - 'Free Software Licenses': 'contents/unit05/freeswlicenses.md'
+  - 'Creative Commons Licenses': 'contents/unit05/creativecommons.md'
   - 'Reading: The Impact of AI, Programming, and Robotics': 'contents/unit05/reading_PAIR.md'
   #- 'Sensors and AI: Fundamentals and Applications': 'contents/unit01/unit1.md'
   #- '1. Learning: Biological Systems and AI': # SB1.1
