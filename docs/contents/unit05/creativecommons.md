@@ -1,5 +1,7 @@
 # Creative Commons Licenses
 
+<img class="header" src="images/cc-icons.jpg"/>
+
 ## What is Creative Commons?
 Creative Commons (CC) is a system that allows creators to share their work with others while keeping some rights. It provides different types of licenses to control how a work can be used, modified, and shared.
 

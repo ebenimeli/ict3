@@ -1,5 +1,7 @@
 # 2. Software Evaluation and Maintenance
 
+<img class="header" src="images/sw_maintenance.png"/>
+
 - [2. Software Evaluation and Maintenance](#2-software-evaluation-and-maintenance)
   - [What is Software Evaluation?](#what-is-software-evaluation)
   - [What is Software Maintenance?](#what-is-software-maintenance)

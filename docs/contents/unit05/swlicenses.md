@@ -1,6 +1,8 @@
 
 # 3. Software Licenses
 
+<img class="header" src="images/sw_licenses.png"/>
+
 ## Software Licenses
 
 A software license is a legal agreement that explains the terms under which a program can be used, modified, and distributed. There are two main types of software licenses: free software licenses and proprietary software licenses.

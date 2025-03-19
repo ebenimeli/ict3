@@ -1,5 +1,7 @@
 # Free Software Licenses
 
+<img class="header" src="images/software_code.png"/>
+
 ## What is a Software License?
 A software license is a legal document that defines how a piece of software can be used, shared, and modified. When you install or download software, you agree to its license terms.
 
