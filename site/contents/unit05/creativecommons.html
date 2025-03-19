@@ -6,15 +6,15 @@
 <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <link href="../../img/favicon.ico" rel="shortcut icon"/>
-<title>The Turing Test - Programming, Artificial Intelligence and Robotics (II) - 3.º ESO</title>
+<title>Creative Commons Licenses - Programming, Artificial Intelligence and Robotics (II) - 3.º ESO</title>
 <link href="../../css/theme.css" rel="stylesheet"/>
 <link href="../../css/theme_extra.css" rel="stylesheet"/>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" rel="stylesheet"/>
 <link href="../../css/ict.css" rel="stylesheet"/>
 <script>
         // Current page data
-        var mkdocs_page_name = "The Turing Test";
-        var mkdocs_page_input_path = "contents/ai/the-turing-test.md";
+        var mkdocs_page_name = "Creative Commons Licenses";
+        var mkdocs_page_input_path = "contents/unit05/creativecommons.md";
         var mkdocs_page_url = null;
       </script>
 <!--[if lt IE 9]>
@@ -115,20 +115,46 @@
 </li>
 </ul>
 <p class="caption"><span class="caption-text">Unit 5. Software Management</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="unit5.html">Introduction</a>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="proglang.html">Introduction to Programming in High-Level Languages</a>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="sweval.html">Software Evaluation and Maintenance</a>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="swlicenses.html">Software Licenses. Free Software and Proprietary Software</a>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="freeswlicenses.html">Free Software Licenses</a>
+</li>
+<li class="toctree-l1 current"><a class="reference internal current" href="#">Creative Commons Licenses</a>
+<ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="#what-is-creative-commons">What is Creative Commons?</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#types-of-creative-commons-licenses">Types of Creative Commons Licenses</a>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../unit05/unit5.html">Introduction</a>
+<li class="toctree-l3"><a class="reference internal" href="#1-cc-by-attribution">1. CC BY (Attribution)</a>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../unit05/proglang.html">Introduction to Programming in High-Level Languages</a>
+<li class="toctree-l3"><a class="reference internal" href="#2-cc-by-sa-attribution-sharealike">2. CC BY-SA (Attribution-ShareAlike)</a>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../unit05/sweval.html">Software Evaluation and Maintenance</a>
+<li class="toctree-l3"><a class="reference internal" href="#3-cc-by-nd-attribution-noderivatives">3. CC BY-ND (Attribution-NoDerivatives)</a>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../unit05/swlicenses.html">Software Licenses. Free Software and Proprietary Software</a>
+<li class="toctree-l3"><a class="reference internal" href="#4-cc-by-nc-attribution-noncommercial">4. CC BY-NC (Attribution-NonCommercial)</a>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../unit05/freeswlicenses.html">Free Software Licenses</a>
+<li class="toctree-l3"><a class="reference internal" href="#5-cc-by-nc-sa-attribution-noncommercial-sharealike">5. CC BY-NC-SA (Attribution-NonCommercial-ShareAlike)</a>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../unit05/creativecommons.html">Creative Commons Licenses</a>
+<li class="toctree-l3"><a class="reference internal" href="#6-cc-by-nc-nd-attribution-noncommercial-noderivatives">6. CC BY-NC-ND (Attribution-NonCommercial-NoDerivatives)</a>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../unit05/reading_PAIR.html">Reading: The Impact of AI, Programming, and Robotics</a>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-recognize-creative-commons-licenses">How to Recognize Creative Commons Licenses</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#why-use-creative-commons">Why Use Creative Commons?</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#summary-table">Summary Table</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="reading_PAIR.html">Reading: The Impact of AI, Programming, and Robotics</a>
 </li>
 </ul>
 <p class="caption"><span class="caption-text">Unit 6. Robotics </span></p>
@@ -155,7 +181,8 @@
 <div class="rst-content"><div aria-label="breadcrumbs navigation" role="navigation">
 <ul class="wy-breadcrumbs">
 <li><a aria-label="Docs" class="icon icon-home" href="../.."></a></li>
-<li class="breadcrumb-item active">The Turing Test</li>
+<li class="breadcrumb-item">Unit 5. Software Management</li>
+<li class="breadcrumb-item active">Creative Commons Licenses</li>
 <li class="wy-breadcrumbs-aside">
 </li>
 </ul>
@@ -163,13 +190,125 @@
 </div>
 <div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
 <div class="section" itemprop="articleBody">
-<div><h1 id="the-turing-test">The Turing Test</h1>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="images/alan_turing.jpg"><img align="right" alt="Alan Turing" src="images/alan_turing.jpg" width="250"/></a></p>
-<p>The Turing test is a way to measure a machine's ability to think and understand like a human. It was proposed by Alan Turing, a famous computer scientist, in 1950. The test works by having a human judge talk to both a human and a machine through a computer screen or other means of communication. If the judge can't tell which one is the machine, then the machine is said to have passed the Turing test and is considered to have human-like intelligence. It's a way to test the intelligence of machines.</p>
-<h1 id="alan-turing">Alan Turing</h1>
-<p>Alan Turing was a British computer scientist and mathematician who lived in the 20th century. He is famous for his work on cracking the code used by the Germans during World War II, which helped the Allies win the war. He also proposed the Turing test, which is a way to measure a machine's ability to think and understand like a human.</p></div>
+<div><h1 id="creative-commons-licenses">Creative Commons Licenses</h1>
+<h2 id="what-is-creative-commons">What is Creative Commons?</h2>
+<p>Creative Commons (CC) is a system that allows creators to share their work with others while keeping some rights. It provides different types of licenses to control how a work can be used, modified, and shared.</p>
+<h2 id="types-of-creative-commons-licenses">Types of Creative Commons Licenses</h2>
+<p>There are six main types of Creative Commons licenses. Each has different rules about how the work can be used.</p>
+<h3 id="1-cc-by-attribution">1. <strong>CC BY (Attribution)</strong></h3>
+<ul>
+<li>This is the most open license.</li>
+<li>You can copy, change, and share the work, even for commercial purposes.</li>
+<li>You must give credit to the original creator.</li>
+</ul>
+<h3 id="2-cc-by-sa-attribution-sharealike">2. <strong>CC BY-SA (Attribution-ShareAlike)</strong></h3>
+<ul>
+<li>You can copy, change, and share the work, even for commercial purposes.</li>
+<li>You must give credit to the original creator.</li>
+<li>If you make changes, you must use the same CC BY-SA license for your work.</li>
+</ul>
+<h3 id="3-cc-by-nd-attribution-noderivatives">3. <strong>CC BY-ND (Attribution-NoDerivatives)</strong></h3>
+<ul>
+<li>You can copy and share the work, even for commercial purposes.</li>
+<li>You must give credit to the original creator.</li>
+<li>You cannot change or modify the work in any way.</li>
+</ul>
+<h3 id="4-cc-by-nc-attribution-noncommercial">4. <strong>CC BY-NC (Attribution-NonCommercial)</strong></h3>
+<ul>
+<li>You can copy, change, and share the work for non-commercial purposes.</li>
+<li>You must give credit to the original creator.</li>
+<li>You cannot use the work for commercial purposes.</li>
+</ul>
+<h3 id="5-cc-by-nc-sa-attribution-noncommercial-sharealike">5. <strong>CC BY-NC-SA (Attribution-NonCommercial-ShareAlike)</strong></h3>
+<ul>
+<li>You can copy, change, and share the work for non-commercial purposes.</li>
+<li>You must give credit to the original creator.</li>
+<li>If you make changes, you must use the same CC BY-NC-SA license for your work.</li>
+<li>You cannot use the work for commercial purposes.</li>
+</ul>
+<h3 id="6-cc-by-nc-nd-attribution-noncommercial-noderivatives">6. <strong>CC BY-NC-ND (Attribution-NonCommercial-NoDerivatives)</strong></h3>
+<ul>
+<li>This is the most restrictive license.</li>
+<li>You can copy and share the work for non-commercial purposes.</li>
+<li>You must give credit to the original creator.</li>
+<li>You cannot change or modify the work in any way.</li>
+<li>You cannot use the work for commercial purposes.</li>
+</ul>
+<h2 id="how-to-recognize-creative-commons-licenses">How to Recognize Creative Commons Licenses</h2>
+<p>Each CC license has a symbol:
+- <strong>BY</strong> = Credit must be given.
+- <strong>SA</strong> = Share with the same license.
+- <strong>ND</strong> = No changes allowed.
+- <strong>NC</strong> = No commercial use.</p>
+<h2 id="why-use-creative-commons">Why Use Creative Commons?</h2>
+<ul>
+<li>It helps creators share their work while keeping some rights.</li>
+<li>It makes it easy for people to use and share creative works legally.</li>
+<li>It encourages collaboration and creativity.</li>
+</ul>
+<h2 id="summary-table">Summary Table</h2>
+<table>
+<thead>
+<tr>
+<th>License</th>
+<th>Can share?</th>
+<th>Can modify?</th>
+<th>Can use commercially?</th>
+<th>Must give credit?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CC BY</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>CC BY-SA</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>CC BY-ND</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>CC BY-NC</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>CC BY-NC-SA</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>CC BY-NC-ND</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<p>With Creative Commons, we can share knowledge, art, and ideas in a legal and respectful way.</p></div>
 </div>
 </div><footer>
+<div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
+<a class="btn btn-neutral float-left" href="freeswlicenses.html" title="Free Software Licenses"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+<a class="btn btn-neutral float-right" href="reading_PAIR.html" title="Reading: The Impact of AI, Programming, and Robotics">Next <span class="icon icon-circle-arrow-right"></span></a>
+</div>
 <hr/>
 <div role="contentinfo">
 <!-- Copyright etc -->
@@ -183,6 +322,8 @@
 </div>
 <div aria-label="Versions" class="rst-versions" role="note">
 <span class="rst-current-version" data-toggle="rst-current-version">
+<span><a href="freeswlicenses.html" style="color: #fcfcfc">« Previous</a></span>
+<span><a href="reading_PAIR.html" style="color: #fcfcfc">Next »</a></span>
 </span>
 </div>
 <script src="../../js/jquery-3.6.0.min.js"></script>
