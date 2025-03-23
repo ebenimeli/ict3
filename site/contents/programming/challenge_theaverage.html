@@ -6,15 +6,15 @@
 <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <link href="../../img/favicon.ico" rel="shortcut icon"/>
-<title>Sensors - Programming, Artificial Intelligence and Robotics (II) - 3.º ESO</title>
+<title>Code Challenge: The Average - Programming, Artificial Intelligence and Robotics (II) - 3.º ESO</title>
 <link href="../../css/theme.css" rel="stylesheet"/>
 <link href="../../css/theme_extra.css" rel="stylesheet"/>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" rel="stylesheet"/>
 <link href="../../css/ict.css" rel="stylesheet"/>
 <script>
         // Current page data
-        var mkdocs_page_name = "Sensors";
-        var mkdocs_page_input_path = "contents/ai/sensors.md";
+        var mkdocs_page_name = "Code Challenge: The Average";
+        var mkdocs_page_input_path = "contents/programming/challenge_theaverage.md";
         var mkdocs_page_url = null;
       </script>
 <!--[if lt IE 9]>
@@ -88,32 +88,38 @@
 </li>
 <li class="toctree-l1"><a class="reference internal">Programming with Python</a>
 <ul>
-<li class="toctree-l2"><a class="reference internal" href="../programming/overview.html">Overview</a>
+<li class="toctree-l2"><a class="reference internal" href="overview.html">Overview</a>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../programming/python_basic.html">Python Basics</a>
+<li class="toctree-l2"><a class="reference internal" href="python_basic.html">Python Basics</a>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../programming/variables.html">Variables and data types</a>
+<li class="toctree-l2"><a class="reference internal" href="variables.html">Variables and data types</a>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../programming/code_example.html">Code Example</a>
+<li class="toctree-l2"><a class="reference internal" href="code_example.html">Code Example</a>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../programming/exercises.html">Exercises</a>
+<li class="toctree-l2"><a class="reference internal" href="exercises.html">Exercises</a>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../programming/slides.html">Presentation</a>
+<li class="toctree-l2"><a class="reference internal" href="slides.html">Presentation</a>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../programming/exercises_solution.html">Exercises (Solutions)</a>
+<li class="toctree-l2"><a class="reference internal" href="exercises_solution.html">Exercises (Solutions)</a>
 </li>
 </ul>
 </li>
 </ul>
 <p class="caption"><span class="caption-text">Unit 4. Advanced Programming</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="../programming/functions.html">Functions in Python: Basic Concepts</a>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="functions.html">Functions in Python: Basic Concepts</a>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../programming/basics.html">Creating an App: The Basics</a>
+<li class="toctree-l1"><a class="reference internal" href="basics.html">Creating an App: The Basics</a>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../programming/challenges_A.html">Basic Code Challenges</a>
+<li class="toctree-l1"><a class="reference internal" href="challenges_A.html">Basic Code Challenges</a>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../programming/challenge_theaverage.html">Code Challenge: The Average</a>
+<li class="toctree-l1 current"><a class="reference internal current" href="#">Code Challenge: The Average</a>
+<ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="#instructions">Instructions</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#the-code">The Code</a>
+</li>
+</ul>
 </li>
 </ul>
 <p class="caption"><span class="caption-text">Unit 5. Software Management</span></p>
@@ -157,7 +163,8 @@
 <div class="rst-content"><div aria-label="breadcrumbs navigation" role="navigation">
 <ul class="wy-breadcrumbs">
 <li><a aria-label="Docs" class="icon icon-home" href="../.."></a></li>
-<li class="breadcrumb-item active">Sensors</li>
+<li class="breadcrumb-item">Unit 4. Advanced Programming</li>
+<li class="breadcrumb-item active">Code Challenge: The Average</li>
 <li class="wy-breadcrumbs-aside">
 </li>
 </ul>
@@ -165,56 +172,67 @@
 </div>
 <div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
 <div class="section" itemprop="articleBody">
-<div><h1 id="sensors">Sensors</h1>
-<h2 id="artificial-intelligence">Artificial Intelligence</h2>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="images/ai-brain.jpg"><img alt="Artificial Intelligence" src="images/ai-brain.jpg"/></a></p>
-<p><strong>Artificial Intelligence (AI)</strong> is a technology that allows machines to <strong>learn, understand, and process information</strong> like humans. One of the key components of AI systems is sensors.</p>
-<p><strong>Sensors</strong> are devices that can <strong>detect and measure</strong> physical and environmental conditions such as temperature, light, sound, and movement. In this lesson, we will learn about the different types of sensors used in AI applications and the different ways in which they can be used.</p>
-<h2 id="types-of-sensors">Types of sensors</h2>
+<div><h1 id="programming-challenge-the-average">Programming Challenge: The Average</h1>
+<p>In this challenge, the student will complete a Python program that calculates the average of four grades and converts the numeric average to a text grade. The challenge is divided into several steps that require defining functions and using them to process grades.</p>
+<h2 id="instructions">Instructions</h2>
+<p><strong>Function Definitions:</strong></p>
 <ul>
-<li>
-<p><strong>Optical sensors</strong>: These sensors detect light and are used in applications such as facial recognition, object detection, and image processing. Examples of optical sensors include cameras and lidar sensors.</p>
-</li>
-<li>
-<p>Temperature sensors: These sensors measure temperature and are used in applications such as climate control and food safety. Examples of temperature sensors include thermocouples and thermistors.</p>
-</li>
-<li>
-<p>Pressure sensors: These sensors measure pressure and are used in applications such as industrial automation, weather forecasting, and healthcare. Examples of pressure sensors include piezoelectric sensors and strain gauge sensors.</p>
-</li>
-<li>
-<p>Accelerometer sensors: These sensors measure acceleration and are used in applications such as motion detection, navigation, and gaming. Examples of accelerometer sensors include MEMS accelerometers and piezoelectric accelerometers.</p>
-</li>
-<li>
-<p>Gyroscopic sensors: These sensors measure angular velocity and are used in applications such as navigation, gaming, and robotics. Examples of gyroscopic sensors include MEMS gyroscopes and fiber optic gyroscopes.</p>
-</li>
-<li>
-<p>Magnetic sensors: These sensors measure magnetic fields and are used in applications such as navigation, industrial automation, and healthcare. Examples of magnetic sensors include Hall effect sensors and magnetoresistive sensors.</p>
-</li>
-<li>
-<p>Ultrasonic sensors: These sensors measure distance and are used in applications such as object detection, navigation, and industrial automation. Examples of ultrasonic sensors include sonar sensors and lidar sensors.</p>
-</li>
-<li>
-<p>Infrared sensors: These sensors detect infrared radiation and are used in applications such as temperature measurement, night vision, and gesture recognition. Examples of infrared sensors include thermopile sensors and pyroelectric sensors.</p>
-</li>
-<li>
-<p>Proximity sensors: These sensors detect the presence of objects and are used in applications such as gesture recognition, object detection, and access control. Examples of proximity sensors include infrared proximity sensors and ultrasonic proximity sensors.</p>
-</li>
-<li>
-<p>Light sensors: These sensors detect light and are used in applications such as light control, gesture recognition, and object detection. Examples of light sensors include photodiodes and phototransistors.</p>
-</li>
-<li>
-<p>Humidity sensors: These sensors measure humidity and are used in applications such as weather forecasting, agriculture, and healthcare. Examples of humidity sensors include capacitive humidity sensors and resistive humidity sensors.</p>
-</li>
-<li>
-<p>Gas sensors: These sensors detect the presence of gases and are used in applications such as environmental monitoring, industrial automation, and healthcare. Examples of gas sensors include electrochemical gas sensors and metal oxide gas sensors.</p>
-</li>
+<li><strong>getAverage</strong>: This function will take four numeric inputs (representing grades) and calculate their average. The student needs to complete the function.</li>
+<li><strong>getTextGrade</strong>: This function will convert a numeric grade to a corresponding text grade. The student should define logic to return: "Fail" for grades between 0 and 5 (not included), "Good" for grades between 5 and 7.5 (not included), or "Very Good" for grades 7.5 and above</li>
 </ul>
-<h2 id="images">Images</h2>
-<ol>
-<li><a href="https://pixabay.com/illustrations/artificial-intelligence-ai-robot-2228610/">Artificial Intelligence</a></li>
-</ol></div>
+<p><strong>Assign Values to Variables:</strong></p>
+<p>The student will assign values to the four grade variables (t1, t2, t3, t4).</p>
+<p><strong>Calculate the Average:</strong></p>
+<p>Use the getAverage function to calculate the average of the four grades.</p>
+<p><strong>Round the Average:</strong></p>
+<p>The student must round the average to two decimal places using the round() function.</p>
+<p><strong>Determine the Text Grade:</strong></p>
+<p>The student will use the getTextGrade function to convert the numeric average into a text grade.</p>
+<p><strong>Print the Final Grade:</strong></p>
+<p>Finally, the student will print the final result, displaying both the numeric average and the corresponding text grade.</p>
+<h2 id="the-code">The Code</h2>
+<div class="highlight"><pre><span></span><code><span class="c1"># Filename: get_average_template.py</span>
+<span class="c1"># Author: Write here your name</span>
+<span class="c1"># Date: Write here the current date</span>
+
+<span class="c1"># IMPORTANT: Please read the instructions in the comments</span>
+
+<span class="c1"># COMPLETE: define a function that calculates the average of 4 numbers: x1, x2, x3, and x4</span>
+<span class="k">def</span> <span class="nf">getAverage</span><span class="p">(</span> <span class="err">?</span> <span class="p">):</span>
+    <span class="c1"># here your code</span>
+
+<span class="c1"># COMPLETE: define a function that converts a grade from number (ngrade) to text (tgrade)</span>
+<span class="c1"># (i.e.: 7.4 --&gt; NT)</span>
+<span class="c1"># 0 &lt;= num &lt; 5 --&gt; Fail</span>
+<span class="c1"># 5 &lt;= num &lt; 7.5 --&gt; Good</span>
+<span class="c1"># 7.5 &lt;= num     --&gt; Very good</span>
+<span class="k">def</span> <span class="nf">getTextGrade</span><span class="p">(</span> <span class="err">?</span> <span class="p">):</span>
+    <span class="c1"># here your code</span>
+
+<span class="c1"># COMPLETE: assign values to the variables</span>
+<span class="n">t1</span> <span class="o">=</span> 
+<span class="n">t2</span> <span class="o">=</span> 
+<span class="n">t3</span> <span class="o">=</span> 
+<span class="n">t4</span> <span class="o">=</span> 
+
+<span class="c1"># COMPLETE: Use a function get the average of those 4 grades t1,t2,t3 and t4</span>
+<span class="n">average</span> <span class="o">=</span> 
+
+<span class="c1"># This line rounds the average with 2 decimals</span>
+<span class="n">average</span> <span class="o">=</span> <span class="nb">round</span><span class="p">(</span><span class="n">average</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
+
+<span class="c1"># COMPLETE: Use a function toget the text grade from the numeric average</span>
+<span class="n">text_average</span> <span class="o">=</span> 
+
+<span class="c1"># COMPLETE: print the final grade. Example: Final grade: 8.03 (Very Good)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Final grade: "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">average</span><span class="p">)</span> <span class="o">+</span> <span class="s2">" ("</span> <span class="o">+</span> <span class="n">text_average</span> <span class="o">+</span> <span class="s2">")"</span><span class="p">)</span>
+</code></pre></div></div>
 </div>
 </div><footer>
+<div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
+<a class="btn btn-neutral float-left" href="challenges_A.html" title="Basic Code Challenges"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+<a class="btn btn-neutral float-right" href="../unit05/unit5.html" title="Introduction">Next <span class="icon icon-circle-arrow-right"></span></a>
+</div>
 <hr/>
 <div role="contentinfo">
 <!-- Copyright etc -->
@@ -228,6 +246,8 @@
 </div>
 <div aria-label="Versions" class="rst-versions" role="note">
 <span class="rst-current-version" data-toggle="rst-current-version">
+<span><a href="challenges_A.html" style="color: #fcfcfc">« Previous</a></span>
+<span><a href="../unit05/unit5.html" style="color: #fcfcfc">Next »</a></span>
 </span>
 </div>
 <script src="../../js/jquery-3.6.0.min.js"></script>

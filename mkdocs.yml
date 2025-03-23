@@ -33,7 +33,8 @@ nav:
 # - 'Unit 4. Advanced Programming: Flow Control, Functions and Apps':
     - 'Functions in Python: Basic Concepts': 'contents/programming/functions.md'
     - 'Creating an App: The Basics': 'contents/programming/basics.md'
-    - 'Code Challenges': 'contents/programming/challenges.md'
+    - 'Basic Code Challenges': 'contents/programming/challenges_A.md'
+    - 'Code Challenge: The Average': 'contents/programming/challenge_theaverage.md'
 - 'Unit 5. Software Management':
   - 'Introduction': 'contents/unit05/unit5.md'
   - 'Introduction to Programming in High-Level Languages': 'contents/unit05/proglang.md'
