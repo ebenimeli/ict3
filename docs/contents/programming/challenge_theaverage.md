@@ -1,5 +1,7 @@
 # Programming Challenge: The Average
 
+<img class="header" src="images/coding.jpg"/>
+
 In this challenge, the student will complete a Python program that calculates the average of four grades and converts the numeric average to a text grade. The challenge is divided into several steps that require defining functions and using them to process grades.
 
 
