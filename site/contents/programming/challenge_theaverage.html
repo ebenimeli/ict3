@@ -119,6 +119,8 @@
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#the-code">The Code</a>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="#solution">Solution</a>
+</li>
 </ul>
 </li>
 </ul>
@@ -227,7 +229,53 @@
 
 <span class="c1"># COMPLETE: print the final grade. Example: Final grade: 8.03 (Very Good)</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">"Final grade: "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">average</span><span class="p">)</span> <span class="o">+</span> <span class="s2">" ("</span> <span class="o">+</span> <span class="n">text_average</span> <span class="o">+</span> <span class="s2">")"</span><span class="p">)</span>
-</code></pre></div></div>
+</code></pre></div>
+<h2 id="solution">Solution</h2>
+<details><summary>Solution</summary>
+<div class="highlight"><pre><span></span><code><span class="c1"># Filename: get_average_template.py</span>
+<span class="c1"># Author: Write here your name</span>
+<span class="c1"># Date: Write here the current date</span>
+
+<span class="c1"># IMPORTANT: Please read the instructions in the comments</span>
+
+<span class="c1"># COMPLETE: define a function that calculates the average of 4 numbers: x1, x2, x3, and x4</span>
+<span class="k">def</span> <span class="nf">getAverage</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span> <span class="n">x2</span><span class="p">,</span> <span class="n">x3</span><span class="p">,</span> <span class="n">x4</span><span class="p">):</span>
+    <span class="c1"># Calculate and return the average of the 4 numbers</span>
+    <span class="k">return</span> <span class="p">(</span><span class="n">x1</span> <span class="o">+</span> <span class="n">x2</span> <span class="o">+</span> <span class="n">x3</span> <span class="o">+</span> <span class="n">x4</span><span class="p">)</span> <span class="o">/</span> <span class="mi">4</span>
+
+<span class="c1"># COMPLETE: define a function that converts a grade from number (ngrade) to text (tgrade) (i.e.: 7.4 --&gt; NT)</span>
+<span class="c1"># 0 &lt;= num &lt; 5 --&gt; Fail</span>
+<span class="c1"># 5 &lt;= num &lt; 7.5 --&gt; Good</span>
+<span class="c1"># 7.5 &lt;= num     --&gt; Very good</span>
+<span class="k">def</span> <span class="nf">getTextGrade</span><span class="p">(</span><span class="n">ngrade</span><span class="p">):</span>
+    <span class="c1"># Convert numeric grade to text grade</span>
+    <span class="k">if</span> <span class="mi">0</span> <span class="o">&lt;=</span> <span class="n">ngrade</span> <span class="o">&lt;</span> <span class="mi">5</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s2">"Fail"</span>
+    <span class="k">elif</span> <span class="mi">5</span> <span class="o">&lt;=</span> <span class="n">ngrade</span> <span class="o">&lt;</span> <span class="mf">7.5</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s2">"Good"</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s2">"Very Good"</span>
+
+<span class="c1"># COMPLETE: assign values to the variables</span>
+<span class="n">t1</span> <span class="o">=</span> <span class="mf">6.8</span>  <span class="c1"># Example grade 1</span>
+<span class="n">t2</span> <span class="o">=</span> <span class="mf">7.4</span>  <span class="c1"># Example grade 2</span>
+<span class="n">t3</span> <span class="o">=</span> <span class="mf">5.5</span>  <span class="c1"># Example grade 3</span>
+<span class="n">t4</span> <span class="o">=</span> <span class="mf">8.2</span>  <span class="c1"># Example grade 4</span>
+
+<span class="c1"># COMPLETE: Use a function to get the average of those 4 grades t1,t2,t3 and t4</span>
+<span class="n">average</span> <span class="o">=</span> <span class="n">getAverage</span><span class="p">(</span><span class="n">t1</span><span class="p">,</span> <span class="n">t2</span><span class="p">,</span> <span class="n">t3</span><span class="p">,</span> <span class="n">t4</span><span class="p">)</span>
+
+<span class="c1"># This line rounds the average to 2 decimals</span>
+<span class="n">average</span> <span class="o">=</span> <span class="nb">round</span><span class="p">(</span><span class="n">average</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+
+<span class="c1"># COMPLETE: Use a function to get the text grade from the numeric average</span>
+<span class="n">text_average</span> <span class="o">=</span> <span class="n">getTextGrade</span><span class="p">(</span><span class="n">average</span><span class="p">)</span>
+
+<span class="c1"># COMPLETE: print the final grade. Example: Final grade: 8.03 (Very Good)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Final grade: "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">average</span><span class="p">)</span> <span class="o">+</span> <span class="s2">" ("</span> <span class="o">+</span> <span class="n">text_average</span> <span class="o">+</span> <span class="s2">")"</span><span class="p">)</span>
+</code></pre></div>
+</details>
+<p><br/></p></div>
 </div>
 </div><footer>
 <div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
