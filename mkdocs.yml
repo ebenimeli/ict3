@@ -43,7 +43,6 @@ nav:
   - 'Free Software Licenses': 'contents/unit05/freeswlicenses.md'
   - 'Creative Commons Licenses': 'contents/unit05/creativecommons.md'
   - 'Reading: The Impact of AI, Programming, and Robotics': 'contents/unit05/reading_PAIR.md'
-  - 'AI Tipping Point · Documentary': 'contents/unit05/ai_tippingpoint.md'
   #- 'Sensors and AI: Fundamentals and Applications': 'contents/unit01/unit1.md'
   #- '1. Learning: Biological Systems and AI': # SB1.1
   #  - 'Learning in Biological Systems: Decisions and Free Will': 'contents/unit01/c1_ai-bio.md'
@@ -120,6 +119,7 @@ nav:
 #  - 'Glossary': 'contents/unit05/glossary-ud05.md'
 - 'Unit 6. Robotics ':
   - 'Robotics in Action: Assembly, Control, and Programming': 'contents/unit06/unit6.md'
+  - 'Documentary: AI Tipping Point': 'contents/unit06/ai_tippingpoint.md'
 #  - '0. Introduction to Robotics' :
 #    - 'Introduction' : 'contents/unit06/intro.md' 
 #    - 'What is a robot?' : 'contents/unit06/robots.md'
