@@ -1,5 +1,7 @@
 # The Impact of Artificial Intelligence, Programming, and Robotics on Society
 
+[⬇ PDF notes](impact_AI_society.pdf)
+
 <img class="header" src="images/ai_impact.jpg"/>
 
 In the modern world, technology is all around us. It affects nearly every part of our lives, from the way we communicate with friends to how we shop or learn. One of the most exciting and rapidly advancing fields of technology today is **artificial intelligence (AI)**, **programming**, and **robotics**. These technologies are not just part of science fiction – they are changing the world in real, practical ways. But how exactly are they transforming society? Let’s take a closer look.
@@ -62,6 +64,33 @@ AI, programming, and robotics are technologies that are changing the way we live
 
 By understanding how these technologies work and their impact on society, we can better prepare ourselves to use them responsibly and creatively. The future is full of exciting possibilities, and it’s up to all of us to shape it.
 
+---
+
+## The Impact of AI and Machine Learning on Society
+
+The video [***Social Impact of AI***](https://youtu.be/ng4c1g3COfs?si=W9e29cinAi_OuuPq) highlights how AI and Machine Learning are transforming various sectors, from self-driving cars to healthcare and resource management. However, it also addresses the risks of bias in applications like college admissions and crime prediction. The video emphasizes the importance of responsible AI development and human learning to ensure fairness. With proper oversight, AI has the potential to revolutionize lives while promoting equity and positive change.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ng4c1g3COfs?si=p5XCrIUuJshw6YUn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<br/>
+
+AI and Machine Learning can affect every part of society.  
+
+For instance, self-driving cars use AI to recognize their surroundings, track objects, and make super important decisions like when to stop.  
+
+Machine Learning is already being used in some really amazing things. It's allowing us to be more energy efficient. We use it to improve how we grow food and manage natural resources. It's dramatically changing how we diagnose diseases and create new medicines. It's even helping the blind see.  
+
+**AI Voice:** *"I think it's a man jumping in the air doing a trick on a skateboard."*  
+
+But there are also risks. Consider the potential impact when machine learning is used to evaluate candidates for college admission, screen applicants for bank loans, or even predict crime or spot criminals.  
+
+When using machine learning in these types of applications, we need to make sure not to use prejudiced training data that would perpetuate human bias.  
+
+As AI and Machine Learning change everything, it's important that you have a hand in how they're being used. More than any other technology, AI has the potential to revolutionize our lives for the better—so long as it's done in a way that avoids bias that could cause harm or inequity.  
+
+The most important thing about machine learning is **human learning**. Knowing how this technology works is the first step on your journey to using it for good.  
+
+---
 
 ## Quiz
 
