@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<html class="writer-html5" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../../img/favicon.ico" rel="shortcut icon"/>
+<title>Programming Challenge: The Average - Programming, Artificial Intelligence and Robotics (PAIR II) - 3.º ESO</title>
+<link href="../../css/theme.css" rel="stylesheet"/>
+<link href="../../css/theme_extra.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" rel="stylesheet"/>
+<link href="../../css/ict.css" rel="stylesheet"/>
+<script>
+        // Current page data
+        var mkdocs_page_name = "Programming Challenge: The Average";
+        var mkdocs_page_input_path = "contents/programming/challenge_theaverage.md";
+        var mkdocs_page_url = null;
+      </script>
+<!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+<link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        </style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+<body class="wy-body-for-nav" role="document">
+<div class="wy-grid-for-nav">
+<nav class="wy-nav-side stickynav" data-toggle="wy-nav-shift">
+<div class="wy-side-scroll">
+<div class="wy-side-nav-search">
+<a href="../..">
+<img alt="Logo" class="logo" src="../../images/floppy-ict3.png"/>
+</a><div role="search">
+<form action="../../search.html" class="wy-form" id="rtd-search-form" method="get">
+<input aria-label="Search docs" name="q" placeholder="Search docs" title="Type search term here" type="text"/>
+</form>
+</div>
+</div>
+<div aria-label="Navigation menu" class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../unit00/presentation.html">Presentation</a>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Unit 1. Programming, AI &amp; Robots</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../unit01/unit1.html">Introduction to AI, Programming and Robotics</a>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../unit01/c0_the-turing-test.html">The Turing Test</a>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../unit01/c0_text-turing.html">A01. Introduction to Artificial Intelligence: The Turing Test</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<section class="wy-nav-content-wrap" data-toggle="wy-nav-shift">
+<nav aria-label="Mobile navigation menu" class="wy-nav-top" role="navigation">
+<i class="fa fa-bars" data-toggle="wy-nav-top"></i>
+<a href="../..">Programming, Artificial Intelligence and Robotics (PAIR II) - 3.º ESO</a>
+</nav>
+<div class="wy-nav-content">
+<div class="rst-content"><div aria-label="breadcrumbs navigation" role="navigation">
+<ul class="wy-breadcrumbs">
+<li><a aria-label="Docs" class="icon icon-home" href="../.."></a></li>
+<li class="breadcrumb-item active">Programming Challenge: The Average</li>
+<li class="wy-breadcrumbs-aside">
+</li>
+</ul>
+<hr/>
+</div>
+<div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
+<div class="section" itemprop="articleBody">
+<div><h1 id="programming-challenge-the-average">Programming Challenge: The Average</h1>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="images/coding.jpg"><img class="header" src="images/coding.jpg"/></a></p>
+<p>In this challenge, the student will complete a Python program that calculates the average of four grades and converts the numeric average to a text grade. The challenge is divided into several steps that require defining functions and using them to process grades.</p>
+<h2 id="instructions">Instructions</h2>
+<p><strong>Function Definitions:</strong></p>
+<ul>
+<li><strong>getAverage</strong>: This function will take four numeric inputs (representing grades) and calculate their average. The student needs to complete the function.</li>
+<li><strong>getTextGrade</strong>: This function will convert a numeric grade to a corresponding text grade. The student should define logic to return: "Fail" for grades between 0 and 5 (not included), "Good" for grades between 5 and 7.5 (not included), or "Very Good" for grades 7.5 and above</li>
+</ul>
+<p><strong>Assign Values to Variables:</strong></p>
+<p>The student will assign values to the four grade variables (t1, t2, t3, t4).</p>
+<p><strong>Calculate the Average:</strong></p>
+<p>Use the getAverage function to calculate the average of the four grades.</p>
+<p><strong>Round the Average:</strong></p>
+<p>The student must round the average to two decimal places using the round() function.</p>
+<p><strong>Determine the Text Grade:</strong></p>
+<p>The student will use the getTextGrade function to convert the numeric average into a text grade.</p>
+<p><strong>Print the Final Grade:</strong></p>
+<p>Finally, the student will print the final result, displaying both the numeric average and the corresponding text grade.</p>
+<h2 id="the-code">The Code</h2>
+<div class="highlight"><pre><span></span><code><span class="c1"># Filename: get_average_template.py</span>
+<span class="c1"># Author: Write here your name</span>
+<span class="c1"># Date: Write here the current date</span>
+
+<span class="c1"># IMPORTANT: Please read the instructions in the comments</span>
+
+<span class="c1"># COMPLETE: define a function that calculates the average of 4 numbers: x1, x2, x3, and x4</span>
+<span class="k">def</span> <span class="nf">getAverage</span><span class="p">(</span> <span class="err">?</span> <span class="p">):</span>
+    <span class="c1"># here your code</span>
+
+<span class="c1"># COMPLETE: define a function that converts a grade from number (ngrade) to text (tgrade)</span>
+<span class="c1"># (i.e.: 7.4 --&gt; NT)</span>
+<span class="c1"># 0 &lt;= num &lt; 5 --&gt; Fail</span>
+<span class="c1"># 5 &lt;= num &lt; 7.5 --&gt; Good</span>
+<span class="c1"># 7.5 &lt;= num     --&gt; Very good</span>
+<span class="k">def</span> <span class="nf">getTextGrade</span><span class="p">(</span> <span class="err">?</span> <span class="p">):</span>
+    <span class="c1"># here your code</span>
+
+<span class="c1"># COMPLETE: assign values to the variables</span>
+<span class="n">t1</span> <span class="o">=</span> 
+<span class="n">t2</span> <span class="o">=</span> 
+<span class="n">t3</span> <span class="o">=</span> 
+<span class="n">t4</span> <span class="o">=</span> 
+
+<span class="c1"># COMPLETE: Use a function get the average of those 4 grades t1,t2,t3 and t4</span>
+<span class="n">average</span> <span class="o">=</span> 
+
+<span class="c1"># This line rounds the average with 2 decimals</span>
+<span class="n">average</span> <span class="o">=</span> <span class="nb">round</span><span class="p">(</span><span class="n">average</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
+
+<span class="c1"># COMPLETE: Use a function toget the text grade from the numeric average</span>
+<span class="n">text_average</span> <span class="o">=</span> 
+
+<span class="c1"># COMPLETE: print the final grade. Example: Final grade: 8.03 (Very Good)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Final grade: "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">average</span><span class="p">)</span> <span class="o">+</span> <span class="s2">" ("</span> <span class="o">+</span> <span class="n">text_average</span> <span class="o">+</span> <span class="s2">")"</span><span class="p">)</span>
+</code></pre></div>
+<h2 id="solution">Solution</h2>
+<details><summary>Solution</summary>
+<div class="highlight"><pre><span></span><code><span class="c1"># Filename: get_average_template.py</span>
+<span class="c1"># Author: Write here your name</span>
+<span class="c1"># Date: Write here the current date</span>
+
+<span class="c1"># IMPORTANT: Please read the instructions in the comments</span>
+
+<span class="c1"># COMPLETE: define a function that calculates the average of 4 numbers: x1, x2, x3, and x4</span>
+<span class="k">def</span> <span class="nf">getAverage</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span> <span class="n">x2</span><span class="p">,</span> <span class="n">x3</span><span class="p">,</span> <span class="n">x4</span><span class="p">):</span>
+    <span class="c1"># Calculate and return the average of the 4 numbers</span>
+    <span class="k">return</span> <span class="p">(</span><span class="n">x1</span> <span class="o">+</span> <span class="n">x2</span> <span class="o">+</span> <span class="n">x3</span> <span class="o">+</span> <span class="n">x4</span><span class="p">)</span> <span class="o">/</span> <span class="mi">4</span>
+
+<span class="c1"># COMPLETE: define a function that converts a grade from number (ngrade) to text (tgrade) (i.e.: 7.4 --&gt; NT)</span>
+<span class="c1"># 0 &lt;= num &lt; 5 --&gt; Fail</span>
+<span class="c1"># 5 &lt;= num &lt; 7.5 --&gt; Good</span>
+<span class="c1"># 7.5 &lt;= num     --&gt; Very good</span>
+<span class="k">def</span> <span class="nf">getTextGrade</span><span class="p">(</span><span class="n">ngrade</span><span class="p">):</span>
+    <span class="c1"># Convert numeric grade to text grade</span>
+    <span class="k">if</span> <span class="mi">0</span> <span class="o">&lt;=</span> <span class="n">ngrade</span> <span class="o">&lt;</span> <span class="mi">5</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s2">"Fail"</span>
+    <span class="k">elif</span> <span class="mi">5</span> <span class="o">&lt;=</span> <span class="n">ngrade</span> <span class="o">&lt;</span> <span class="mf">7.5</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s2">"Good"</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s2">"Very Good"</span>
+
+<span class="c1"># COMPLETE: assign values to the variables</span>
+<span class="n">t1</span> <span class="o">=</span> <span class="mf">6.8</span>  <span class="c1"># Example grade 1</span>
+<span class="n">t2</span> <span class="o">=</span> <span class="mf">7.4</span>  <span class="c1"># Example grade 2</span>
+<span class="n">t3</span> <span class="o">=</span> <span class="mf">5.5</span>  <span class="c1"># Example grade 3</span>
+<span class="n">t4</span> <span class="o">=</span> <span class="mf">8.2</span>  <span class="c1"># Example grade 4</span>
+
+<span class="c1"># COMPLETE: Use a function to get the average of those 4 grades t1,t2,t3 and t4</span>
+<span class="n">average</span> <span class="o">=</span> <span class="n">getAverage</span><span class="p">(</span><span class="n">t1</span><span class="p">,</span> <span class="n">t2</span><span class="p">,</span> <span class="n">t3</span><span class="p">,</span> <span class="n">t4</span><span class="p">)</span>
+
+<span class="c1"># This line rounds the average to 2 decimals</span>
+<span class="n">average</span> <span class="o">=</span> <span class="nb">round</span><span class="p">(</span><span class="n">average</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+
+<span class="c1"># COMPLETE: Use a function to get the text grade from the numeric average</span>
+<span class="n">text_average</span> <span class="o">=</span> <span class="n">getTextGrade</span><span class="p">(</span><span class="n">average</span><span class="p">)</span>
+
+<span class="c1"># COMPLETE: print the final grade. Example: Final grade: 8.03 (Very Good)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Final grade: "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">average</span><span class="p">)</span> <span class="o">+</span> <span class="s2">" ("</span> <span class="o">+</span> <span class="n">text_average</span> <span class="o">+</span> <span class="s2">")"</span><span class="p">)</span>
+</code></pre></div>
+</details>
+<p><br/></p></div>
+</div>
+</div><footer>
+<hr/>
+<div role="contentinfo">
+<!-- Copyright etc -->
+</div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+</div>
+</div>
+</section>
+</div>
+<div aria-label="Versions" class="rst-versions" role="note">
+<span class="rst-current-version" data-toggle="rst-current-version">
+</span>
+</div>
+<script src="../../js/jquery-3.6.0.min.js"></script>
+<script>var base_url = "../..";</script>
+<script src="../../js/theme_extra.js"></script>
+<script src="../../js/theme.js"></script>
+<script src="../../javascript/extra.js"></script>
+<script src="https://unpkg.com/mermaid@10.2.4/dist/mermaid.min.js"></script>
+<script src="../../search/main.js"></script>
+<script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+<script>const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});</script></body>
+</html>

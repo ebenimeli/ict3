@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>all.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+<link rel="stylesheet" href="file:///Users/ebenimeli/Documents/GitHub/ictpd/docs/css/" type="text/css">
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h3 id="1-introduction-to-programming-in-high-level-languages-types-of-languages-syntax-and-semantics">1. Introduction to Programming in High-Level Languages. Types of Languages. Syntax and Semantics</h3>
+<p><strong>Introduction to Programming</strong><br>
+Programming is the process of giving instructions to a computer to perform specific tasks. A computer understands only machine language, which consists of binary numbers (0s and 1s). However, humans write programs in high-level programming languages, which are easier to read and understand. These languages are translated into machine language by compilers or interpreters.</p>
+<p><strong>High-Level Languages</strong><br>
+High-level programming languages are designed to be easy for humans to read and write. Some examples of high-level languages are Python, Java, and C++. These languages use English-like words and mathematical symbols to express instructions, making them more accessible than low-level languages like assembly or machine code.</p>
+<ul>
+<li><strong>Python</strong>: A popular language known for its simple syntax and wide usage in fields like web development, data science, and artificial intelligence.</li>
+<li><strong>Java</strong>: A widely-used language for building large, complex applications, especially for Android development.</li>
+<li><strong>C++</strong>: A powerful language often used in game development and systems programming.</li>
+</ul>
+<p><strong>Types of Programming Languages</strong><br>
+There are different types of programming languages based on their use and the way they interact with the computer:</p>
+<ol>
+<li><strong>Procedural Programming Languages</strong>: These languages focus on the sequence of actions or steps the computer must take to accomplish a task. The most common procedural language is C.</li>
+<li><strong>Object-Oriented Programming (OOP) Languages</strong>: These languages focus on objects, which are collections of data and methods that operate on that data. Java and Python are examples of OOP languages.</li>
+<li><strong>Functional Programming Languages</strong>: These languages treat computation as the evaluation of mathematical functions and avoid changing-state and mutable data. Haskell is an example of a functional language.</li>
+</ol>
+<p><strong>Syntax and Semantics</strong></p>
+<ul>
+<li>
+<p><strong>Syntax</strong> refers to the rules that define the structure of valid code in a programming language. It is like grammar in a language. For example, in Python, the syntax for defining a variable is:</p>
+<pre class="hljs"><code><div>x = <span class="hljs-number">5</span>
+</div></code></pre>
+<p>If you forget to write the correct syntax, the program will produce an error.</p>
+</li>
+<li>
+<p><strong>Semantics</strong> refers to the meaning of the code. It is the logic that explains what each part of the code does. For example, in the above line of Python code, the syntax is correct, and the semantics tell us that the variable <code>x</code> is being assigned the value 5.</p>
+</li>
+</ul>
+<p>A good programmer needs to understand both syntax and semantics to write code that works as expected.</p>
+<hr>
+<h3 id="2-software-evaluation-and-maintenance">2. Software Evaluation and Maintenance</h3>
+<p><strong>What is Software Evaluation?</strong><br>
+Software evaluation is the process of assessing how well a program or application works. This includes testing its functionality, performance, security, and user-friendliness. Evaluation helps developers understand if their software meets the requirements and is free from bugs or errors.</p>
+<p>There are different types of testing:</p>
+<ol>
+<li><strong>Unit Testing</strong>: This is the testing of individual components or units of code, like functions or classes. The goal is to ensure each part of the program works correctly on its own.</li>
+<li><strong>Integration Testing</strong>: This testing checks if different parts of the program work together properly.</li>
+<li><strong>System Testing</strong>: This is done to verify that the entire system functions as expected.</li>
+<li><strong>User Testing</strong>: The software is tested by actual users to see if it is easy to use and meets their needs.</li>
+</ol>
+<p><strong>What is Software Maintenance?</strong><br>
+Once software is released, it is important to maintain it to fix bugs, improve functionality, and ensure it stays up-to-date with the latest technology. Software maintenance can be divided into four types:</p>
+<ol>
+<li><strong>Corrective Maintenance</strong>: This involves fixing bugs or errors in the software after it has been released.</li>
+<li><strong>Adaptive Maintenance</strong>: This is when the software is updated to be compatible with changes in the environment (e.g., a new operating system).</li>
+<li><strong>Perfective Maintenance</strong>: This focuses on improving the software by adding new features or improving performance.</li>
+<li><strong>Preventive Maintenance</strong>: This is about anticipating and preventing future problems before they happen.</li>
+</ol>
+<p><strong>Why is Software Evaluation and Maintenance Important?</strong><br>
+Software evaluation and maintenance are essential for keeping programs working smoothly over time. Without maintenance, software can become outdated, slow, or full of bugs. This can lead to security issues, poor performance, and unhappy users. Regular evaluation ensures that software is reliable, efficient, and secure.</p>
+<hr>
+<h3 id="3-software-licenses-free-software-and-proprietary-software">3. Software Licenses. Free Software and Proprietary Software</h3>
+<p><strong>Software Licenses</strong><br>
+A software license is a legal agreement that explains the terms under which a program can be used, modified, and distributed. There are two main types of software licenses: free software licenses and proprietary software licenses.</p>
+<ul>
+<li>
+<p><strong>Free Software</strong>: This refers to software that can be freely used, modified, and shared. The most famous free software license is the GNU General Public License (GPL), which allows anyone to run, study, modify, and share the software as long as they share their modifications with the same license. An example of free software is the Linux operating system.</p>
+<p><strong>Benefits of Free Software</strong>:</p>
+<ul>
+<li><strong>Freedom to modify</strong>: Users can improve the software.</li>
+<li><strong>No cost</strong>: It is often available for free.</li>
+<li><strong>Community support</strong>: Free software often has active communities that help users and developers.</li>
+</ul>
+</li>
+<li>
+<p><strong>Proprietary Software</strong>: This refers to software that is owned by a company or individual and comes with restrictions on its use, modification, and distribution. Examples of proprietary software include Microsoft Windows and Adobe Photoshop.</p>
+<p><strong>Characteristics of Proprietary Software</strong>:</p>
+<ul>
+<li><strong>Limited access</strong>: Users cannot view or change the source code.</li>
+<li><strong>Licensing fees</strong>: Users typically need to pay for a license to use the software.</li>
+<li><strong>Support from the company</strong>: Proprietary software usually comes with professional customer support.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Respecting Copyrights and Licenses</strong><br>
+When creating or using software, it is essential to respect the rights of the creators. This includes:</p>
+<ol>
+<li><strong>Attribution</strong>: Giving credit to the original authors.</li>
+<li><strong>Following License Terms</strong>: Ensuring you follow the rules of the software license, whether it’s free software or proprietary.</li>
+<li><strong>Not using pirated software</strong>: Using unauthorized copies of proprietary software is illegal and can lead to legal consequences.</li>
+</ol>
+<p>By understanding software licenses and respecting intellectual property, you ensure that your work and the work of others are protected and valued.</p>
+<hr>
+<h3 id="evaluation-criteria">Evaluation Criteria:</h3>
+<ol>
+<li>
+<p><strong>Evaluating and Maintaining Developed Software</strong>: You should be able to test and maintain software you create. This includes running different tests to check for bugs, fixing any issues, and making sure the software is efficient and secure.</p>
+</li>
+<li>
+<p><strong>Applying and Respecting Copyright and Licenses</strong>: When creating software, it is important to follow proper licensing rules. You should always give credit to authors of free software and ensure that your software follows the license you’ve chosen, whether free or proprietary.</p>
+</li>
+</ol>
+<p>These criteria help you build better software while respecting the work of others and ensuring your software is legal, secure, and efficient.</p>
+
+</body>
+</html>

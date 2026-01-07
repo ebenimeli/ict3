@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+
+<html class="writer-html5" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../../img/favicon.ico" rel="shortcut icon"/>
+<title>Exercises - Programming, Artificial Intelligence and Robotics (PAIR II) - 3.º ESO</title>
+<link href="../../css/theme.css" rel="stylesheet"/>
+<link href="../../css/theme_extra.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" rel="stylesheet"/>
+<link href="../../css/ict.css" rel="stylesheet"/>
+<script>
+        // Current page data
+        var mkdocs_page_name = "Exercises";
+        var mkdocs_page_input_path = "contents/programming/exercises.md";
+        var mkdocs_page_url = null;
+      </script>
+<!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+<link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        </style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+<body class="wy-body-for-nav" role="document">
+<div class="wy-grid-for-nav">
+<nav class="wy-nav-side stickynav" data-toggle="wy-nav-shift">
+<div class="wy-side-scroll">
+<div class="wy-side-nav-search">
+<a href="../..">
+<img alt="Logo" class="logo" src="../../images/floppy-ict3.png"/>
+</a><div role="search">
+<form action="../../search.html" class="wy-form" id="rtd-search-form" method="get">
+<input aria-label="Search docs" name="q" placeholder="Search docs" title="Type search term here" type="text"/>
+</form>
+</div>
+</div>
+<div aria-label="Navigation menu" class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../unit00/presentation.html">Presentation</a>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Unit 1. Programming, AI &amp; Robots</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../unit01/unit1.html">Introduction to AI, Programming and Robotics</a>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../unit01/c0_the-turing-test.html">The Turing Test</a>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../unit01/c0_text-turing.html">A01. Introduction to Artificial Intelligence: The Turing Test</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<section class="wy-nav-content-wrap" data-toggle="wy-nav-shift">
+<nav aria-label="Mobile navigation menu" class="wy-nav-top" role="navigation">
+<i class="fa fa-bars" data-toggle="wy-nav-top"></i>
+<a href="../..">Programming, Artificial Intelligence and Robotics (PAIR II) - 3.º ESO</a>
+</nav>
+<div class="wy-nav-content">
+<div class="rst-content"><div aria-label="breadcrumbs navigation" role="navigation">
+<ul class="wy-breadcrumbs">
+<li><a aria-label="Docs" class="icon icon-home" href="../.."></a></li>
+<li class="breadcrumb-item active">Exercises</li>
+<li class="wy-breadcrumbs-aside">
+</li>
+</ul>
+<hr/>
+</div>
+<div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
+<div class="section" itemprop="articleBody">
+<div><h1 id="exercises">Exercises</h1>
+<h2 id="1-combining-strings-using-concatenation">1. Combining strings using concatenation</h2>
+<p>Create two string variables, 'greeting' and 'name', and concatenate them to print a personalized greeting.</p>
+<details><summary>Code</summary>
+<div class="highlight"><pre><span></span><code><span class="n">greeting</span> <span class="o">=</span> <span class="s2">"Hello, "</span>
+<span class="n">name</span> <span class="o">=</span> <span class="s2">"world!"</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">greeting</span> <span class="o">+</span> <span class="n">name</span><span class="p">)</span>
+</code></pre></div>
+</details>
+<hr/>
+<p>Declare two more string variables, 'first_name' and 'last_name', and concatenate them to print the full name.</p>
+<details><summary>Code</summary>
+<div class="highlight"><pre><span></span><code><span class="n">first_name</span> <span class="o">=</span> <span class="s2">"John"</span>
+<span class="n">last_name</span> <span class="o">=</span> <span class="s2">"Doe"</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Full Name: "</span> <span class="o">+</span> <span class="n">first_name</span> <span class="o">+</span> <span class="s2">" "</span> <span class="o">+</span> <span class="n">last_name</span><span class="p">)</span>
+</code></pre></div>
+</details>
+<hr/>
+<h2 id="2-arithmetic-expressions-in-python">2. Arithmetic expressions in Python</h2>
+<p>Calculate and print the result of the expression: x = 10 + 5 * 2</p>
+<details><summary>Code</summary>
+<div class="highlight"><pre><span></span><code><span class="n">x</span> <span class="o">=</span> <span class="mi">10</span> <span class="o">+</span> <span class="mi">5</span> <span class="o">*</span> <span class="mi">2</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Result of x:"</span><span class="p">,</span> <span class="n">x</span><span class="p">)</span>
+</code></pre></div>
+</details>
+<hr/>
+<p>Create a new variable 'y' and assign the result of the expression: y = 3 ** 2</p>
+<details><summary>Code</summary>
+<div class="highlight"><pre><span></span><code><span class="n">y</span> <span class="o">=</span> <span class="mi">3</span> <span class="o">**</span> <span class="mi">2</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Result of y:"</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+</code></pre></div>
+</details>
+<hr/>
+<h2 id="3-exponentiation-in-python">3. Exponentiation in Python</h2>
+<p>Calculate and print the result of 2 raised to the power of 4 using the exponentiation operator.</p>
+<details><summary>Code</summary>
+<div class="highlight"><pre><span></span><code><span class="n">result</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">**</span> <span class="mi">4</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"2 to the power of 4:"</span><span class="p">,</span> <span class="n">result</span><span class="p">)</span>
+</code></pre></div>
+</details>
+<hr/>
+<h2 id="4-modulo-operator-in-python">4. Modulo operator in Python</h2>
+<p>Calculate and print the remainder when 15 is divided by 4 using the modulo operator.</p>
+<details><summary>Code</summary>
+<div class="highlight"><pre><span></span><code><span class="n">x</span> <span class="o">=</span> <span class="mi">15</span> <span class="o">%</span> <span class="mi">4</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Remainder:"</span><span class="p">,</span> <span class="n">x</span><span class="p">)</span>
+</code></pre></div>
+</details>
+<hr/>
+<h2 id="5-augmented-assignment-in-python">5. Augmented assignment in Python</h2>
+<p>Initialize variables x and y with some values.</p>
+<details><summary>Code</summary>
+<div class="highlight"><pre><span></span><code><span class="n">x</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="n">y</span> <span class="o">=</span> <span class="mi">3</span>
+</code></pre></div>
+</details>
+<hr/>
+<p>Use augmented assignment to add y to x and print the result.</p>
+<details><summary>Code</summary>
+<div class="highlight"><pre><span></span><code><span class="n">x</span> <span class="o">+=</span> <span class="n">y</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Result of x += y:"</span><span class="p">,</span> <span class="n">x</span><span class="p">)</span>
+</code></pre></div>
+</details>
+<hr/>
+<h2 id="6-comments-in-python">6. Comments in Python</h2>
+<p>Add comments to the following code explaining the purpose of each line.</p>
+<details><summary>Code</summary>
+<div class="highlight"><pre><span></span><code><span class="c1"># Calculate the sum of two numbers</span>
+<span class="n">num1</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="n">num2</span> <span class="o">=</span> <span class="mi">20</span>
+<span class="n">sum_result</span> <span class="o">=</span> <span class="n">num1</span> <span class="o">+</span> <span class="n">num2</span>
+</code></pre></div>
+</details>
+<hr/>
+<p>Print the result</p>
+<details><summary>Code</summary>
+<div class="highlight"><pre><span></span><code><span class="nb">print</span><span class="p">(</span><span class="s2">"Sum:"</span><span class="p">,</span> <span class="n">sum_result</span><span class="p">)</span>
+</code></pre></div>
+</details>
+<hr/>
+<h2 id="7-understanding-data-types-int-vs-float">7. Understanding data types - int vs float</h2>
+<p>Declare an integer variable 'integer_var' and a float variable 'float_var'.</p>
+<details><summary>Code</summary>
+<div class="highlight"><pre><span></span><code><span class="n">integer_var</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="n">float_var</span> <span class="o">=</span> <span class="mf">3.14</span>
+</code></pre></div>
+</details>
+<hr/>
+<p>Print the data type of each variable.</p>
+<details><summary>Code</summary>
+<div class="highlight"><pre><span></span><code><span class="nb">print</span><span class="p">(</span><span class="s2">"Type of integer_var:"</span><span class="p">,</span> <span class="nb">type</span><span class="p">(</span><span class="n">integer_var</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Type of float_var:"</span><span class="p">,</span> <span class="nb">type</span><span class="p">(</span><span class="n">float_var</span><span class="p">))</span>
+</code></pre></div>
+</details>
+<hr/>
+<h2 id="8-multi-line-string-in-python">8. Multi-line string in Python</h2>
+<p>Create a multi-line string containing your address.</p>
+<details><summary>Code</summary>
+<div class="highlight"><pre><span></span><code><span class="n">address</span> <span class="o">=</span> <span class="s2">"""123 Main Street</span>
+<span class="s2">Cityville, USA</span>
+<span class="s2">Zip: 12345"""</span>
+</code></pre></div>
+</details>
+<hr/>
+<p>Print the multi-line string.</p>
+<details><summary>Code</summary>
+<div class="highlight"><pre><span></span><code><span class="nb">print</span><span class="p">(</span><span class="n">address</span><span class="p">)</span>
+</code></pre></div>
+</details>
+<hr/>
+<h2 id="9-booleans-in-python">9. Booleans in Python</h2>
+<p>Declare boolean variables indicating weather conditions.</p>
+<details><summary>Code</summary>
+<div class="highlight"><pre><span></span><code><span class="n">is_sunny</span> <span class="o">=</span> <span class="kc">True</span>
+<span class="n">is_raining</span> <span class="o">=</span> <span class="kc">False</span>
+</code></pre></div>
+</details>
+<hr/>
+<p>Print the values of the boolean variables.</p>
+<details><summary>Code</summary>
+<div class="highlight"><pre><span></span><code><span class="nb">print</span><span class="p">(</span><span class="s2">"Is it sunny?"</span><span class="p">,</span> <span class="n">is_sunny</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Is it raining?"</span><span class="p">,</span> <span class="n">is_raining</span><span class="p">)</span>
+</code></pre></div>
+</details>
+<hr/>
+<h2 id="10-type-error-in-python">10. Type error in Python</h2>
+<p>Fix the type error in the following statement and print the corrected string.</p>
+<div class="highlight"><pre><span></span><code><span class="n">f1</span> <span class="o">=</span> <span class="mf">0.25</span>
+<span class="n">f2</span> <span class="o">=</span> <span class="mf">40.0</span>
+<span class="n">p</span> <span class="o">=</span> <span class="n">f1</span> <span class="o">*</span> <span class="n">f2</span>
+<span class="n">bs</span> <span class="o">=</span> <span class="s2">"The price is "</span> <span class="o">+</span> <span class="n">p</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">bs</span><span class="p">)</span>
+</code></pre></div>
+<details><summary>Code</summary>
+<div class="highlight"><pre><span></span><code><span class="n">f1</span> <span class="o">=</span> <span class="mf">0.25</span>
+<span class="n">f2</span> <span class="o">=</span> <span class="mf">40.0</span>
+<span class="n">p</span> <span class="o">=</span> <span class="n">f1</span> <span class="o">*</span> <span class="n">f2</span>
+<span class="n">bs</span> <span class="o">=</span> <span class="s2">"The price is "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">p</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">bs</span><span class="p">)</span>
+</code></pre></div>
+</details>
+<hr/>
+<h2 id="11-for-loop-with-countries">11. For loop with countries</h2>
+<p>Create a list of countries: Spain, France and Germany.</p>
+<details><summary>Code</summary>
+<div class="highlight"><pre><span></span><code><span class="n">countries</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"Spain"</span><span class="p">,</span> <span class="s2">"France"</span><span class="p">,</span> <span class="s2">"Germany"</span><span class="p">]</span>
+</code></pre></div>
+</details>
+<hr/>
+<p>Use a for loop to print a message for each country.</p>
+<details><summary>Code</summary>
+<div class="highlight"><pre><span></span><code><span class="k">for</span> <span class="n">country</span> <span class="ow">in</span> <span class="n">countries</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"The country is "</span> <span class="o">+</span> <span class="n">country</span><span class="p">)</span>
+</code></pre></div>
+</details>
+<hr/>
+<h2 id="12-for-loop-with-numbers">12. For loop with numbers</h2>
+<p>Create a list of numbers: [1, 2, 3].</p>
+<details><summary>Code</summary>
+<div class="highlight"><pre><span></span><code><span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
+</code></pre></div>
+</details>
+<hr/>
+<p>Use a for loop to calculate the product of all numbers and print the result.</p>
+<details><summary>Code</summary>
+<div class="highlight"><pre><span></span><code><span class="n">total</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="k">for</span> <span class="n">num</span> <span class="ow">in</span> <span class="n">numbers</span><span class="p">:</span>
+    <span class="n">total</span> <span class="o">*=</span> <span class="n">num</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Product of numbers:"</span><span class="p">,</span> <span class="n">total</span><span class="p">)</span>
+</code></pre></div>
+</details>
+<hr/>
+<h2 id="13-return-statements-in-python">13. Return statements in Python</h2>
+<p>Define a function 'calculate_sum' that takes two parameters and returns their sum.</p>
+<details><summary>Code</summary>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">calculate_sum</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
+</code></pre></div>
+</details>
+<hr/>
+<p>Use the function to calculate and print the sum of 7 and 3.</p>
+<details><summary>Code</summary>
+<div class="highlight"><pre><span></span><code><span class="n">result</span> <span class="o">=</span> <span class="n">calculate_sum</span><span class="p">(</span><span class="mi">7</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"The sum is:"</span><span class="p">,</span> <span class="n">result</span><span class="p">)</span>
+</code></pre></div>
+</details>
+<hr/>
+<p>Create a function 'is_positive' that takes a number as a parameter and returns True if it's positive, False otherwise.</p>
+<details><summary>Code</summary>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">is_positive</span><span class="p">(</span><span class="n">number</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">number</span> <span class="o">&gt;</span> <span class="mi">0</span>
+</code></pre></div>
+</details>
+<hr/>
+<p>Test the 'is_positive' function with both positive and negative numbers and print the results.</p>
+<details><summary>Code</summary>
+<div class="highlight"><pre><span></span><code><span class="nb">print</span><span class="p">(</span><span class="n">is_positive</span><span class="p">(</span><span class="mi">5</span><span class="p">))</span>  <span class="c1"># Should print True</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">is_positive</span><span class="p">(</span><span class="o">-</span><span class="mi">2</span><span class="p">))</span>  <span class="c1"># Should print False</span>
+</code></pre></div>
+</details>
+<hr/>
+<h2 id="14-defining-a-square-function-and-calling-it">14. Defining a square function and calling it</h2>
+<p>Define a function 'square' that takes a number as a parameter and returns its square.</p>
+<details><summary>Code</summary>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">square</span><span class="p">(</span><span class="n">num</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">num</span> <span class="o">*</span> <span class="n">num</span>
+</code></pre></div>
+</details>
+<hr/>
+<p>Use the 'square' function to calculate and print the square of 8.</p>
+<details><summary>Code</summary>
+<div class="highlight"><pre><span></span><code><span class="n">result</span> <span class="o">=</span> <span class="n">square</span><span class="p">(</span><span class="mi">8</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"The square is:"</span><span class="p">,</span> <span class="n">result</span><span class="p">)</span>
+</code></pre></div>
+</details>
+<hr/>
+<p>Create a function 'calculate_area' that calculates the area of a square given its side length. Use the 'square' function to find the area of a square with side length 5.</p>
+<details><summary>Code</summary>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">calculate_area</span><span class="p">(</span><span class="n">side_length</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">square</span><span class="p">(</span><span class="n">side_length</span><span class="p">)</span>
+
+<span class="n">area</span> <span class="o">=</span> <span class="n">calculate_area</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"The area of the square is:"</span><span class="p">,</span> <span class="n">area</span><span class="p">)</span>
+</code></pre></div>
+</details>
+<hr/>
+<h2 id="15-using-a-for-loop">15. Using a for loop</h2>
+<p>Write a program that uses a for loop to print the numbers from 1 to 5.</p>
+<details><summary>Code</summary>
+<div class="highlight"><pre><span></span><code><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">6</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+</code></pre></div>
+</details>
+<hr/>
+<h2 id="16-comparison-operators-in-python">16. Comparison operators in Python</h2>
+<p>Create a function 'compare_numbers' that takes two numbers as parameters and prints a message indicating which number is greater or if they are equal.</p>
+<details><summary>Code</summary>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">compare_numbers</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">x</span> <span class="o">&gt;</span> <span class="n">y</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">x</span><span class="si">}</span><span class="s2"> is greater than </span><span class="si">{</span><span class="n">y</span><span class="si">}</span><span class="s2">."</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">x</span> <span class="o">&lt;</span> <span class="n">y</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">x</span><span class="si">}</span><span class="s2"> is less than </span><span class="si">{</span><span class="n">y</span><span class="si">}</span><span class="s2">."</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">x</span><span class="si">}</span><span class="s2"> is equal to </span><span class="si">{</span><span class="n">y</span><span class="si">}</span><span class="s2">."</span><span class="p">)</span>
+</code></pre></div>
+</details>
+<hr/>
+<p>Test the 'compare_numbers' function with different pairs of numbers.</p>
+<details><summary>Code</summary>
+<div class="highlight"><pre><span></span><code><span class="n">compare_numbers</span><span class="p">(</span><span class="mi">7</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+<span class="n">compare_numbers</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">8</span><span class="p">)</span>
+<span class="n">compare_numbers</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">4</span><span class="p">)</span>
+</code></pre></div>
+</details>
+<hr/></div>
+</div>
+</div><footer>
+<hr>
+<div role="contentinfo">
+<!-- Copyright etc -->
+</div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</hr></footer>
+</div>
+</div>
+</section>
+</div>
+<div aria-label="Versions" class="rst-versions" role="note">
+<span class="rst-current-version" data-toggle="rst-current-version">
+</span>
+</div>
+<script src="../../js/jquery-3.6.0.min.js"></script>
+<script>var base_url = "../..";</script>
+<script src="../../js/theme_extra.js"></script>
+<script src="../../js/theme.js"></script>
+<script src="../../javascript/extra.js"></script>
+<script src="https://unpkg.com/mermaid@10.2.4/dist/mermaid.min.js"></script>
+<script src="../../search/main.js"></script>
+<script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+<script>const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});</script></body>
+</html>
