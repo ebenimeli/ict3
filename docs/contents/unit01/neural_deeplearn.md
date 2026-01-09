@@ -22,13 +22,17 @@ A <b>neural network</b> is a computer program that uses artificial neurons to re
 
 A real-life example is **voice recognition** on your phone. When you talk to your phone, the neural network tries to understand what you are saying by comparing your voice to many other examples it has learned before. It’s like training a pet: the more you train, the better it understands. Neural networks help computers get smarter by learning from examples, just like we do!
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bfmFfD2RIcg?si=txcKISRue6Q_EOde" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<br/>
+
 ---
 
 ## Deep Learning
 
 <img src="images/deep_learning.jpg" class="header"/>
 
-**Deep learning** is a special type of learning that uses **many layers** of neural networks to solve more complicated problems. Think of it like a big sandwich. Each layer in the network is like a piece of bread, cheese, or lettuce. When you put many layers together, you get a deep learning model, just like a big sandwich! 
+**Deep learning** is a special type of learning that uses **many layers** of neural networks to solve more complicated problems. Think of it like a big sandwich. Each layer in the network is like a piece of bread, cheese, or lettuce. When you put many layers together, you get a deep learning model, just like a big sandwich!
 
 Each layer in deep learning looks at the information differently. The first layer might see basic shapes, like lines or circles. The next layer combines these shapes into more complex patterns, like faces or objects. By the time the information reaches the last layer, the computer can understand what the whole picture shows, like a dog, car, or even a specific person.
 
@@ -36,12 +40,11 @@ Each layer in deep learning looks at the information differently. The first laye
 <b>Deep learning</b> is an advanced type of machine learning using multiple neural network layers to recognize complex patterns and solve difficult problems.
 </div>
 
-Deep learning is used in **self-driving cars**. These cars have cameras that take pictures of the road. The deep learning model analyzes the pictures to recognize **traffic signs, pedestrians, and other cars**. It uses all this information to decide whether to stop, turn, or keep driving. 
+Deep learning is used in **self-driving cars**. These cars have cameras that take pictures of the road. The deep learning model analyzes the pictures to recognize **traffic signs, pedestrians, and other cars**. It uses all this information to decide whether to stop, turn, or keep driving.
 
 Another example is **translation apps** that can change speech from one language to another. Deep learning helps these apps understand the words you speak, translate them, and say them back in a different language. With deep learning, computers can understand things that were too complex before!
 
 ---
-
 
 ## Neural Networks and Deep Learning: Crash Course AI
 
@@ -63,7 +66,7 @@ One of the most famous examples of **neural networks** and **deep learning** is 
 <b>AlphaGo</b>, a DeepMind AI, mastered the complex game of Go using <b>neural networks</b>, even defeating the world champion in 2016.
 </div>
 
-AlphaGo used neural networks to learn how to play the game by studying many matches played by humans. It also played **millions of games against itself** to get better. Deep learning helped it understand the board and decide the best moves. The amazing thing is that AlphaGo became so good that it defeated the world champion of Go in 2016. 
+AlphaGo used neural networks to learn how to play the game by studying many matches played by humans. It also played **millions of games against itself** to get better. Deep learning helped it understand the board and decide the best moves. The amazing thing is that AlphaGo became so good that it defeated the world champion of Go in 2016.
 
 This was a big step forward for artificial intelligence because it showed that computers could learn to do very complex tasks that even humans find challenging. Today, similar techniques are used in other areas, like medical research, where AI helps doctors find signs of diseases in X-ray images. Thanks to neural networks and deep learning, computers can now solve problems that were once thought impossible!
 

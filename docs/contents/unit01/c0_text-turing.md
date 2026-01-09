@@ -73,10 +73,12 @@ Words: artificial machine, chatbot, computing power, consciousness, conversation
 - All of the above
 
 **3. In the Turing test, what is the role of the human evaluator?**
-   
+
 - To have a text conversation with unseen players and evaluate their responses
 - To determine if a machine is truly conscious
 - To provide a human perspective for a machine's development
 - To compare the responses of the unseen players to see if they are easily distinguishable
 
+## Document
 
+![The Turing Test](the_turing_test_txt.pdf){ type=application/pdf style="min-height:100vh;width:100%"}
