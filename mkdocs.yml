@@ -3,8 +3,8 @@ use_directory_urls: false
 nav:
   - "Presentation": "contents/unit00/presentation.md"
   - "Unit 1. Programming, AI & Robots":
-      - "▶ Introduction to AI, Programming and Robotics": "contents/unit01/unit1.md"
-      - "The Turing Test": "contents/unit01/c0_the-turing-test.md"
+      - "Introduction to AI, Programming and Robotics": "contents/unit01/unit1.md"
+      - "▶ The Turing Test": "contents/unit01/c0_the-turing-test.md"
       - "A01. Introduction to Artificial Intelligence: The Turing Test": "contents/unit01/c0_text-turing.md"
       - "Neural Networks and Deep Learning": "contents/unit01/neural_deeplearn.md"
       - "AlphaGo: NN & DL": "contents/unit01/alphago.md"
