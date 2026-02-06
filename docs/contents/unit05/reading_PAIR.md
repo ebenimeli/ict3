@@ -14,7 +14,7 @@ For example, have you ever used a voice assistant like Siri or Alexa? These devi
 
 <div class="note">AI is transforming many industries, and it’s crucial that we learn how to use it responsibly and understand its impact on society.</div>
 
-But while AI has many positive effects, it can also create challenges. One concern is that AI could replace jobs, especially in industries where machines can do tasks more efficiently than humans. For example, in factories, robots can build products faster and more accurately than people. This means some jobs could be lost, but at the same time, new jobs are created, especially in fields like AI research and software development. 
+But while AI has many positive effects, it can also create challenges. One concern is that AI could replace jobs, especially in industries where machines can do tasks more efficiently than humans. For example, in factories, robots can build products faster and more accurately than people. This means some jobs could be lost, but at the same time, new jobs are created, especially in fields like AI research and software development.
 
 ## Programming: The Language of Technology
 
@@ -68,27 +68,27 @@ By understanding how these technologies work and their impact on society, we can
 
 ## The Impact of AI and Machine Learning on Society
 
-The video [***Social Impact of AI***](https://youtu.be/ng4c1g3COfs?si=W9e29cinAi_OuuPq) highlights how AI and Machine Learning are transforming various sectors, from self-driving cars to healthcare and resource management. However, it also addresses the risks of bias in applications like college admissions and crime prediction. The video emphasizes the importance of responsible AI development and human learning to ensure fairness. With proper oversight, AI has the potential to revolutionize lives while promoting equity and positive change.
+The video [**_Social Impact of AI_**](https://youtu.be/ng4c1g3COfs?si=W9e29cinAi_OuuPq) highlights how AI and Machine Learning are transforming various sectors, from self-driving cars to healthcare and resource management. However, it also addresses the risks of bias in applications like college admissions and crime prediction. The video emphasizes the importance of responsible AI development and human learning to ensure fairness. With proper oversight, AI has the potential to revolutionize lives while promoting equity and positive change.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ng4c1g3COfs?si=p5XCrIUuJshw6YUn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <br/>
 
-AI and Machine Learning can affect every part of society.  
+AI and Machine Learning can affect every part of society.
 
-For instance, self-driving cars use AI to recognize their surroundings, track objects, and make super important decisions like when to stop.  
+For instance, self-driving cars use AI to recognize their surroundings, track objects, and make super important decisions like when to stop.
 
-Machine Learning is already being used in some really amazing things. It's allowing us to be more energy efficient. We use it to improve how we grow food and manage natural resources. It's dramatically changing how we diagnose diseases and create new medicines. It's even helping the blind see.  
+Machine Learning is already being used in some really amazing things. It's allowing us to be more energy efficient. We use it to improve how we grow food and manage natural resources. It's dramatically changing how we diagnose diseases and create new medicines. It's even helping the blind see.
 
-**AI Voice:** *"I think it's a man jumping in the air doing a trick on a skateboard."*  
+**AI Voice:** _"I think it's a man jumping in the air doing a trick on a skateboard."_
 
-But there are also risks. Consider the potential impact when machine learning is used to evaluate candidates for college admission, screen applicants for bank loans, or even predict crime or spot criminals.  
+But there are also risks. Consider the potential impact when machine learning is used to evaluate candidates for college admission, screen applicants for bank loans, or even predict crime or spot criminals.
 
-When using machine learning in these types of applications, we need to make sure not to use prejudiced training data that would perpetuate human bias.  
+When using machine learning in these types of applications, we need to make sure not to use prejudiced training data that would perpetuate human bias.
 
-As AI and Machine Learning change everything, it's important that you have a hand in how they're being used. More than any other technology, AI has the potential to revolutionize our lives for the better—so long as it's done in a way that avoids bias that could cause harm or inequity.  
+As AI and Machine Learning change everything, it's important that you have a hand in how they're being used. More than any other technology, AI has the potential to revolutionize our lives for the better—so long as it's done in a way that avoids bias that could cause harm or inequity.
 
-The most important thing about machine learning is **human learning**. Knowing how this technology works is the first step on your journey to using it for good.  
+The most important thing about machine learning is **human learning**. Knowing how this technology works is the first step on your journey to using it for good.
 
 ---
 
@@ -96,45 +96,42 @@ The most important thing about machine learning is **human learning**. Knowing h
 
 1. **What is one way artificial intelligence (AI) is transforming industries?**
 
-    A. By eliminating the need for human workers entirely  
-    B. By improving efficiency and creating new job opportunities  
-    C. By making all decisions without human input  
-    D. By replacing all customer service representatives  
+   A. By eliminating the need for human workers entirely  
+   B. By improving efficiency and creating new job opportunities  
+   C. By making all decisions without human input  
+   D. By replacing all customer service representatives
 
 2. **Which of the following is an example of AI being used in daily life?**
 
-    A. A book printed using a traditional printing press  
-    B. A voice assistant like Siri responding to a question  
-    C. A manual typewriter being used for writing  
-    D. A chalkboard being used in a classroom  
+   A. A book printed using a traditional printing press  
+   B. A voice assistant like Siri responding to a question  
+   C. A manual typewriter being used for writing  
+   D. A chalkboard being used in a classroom
 
 3. **What is programming primarily used for?**
 
-    A. To communicate with computers and give them instructions  
-    B. To replace human workers entirely  
-    C. To make robots self-aware  
-    D. To prevent technology from advancing  
+   A. To communicate with computers and give them instructions  
+   B. To replace human workers entirely  
+   C. To make robots self-aware  
+   D. To prevent technology from advancing
 
 4. **Which of the following is a common programming language?**
 
-    A. Python  
-    B. Human  
-    C. Morse Code  
-    D. Hieroglyphs  
+   A. Python  
+   B. Human  
+   C. Morse Code  
+   D. Hieroglyphs
 
 5. **What is an important skill when dealing with technological challenges?**
-   
-    A. Ignoring problems and hoping they resolve themselves  
-    B. Staying positive and trying to find solutions  
-    C. Avoiding the use of technology  
-    D. Only working with technology that never fails  
+
+   A. Ignoring problems and hoping they resolve themselves  
+   B. Staying positive and trying to find solutions  
+   C. Avoiding the use of technology  
+   D. Only working with technology that never fails
 
 6. **How should we approach unexpected problems in technology?**
 
-    A. By assuming technology will always work perfectly  
-    B. By abandoning the project if a problem occurs  
-    C. By identifying the issue and trying different solutions  
-    D. By refusing to use AI or robotics  
-
-
-
+   A. By assuming technology will always work perfectly  
+   B. By abandoning the project if a problem occurs  
+   C. By identifying the issue and trying different solutions  
+   D. By refusing to use AI or robotics

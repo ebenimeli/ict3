@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>reading_PAIR.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+<link rel="stylesheet" href="file:///Users/ebenimeli/Documents/GitHub/ictpd/docs/css/pdf.css" type="text/css">
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="the-impact-of-artificial-intelligence-programming-and-robotics-on-society">The Impact of Artificial Intelligence, Programming, and Robotics on Society</h1>
+<p><a href="impact_AI_society.pdf">⬇ PDF notes</a></p>
+<img class="header" src="file:///Users/ebenimeli/Documents/GitHub/ict3/docs/contents/unit05/images/ai_impact.jpg">
+<p>In the modern world, technology is all around us. It affects nearly every part of our lives, from the way we communicate with friends to how we shop or learn. One of the most exciting and rapidly advancing fields of technology today is <strong>artificial intelligence (AI)</strong>, <strong>programming</strong>, and <strong>robotics</strong>. These technologies are not just part of science fiction – they are changing the world in real, practical ways. But how exactly are they transforming society? Let’s take a closer look.</p>
+<h2 id="artificial-intelligence-ai">Artificial Intelligence (AI)</h2>
+<p>Artificial Intelligence refers to the ability of machines to perform tasks that typically require human intelligence, such as understanding language, recognizing faces, or making decisions. AI is everywhere: it’s used in the apps on your phone, the websites you visit, and even in the cars we drive.</p>
+<p>For example, have you ever used a voice assistant like Siri or Alexa? These devices use AI to understand what you say and respond in a way that seems human-like. AI also helps websites like YouTube recommend videos based on what you've watched before, or it can help doctors diagnose diseases by analyzing medical data.</p>
+<div class="note">AI is transforming many industries, and it&#x2019;s crucial that we learn how to use it responsibly and understand its impact on society.</div>
+<p>But while AI has many positive effects, it can also create challenges. One concern is that AI could replace jobs, especially in industries where machines can do tasks more efficiently than humans. For example, in factories, robots can build products faster and more accurately than people. This means some jobs could be lost, but at the same time, new jobs are created, especially in fields like AI research and software development.</p>
+<h2 id="programming-the-language-of-technology">Programming: The Language of Technology</h2>
+<p>Programming is another critical part of the technology we use every day. It’s the process of creating instructions that tell computers, smartphones, and other devices what to do. When you use a smartphone app, play a video game, or use a website, all of those things are created through programming.</p>
+<div class="note">Programming is the backbone of nearly all modern technology, allowing us to create apps, websites, video games, and robots.</div>
+<p>Programming languages, such as <strong>Python</strong>, <strong>Java</strong>, and <strong>C++</strong>, are the tools developers use to write code. Just like we use different languages to communicate with people (for example, English, Spanish, or French), programmers use different programming languages to communicate with computers.</p>
+<p>Programming is the backbone of nearly all modern technology. It is used to create apps, websites, video games, and even robots. In fact, robots are programmed to perform tasks, and these tasks can range from assembling products in factories to helping elderly people at home. The more we understand programming, the better we can create technologies that solve problems and improve lives.</p>
+<h2 id="robotics-machines-that-can-do-tasks">Robotics: Machines that Can Do Tasks</h2>
+<p>Robotics is the field of technology that deals with the creation of robots. A <strong>robot</strong> is a machine that can carry out a series of tasks automatically, often using sensors and AI to guide its actions. Robotics combines engineering, programming, and sometimes AI to create machines that can perform specific jobs.</p>
+<p>You might think of robots as machines that look like humans, but that’s not always the case. Robots come in all shapes and sizes. For example, some robots are used in factories to build cars, while others are used in hospitals to help doctors perform surgeries. There are even robots that can clean your house, like the <strong>Roomba</strong> vacuum cleaner!</p>
+<div class="note">Robotics combines engineering, programming, and AI to create machines that can perform specific tasks, improving many areas of life.</div>
+<p>Robotics has the potential to improve many areas of life. Robots can work in dangerous environments, like deep underwater or in space, where humans can’t go. They can help elderly people move around or provide assistance in hospitals. However, the rise of robots also brings up questions about the future of work. If robots are doing many jobs that people used to do, what will happen to those workers? This is a question that society will need to think about carefully in the coming years.</p>
+<h2 id="how-these-technologies-affect-our-society">How These Technologies Affect Our Society</h2>
+<p>AI, programming, and robotics are already transforming many aspects of our daily lives. <strong>Education</strong>, for example, has changed dramatically with the use of AI and robots. Students can now learn from AI-powered apps that help them practice languages or improve their math skills. In schools, robots are sometimes used as teaching assistants, helping students learn coding and other subjects.</p>
+<p>In <strong>healthcare</strong>, AI is being used to analyze medical records and help doctors make better decisions about patient care. Robots are used in surgeries, performing tasks that require incredible precision. In <strong>business</strong>, AI helps companies understand customer behavior, predict trends, and improve their services.</p>
+<p><strong>Public safety</strong> is another area where robots and AI are used. In emergency situations, drones (a type of robot) can be used to assess dangerous situations, such as fires or natural disasters, helping firefighters and rescuers get the information they need without putting themselves in harm’s way.</p>
+<div class="note">AI, programming, and robotics are transforming education, healthcare, business, and public safety, offering many new opportunities.</div>
+<p>But while these technologies offer many benefits, they also present challenges. <strong>Privacy and security</strong> are important concerns. As AI and robots gather and analyze data about people, it’s essential to ensure that this information is kept safe and used responsibly. There are also ethical questions about how AI should make decisions, such as whether it should be allowed to make life-or-death decisions in self-driving cars.</p>
+<h2 id="facing-challenges-and-adapting-to-changes">Facing Challenges and Adapting to Changes</h2>
+<p>As we use more AI, programming, and robotics, it’s important that we learn to adapt to these changes. Sometimes, the technologies we create don’t work as planned, or they face unexpected problems. For example, a robot might not be able to perform a task as well as expected, or an app might have bugs that make it difficult to use.</p>
+<div class="note">It&#x2019;s important to stay positive and keep trying, as every challenge is an opportunity to learn and improve.</div>
+<p>In these situations, it’s important to stay positive and keep trying. Whether you’re a programmer fixing a bug, a company leader trying to make the best use of AI, or a student learning how to adapt to new technologies, the key is to <strong>be resilient</strong>. Every challenge is an opportunity to learn and improve.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>AI, programming, and robotics are technologies that are changing the way we live, work, and learn. They offer many opportunities to solve problems and make our lives easier, but they also raise important questions about privacy, security, and the future of work.</p>
+<div class="note">By understanding the impact of AI, programming, and robotics, we can better prepare ourselves to use these technologies responsibly and creatively.</div>
+<p>By understanding how these technologies work and their impact on society, we can better prepare ourselves to use them responsibly and creatively. The future is full of exciting possibilities, and it’s up to all of us to shape it.</p>
+<hr>
+<h2 id="the-impact-of-ai-and-machine-learning-on-society">The Impact of AI and Machine Learning on Society</h2>
+<p>The video <a href="https://youtu.be/ng4c1g3COfs?si=W9e29cinAi_OuuPq"><strong><em>Social Impact of AI</em></strong></a> highlights how AI and Machine Learning are transforming various sectors, from self-driving cars to healthcare and resource management. However, it also addresses the risks of bias in applications like college admissions and crime prediction. The video emphasizes the importance of responsible AI development and human learning to ensure fairness. With proper oversight, AI has the potential to revolutionize lives while promoting equity and positive change.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ng4c1g3COfs?si=p5XCrIUuJshw6YUn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<br>
+<p>AI and Machine Learning can affect every part of society.</p>
+<p>For instance, self-driving cars use AI to recognize their surroundings, track objects, and make super important decisions like when to stop.</p>
+<p>Machine Learning is already being used in some really amazing things. It's allowing us to be more energy efficient. We use it to improve how we grow food and manage natural resources. It's dramatically changing how we diagnose diseases and create new medicines. It's even helping the blind see.</p>
+<p><strong>AI Voice:</strong> <em>&quot;I think it's a man jumping in the air doing a trick on a skateboard.&quot;</em></p>
+<p>But there are also risks. Consider the potential impact when machine learning is used to evaluate candidates for college admission, screen applicants for bank loans, or even predict crime or spot criminals.</p>
+<p>When using machine learning in these types of applications, we need to make sure not to use prejudiced training data that would perpetuate human bias.</p>
+<p>As AI and Machine Learning change everything, it's important that you have a hand in how they're being used. More than any other technology, AI has the potential to revolutionize our lives for the better—so long as it's done in a way that avoids bias that could cause harm or inequity.</p>
+<p>The most important thing about machine learning is <strong>human learning</strong>. Knowing how this technology works is the first step on your journey to using it for good.</p>
+<hr>
+<h2 id="quiz">Quiz</h2>
+<ol>
+<li>
+<p><strong>What is one way artificial intelligence (AI) is transforming industries?</strong></p>
+<p>A. By eliminating the need for human workers entirely<br>
+B. By improving efficiency and creating new job opportunities<br>
+C. By making all decisions without human input<br>
+D. By replacing all customer service representatives</p>
+</li>
+<li>
+<p><strong>Which of the following is an example of AI being used in daily life?</strong></p>
+<p>A. A book printed using a traditional printing press<br>
+B. A voice assistant like Siri responding to a question<br>
+C. A manual typewriter being used for writing<br>
+D. A chalkboard being used in a classroom</p>
+</li>
+<li>
+<p><strong>What is programming primarily used for?</strong></p>
+<p>A. To communicate with computers and give them instructions<br>
+B. To replace human workers entirely<br>
+C. To make robots self-aware<br>
+D. To prevent technology from advancing</p>
+</li>
+<li>
+<p><strong>Which of the following is a common programming language?</strong></p>
+<p>A. Python<br>
+B. Human<br>
+C. Morse Code<br>
+D. Hieroglyphs</p>
+</li>
+<li>
+<p><strong>What is an important skill when dealing with technological challenges?</strong></p>
+<p>A. Ignoring problems and hoping they resolve themselves<br>
+B. Staying positive and trying to find solutions<br>
+C. Avoiding the use of technology<br>
+D. Only working with technology that never fails</p>
+</li>
+<li>
+<p><strong>How should we approach unexpected problems in technology?</strong></p>
+<p>A. By assuming technology will always work perfectly<br>
+B. By abandoning the project if a problem occurs<br>
+C. By identifying the issue and trying different solutions<br>
+D. By refusing to use AI or robotics</p>
+</li>
+</ol>
+
+</body>
+</html>
