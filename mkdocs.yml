@@ -5,19 +5,21 @@ nav:
   - "Programming, AI & Robots":
       - "Introduction to AI, Programming and Robotics": "contents/unit01/unit1.md"
       - "The Turing Test": "contents/unit01/c0_the-turing-test.md"
-      - "▶ A01. Introduction to Artificial Intelligence: The Turing Test": "contents/unit01/c0_text-turing.md"
-      - "Neural Networks and Deep Learning": "contents/unit01/neural_deeplearn.md"
-      - "AlphaGo: NN & DL": "contents/unit01/alphago.md"
-      - "A02. Artificial Intelligence Techniques, Applications and Ethics": "contents/unit01/alphago_activity.md"
+      - "Activity: Introduction to Artificial Intelligence: The Turing Test": "contents/unit01/c0_text-turing.md"
+      - "▶ Neural Networks and Deep Learning": "contents/unit01/neural_deeplearn.md"
+      - "▶ AlphaGo: NN & DL": "contents/unit01/alphago.md"
+      - "Activity: Artificial Intelligence Techniques, Applications and Ethics": "contents/unit01/alphago_activity.md"
+      - "Reading: The Impact of AI, Programming, and Robotics": "contents/unit01/reading_PAIR.md"
+      - "Reading (Summary): The Impact of AI, Programming, and Robotics": "contents/unit01/reading_PAIR_A.md"
   #  - "AI terms": "contents/unit01/terms.md"
   - "Programming Fundamentals":
       - "Programming Fundamentals: Data, Logic, and Control": "contents/unit02/unit2.md"
-      - "▶ Project: Coin Flip Simulator":
+      - "Project: Coin Flip Simulator":
           - "Coin Flip: The project": "contents/unit02/flipcoin/flipcoin.md"
           - "Step 1: Flip coins and count the throws": "contents/unit02/flipcoin/vars_mainloop.md"
           - "Step 2: Animate and count heads and tails": "contents/unit02/flipcoin/checkflip.md"
           - "Step 3: Calculate percentages": "contents/unit02/flipcoin/calculations.md"
-          - "Step 4: Display a simulation graph": "contents/unit02/flipcoin/graph.md"
+          - "▶ Step 4: Display a simulation graph": "contents/unit02/flipcoin/graph.md"
 #- 'Unit 3. Modeling and Algorithms':
 #  - 'Modeling, Algorithms, and Patterns in Programming' : 'contents/unit03/unit3.md'
 #  - 'Programming with Python':
@@ -41,8 +43,6 @@ nav:
 #  - 'Software Licenses. Free Software and Proprietary Software': 'contents/unit05/swlicenses.md'
 #  - 'Free Software Licenses': 'contents/unit05/freeswlicenses.md'
 #  - 'Creative Commons Licenses': 'contents/unit05/creativecommons.md'
-#  - 'Reading: The Impact of AI, Programming, and Robotics': 'contents/unit05/reading_PAIR.md'
-#  - 'Reading (Summary): The Impact of AI, Programming, and Robotics': 'contents/unit05/reading_PAIR_A.md'
 #- 'Sensors and AI: Fundamentals and Applications': 'contents/unit01/unit1.md'
 #- '1. Learning: Biological Systems and AI': # SB1.1
 #  - 'Learning in Biological Systems: Decisions and Free Will': 'contents/unit01/c1_ai-bio.md'

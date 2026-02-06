@@ -1,4 +1,4 @@
-# A02. Artificial Intelligence Techniques, Applications and Ethics
+# Activity: Artificial Intelligence Techniques, Applications and Ethics
 
 The documentary AlphaGo: The Movie follows the creation of DeepMind’s AI as it masters the ancient game of Go, using neural networks and deep learning, culminating in its historic 2016 match against world champion Lee Sedol in South Korea tournament.
 
