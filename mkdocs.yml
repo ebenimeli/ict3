@@ -19,23 +19,23 @@ nav:
           - "Step 1: Flip coins and count the throws": "contents/unit02/flipcoin/vars_mainloop.md"
           - "Step 2: Animate and count heads and tails": "contents/unit02/flipcoin/checkflip.md"
           - "Step 3: Calculate percentages": "contents/unit02/flipcoin/calculations.md"
-          - "▶ Step 4: Display a simulation graph": "contents/unit02/flipcoin/graph.md"
-#- 'Unit 3. Modeling and Algorithms':
-#  - 'Modeling, Algorithms, and Patterns in Programming' : 'contents/unit03/unit3.md'
-#  - 'Programming with Python':
-#    - 'Overview': 'contents/programming/overview.md'
-#    - 'Python Basics': 'contents/programming/python_basic.md'
-#    - 'Variables and data types': 'contents/programming/variables.md'
-#    - 'Code Example': 'contents/programming/code_example.md'
-#    - 'Exercises': 'contents/programming/exercises.md'
-#    - 'Presentation': 'contents/programming/slides.md'
+          - "Step 4: Display a simulation graph": "contents/unit02/flipcoin/graph.md"
+  - 'Unit 3. Modeling and Algorithms':
+    - 'Modeling, Algorithms, and Patterns in Programming' : 'contents/unit03/unit3.md'
+    - 'Programming with Python':
+      - 'Overview': 'contents/programming/overview.md'
+      - 'Python Basics': 'contents/programming/python_basic.md'
+      - 'Variables and data types': 'contents/programming/variables.md'
+      - 'Code Example': 'contents/programming/code_example.md'
+      - 'Exercises': 'contents/programming/exercises.md'
+      - 'Presentation': 'contents/programming/slides.md'
 #    - 'Exercises (Solutions)': 'contents/programming/exercises_solution.md'
 #- 'Unit 4. Advanced Programming':
-# - 'Unit 4. Advanced Programming: Flow Control, Functions and Apps':
-#    - 'Functions in Python: Basic Concepts': 'contents/programming/functions.md'
-#    - 'Creating an App: The Basics': 'contents/programming/basics.md'
-#    - 'Basic Code Challenges': 'contents/programming/challenges_A.md'
-#    - 'Code Challenge: The Average': 'contents/programming/challenge_theaverage.md'
+  - 'Unit 4. Advanced Programming: Flow Control, Functions and Apps':
+    - 'Functions in Python: Basic Concepts': 'contents/programming/functions.md'
+    - 'Creating an App: The Basics': 'contents/programming/basics.md'
+    - 'Basic Code Challenges': 'contents/programming/challenges_A.md'
+    - 'Code Challenge: The Average': 'contents/programming/challenge_theaverage.md'
 #- 'Unit 5. Software Management':
 #  - 'Introduction': 'contents/unit05/unit5.md'
 #  - 'Introduction to Programming in High-Level Languages': 'contents/unit05/proglang.md'
