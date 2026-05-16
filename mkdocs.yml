@@ -40,7 +40,7 @@ nav:
 
   # - "Exercises (Solutions)": "contents/programming/exercises_solution.md"
 
-  - "Advanced Programming: Flow Control, Functions and Apps":
+  - "Advanced Programming":
       - "Functions in Python: Basic Concepts": "contents/programming/functions.md"
       - "Creating an App: The Basics": "contents/programming/basics.md"
       - "Basic Code Challenges": "contents/programming/challenges_A.md"
