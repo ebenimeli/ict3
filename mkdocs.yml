@@ -27,7 +27,7 @@ nav:
           - "Step 3: Calculate percentages": "contents/unit02/flipcoin/calculations.md"
           - "Step 4: Display a simulation graph": "contents/unit02/flipcoin/graph.md"
 
-  - "Unit 3. Modeling and Algorithms":
+  - "Modeling and Algorithms":
       - "Modeling, Algorithms, and Patterns in Programming": "contents/unit03/unit3.md"
 
       - "Programming with Python":
@@ -40,7 +40,7 @@ nav:
 
   # - "Exercises (Solutions)": "contents/programming/exercises_solution.md"
 
-  - "Unit 4. Advanced Programming: Flow Control, Functions and Apps":
+  - "Advanced Programming: Flow Control, Functions and Apps":
       - "Functions in Python: Basic Concepts": "contents/programming/functions.md"
       - "Creating an App: The Basics": "contents/programming/basics.md"
       - "Basic Code Challenges": "contents/programming/challenges_A.md"
@@ -54,11 +54,11 @@ nav:
   #   - "Free Software Licenses": "contents/unit05/freeswlicenses.md"
   #   - "Creative Commons Licenses": "contents/unit05/creativecommons.md"
 
-  - "Unit 6. Robotics":
+  - "Robotics":
       #- "Robotics in Action: Assembly, Control, and Programming": "contents/unit06/unit6.md"
       #- "Documentary: AI Tipping Point": "contents/unit06/ai_tippingpoint.md"
 
-      - "0. Introduction to Robotics":
+      - "Introduction to Robotics":
           #- "Introduction": "contents/unit06/intro.md"
           - "What is a robot?": "contents/unit06/robots.md"
           - "Robots and AI": "contents/unit06/robots_ai.md"
@@ -74,7 +74,7 @@ nav:
 
       #- "2. Control of robotic systems":
 
-      - "3. Sensors, actuators and controllers":
+      - "Sensors, actuators and controllers":
           - "Introduction": "contents/unit06/intro_sens_act_contr.md"
           - "Sensors": "contents/unit06/sensors.md"
           - "Actuators": "contents/unit06/actuators.md"
