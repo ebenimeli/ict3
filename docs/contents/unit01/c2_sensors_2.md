@@ -8,6 +8,7 @@
 
 **Sensors** are devices that can **detect and measure** physical and environmental conditions such as temperature, light, sound, and movement. In this lesson, we will learn about the different types of sensors used in AI applications and the different ways in which they can be used.
 
+
 ## Types of sensors
 
 * **Optical sensors**: These sensors detect light and are used in applications such as facial recognition, object detection, and image processing. Examples of optical sensors include cameras and lidar sensors.
